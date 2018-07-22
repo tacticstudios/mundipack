@@ -5,17 +5,24 @@
 @section('highlight')
     <div class="jumbotron">
         <div class="container">
-            @include('frontend.partials.slider')
+           <!--  @include('frontend.partials.slider') -->
+           <div class="search-script">
+               <div><input type="text" placeholder="Ciudad de origen"></div>
+               <div><input type="text" placeholder="Ciudad de destino"></div>
+               <div><input type="text" placeholder="dd/mm/yy"></div>
+               <div><input type="text" placeholder="dd/mm/yy"></div>
+               <div><button>BUSCAR</button></div> 
+           </div>
         </div>
     </div>
 @endsection
 
 @section('content')
+<!-- 
     <div class="card mb-3">
         <div class="card-header">
             @lang('labels.frontend.titles.home')
         </div>
-
         <div class="card-body">
             <p>
                 Nulla quis lorem ut libero malesuada feugiat. Sed porttitor lectus nibh. Vivamus suscipit tortor
@@ -30,8 +37,65 @@
                 Quisque velit nisi, pretium ut lacinia in, elementum id enim.
             </p>
         </div>
-    </div>
-
+    </div>    
+-->
+    <div class="content-package">
+        <div class="card-package">
+            <div class="card-header">CANCUN 5D/ 4N</div>
+            <div class="card-body">
+                <span>Mínimo</span>
+                <p><span>$</span>299</p>
+                <span>Máximo $348</span>
+            </div>
+            <div class="card-footer">footer</div>
+        </div>
+        <div class="card-package">
+            <div class="card-header">CUZCO 4D/3N Vuelos+ Hotel +Tours</div>
+            <div class="card-body">
+                <span>Mínimo</span>
+                <p><span>$</span>299</p>
+                <span>Máximo $348</span>
+            </div>
+            <div class="card-footer">footer</div>
+        </div>
+        <div class="card-package">
+            <div class="card-header">CARTAGENA 4D/3N</div>
+            <div class="card-body">
+                <span>Mínimo</span>
+                <p><span>$</span>299</p>
+                <span>Máximo $348</span>
+            </div>
+            <div class="card-footer">footer</div>
+        </div>
+        <div class="card-package">
+            <div class="card-header">BUENOS AIRES ARGENTINA 4D/3N</div>
+            <div class="card-body">
+                <span>Mínimo</span>
+                <p><span>$</span>299</p>
+                <span>Máximo $348</span>
+            </div>
+            <div class="card-footer">footer</div>
+        </div>
+        <div class="card-package">
+            <div class="card-header">BAHAMAS DE LUJO 4D/3N</div>
+            <div class="card-body">
+                <span>Mínimo</span>
+                <p><span>$</span>299</p>
+                <span>Máximo $348</span>
+            </div>
+            <div class="card-footer">footer</div>
+        </div>
+        <div class="card-package">
+            <div class="card-header">Arequipa 4D/3N VUELO+ HOTEL+ TOURS</div>
+            <div class="card-body">
+                <span>Mínimo</span>
+                <p><span>$</span>299</p>
+                <span>Máximo $348</span>
+            </div>
+            <div class="card-footer">footer</div>
+        </div>
+    </div>  
+    <!--  
     <div class="card mb-3">
         <div class="card-header"></i> Font Awesome</div>
 
@@ -42,4 +106,5 @@
             <i class="fab fa-pinterest"></i>
         </div>
     </div>
+    -->
 @endsection

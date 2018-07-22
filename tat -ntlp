@@ -1,0 +1,1785 @@
+-- Logs begin at Mon 2018-06-18 07:45:22 -05, end at Thu 2018-07-19 01:20:00 -05. --
+Jul 18 23:54:20 jinmy-Inspiron-5720 gnome-shell[1774]: [0;1;39m[0;1;31m[0;1;39mObject St.Button (0x55dba9d42480), has been already finalized. Impossible to set any property to it.[0m
+Jul 18 23:54:20 jinmy-Inspiron-5720 org.gnome.Shell.desktop[1774]: [0;1;39m[0;1;31m[0;1;39m#22 0x7ffd434e4ff0 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f27842b5de0 @ 71)[0m
+Jul 18 23:54:20 jinmy-Inspiron-5720 org.gnome.Shell.desktop[1774]: [0;1;39m[0;1;31m[0;1;39m#23 0x55dba9bb08d0 i   resource:///org/gnome/shell/ui/messageTray.js:834 (0x7f27786a02b8 @ 87)[0m
+Jul 18 23:54:20 jinmy-Inspiron-5720 org.gnome.Shell.desktop[1774]: [0;1;39m[0;1;31m[0;1;39m#24 0x7ffd434e5bd0 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f27842b5de0 @ 71)[0m
+Jul 18 23:54:20 jinmy-Inspiron-5720 org.gnome.Shell.desktop[1774]: [0;1;39m[0;1;31m[0;1;39m#25 0x55dba9bb0850 i   resource:///org/gnome/shell/ui/notificationDaemon.js:547 (0x7f27783409a0 @ 32)[0m
+Jul 18 23:54:20 jinmy-Inspiron-5720 org.gnome.Shell.desktop[1774]: [0;1;39m[0;1;31m[0;1;39m#26 0x7ffd434e67b0 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f27842b5de0 @ 71)[0m
+Jul 18 23:54:20 jinmy-Inspiron-5720 org.gnome.Shell.desktop[1774]: [0;1;39m[0;1;31m[0;1;39m#27 0x55dba9bb07d8 i   resource:///org/gnome/shell/ui/notificationDaemon.js:378 (0x7f27783402b8 @ 12)[0m
+Jul 18 23:54:20 jinmy-Inspiron-5720 org.gnome.Shell.desktop[1774]: [0;1;39m[0;1;31m[0;1;39m#28 0x7ffd434e7ac0 b   resource:///org/gnome/gjs/modules/signals.js:128 (0x7f27842d3230 @ 386)[0m
+Jul 18 23:54:20 jinmy-Inspiron-5720 org.gnome.Shell.desktop[1774]: [0;1;39m[0;1;31m[0;1;39m#29 0x55dba9bb0750 i   resource:///org/gnome/shell/ui/messageTray.js:479 (0x7f277869dbc0 @ 22)[0m
+Jul 18 23:54:20 jinmy-Inspiron-5720 org.gnome.Shell.desktop[1774]: [0;1;39m[0;1;31m[0;1;39m#30 0x7ffd434e8710 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f27842b5de0 @ 71)[0m
+Jul 18 23:54:20 jinmy-Inspiron-5720 org.gnome.Shell.desktop[1774]: [0;1;39m[0;1;31m[0;1;39m#31 0x55dba9bb06d0 i   resource:///org/gnome/shell/ui/calendar.js:801 (0x7f27786aaf78 @ 22)[0m
+Jul 18 23:54:20 jinmy-Inspiron-5720 org.gnome.Shell.desktop[1774]: [0;1;39m[0;1;31m[0;1;39m#32 0x7ffd434e9300 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f27842b5de0 @ 71)[0m
+Jul 18 23:54:20 jinmy-Inspiron-5720 org.gnome.Shell.desktop[1774]: [0;1;39m[0;1;31m[0;1;39m#33 0x7ffd434e93d0 b   self-hosted:917 (0x7f27842f12b8 @ 394)[0m
+Jul 18 23:54:20 jinmy-Inspiron-5720 org.gnome.Shell.desktop[1774]: [0;1;39m[0;1;31m[0;1;39m== Stack trace for context 0x55dba97ef330 ==[0m
+Jul 18 23:54:20 jinmy-Inspiron-5720 org.gnome.Shell.desktop[1774]: [0;1;39m[0;1;31m[0;1;39m#0 0x55dba9bb0ea0 i   resource:///org/gnome/shell/ui/messageList.js:505 (0x7f27786b4de0 @ 102)[0m
+Jul 18 23:54:20 jinmy-Inspiron-5720 org.gnome.Shell.desktop[1774]: [0;1;39m[0;1;31m[0;1;39m#1 0x7ffd434dbf00 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f27842b5de0 @ 71)[0m
+Jul 18 23:54:20 jinmy-Inspiron-5720 org.gnome.Shell.desktop[1774]: [0;1;39m[0;1;31m[0;1;39m#2 0x7ffd434dbfd0 b   self-hosted:917 (0x7f27842f12b8 @ 394)[0m
+Jul 18 23:54:20 jinmy-Inspiron-5720 org.gnome.Shell.desktop[1774]: [0;1;39m[0;1;31m[0;1;39m#3 0x55dba9bb0e10 i   resource:///org/gnome/shell/ui/messageTray.js:1461 (0x7f27786a2a28 @ 121)[0m
+Jul 18 23:54:20 jinmy-Inspiron-5720 org.gnome.Shell.desktop[1774]: [0;1;39m[0;1;31m[0;1;39m#4 0x7ffd434ddf50 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f27842b5de0 @ 71)[0m
+Jul 18 23:54:20 jinmy-Inspiron-5720 org.gnome.Shell.desktop[1774]: [0;1;39m[0;1;31m[0;1;39m#5 0x55dba9bb0d68 i   resource:///org/gnome/shell/ui/messageTray.js:1448 (0x7f27786a29a0 @ 406)[0m
+Jul 18 23:54:20 jinmy-Inspiron-5720 org.gnome.Shell.desktop[1774]: [0;1;39m[0;1;31m[0;1;39m#6 0x7ffd434deb30 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f27842b5de0 @ 71)[0m
+Jul 18 23:54:20 jinmy-Inspiron-5720 org.gnome.Shell.desktop[1774]: [0;1;39m[0;1;31m[0;1;39m#7 0x55dba9bb0cb0 i   resource:///org/gnome/shell/ui/messageTray.js:1249 (0x7f27786a2340 @ 729)[0m
+Jul 18 23:54:20 jinmy-Inspiron-5720 org.gnome.Shell.desktop[1774]: [0;1;39m[0;1;31m[0;1;39m#8 0x7ffd434df710 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f27842b5de0 @ 71)[0m
+Jul 18 23:54:20 jinmy-Inspiron-5720 org.gnome.Shell.desktop[1774]: [0;1;39m[0;1;31m[0;1;39m#9 0x55dba9bb0c18 i   resource:///org/gnome/shell/ui/messageTray.js:1067 (0x7f27786a0e68 @ 124)[0m
+Jul 18 23:54:20 jinmy-Inspiron-5720 org.gnome.Shell.desktop[1774]: [0;1;39m[0;1;31m[0;1;39m#10 0x7ffd434e0300 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f27842b5de0 @ 71)[0m
+Jul 18 23:54:20 jinmy-Inspiron-5720 org.gnome.Shell.desktop[1774]: [0;1;39m[0;1;31m[0;1;39m#11 0x7ffd434e03d0 b   self-hosted:917 (0x7f27842f12b8 @ 394)[0m
+Jul 18 23:54:20 jinmy-Inspiron-5720 org.gnome.Shell.desktop[1774]: [0;1;39m[0;1;31m[0;1;39m#12 0x7ffd434e04c0 b   resource:///org/gnome/gjs/modules/signals.js:128 (0x7f27842d3230 @ 386)[0m
+Jul 18 23:54:20 jinmy-Inspiron-5720 org.gnome.Shell.desktop[1774]: [0;1;39m[0;1;31m[0;1;39m#13 0x55dba9bb0b88 i   resource:///org/gnome/shell/ui/messageTray.js:487 (0x7f277869dc48 @ 50)[0m
+Jul 18 23:54:20 jinmy-Inspiron-5720 org.gnome.Shell.desktop[1774]: [0;1;39m[0;1;31m[0;1;39m#14 0x7ffd434e1120 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f27842b5de0 @ 71)[0m
+Jul 18 23:54:20 jinmy-Inspiron-5720 org.gnome.Shell.desktop[1774]: [0;1;39m[0;1;31m[0;1;39m#15 0x55dba9bb0b08 i   resource:///org/gnome/shell/ui/calendar.js:775 (0x7f27786aad58 @ 44)[0m
+Jul 18 23:54:20 jinmy-Inspiron-5720 org.gnome.Shell.desktop[1774]: [0;1;39m[0;1;31m[0;1;39m#16 0x7ffd434e2430 b   resource:///org/gnome/gjs/modules/signals.js:128 (0x7f27842d3230 @ 386)[0m
+Jul 18 23:54:20 jinmy-Inspiron-5720 org.gnome.Shell.desktop[1774]: [0;1;39m[0;1;31m[0;1;39m#17 0x55dba9bb0a80 i   resource:///org/gnome/shell/ui/messageList.js:372 (0x7f27786b4670 @ 22)[0m
+Jul 18 23:54:20 jinmy-Inspiron-5720 org.gnome.Shell.desktop[1774]: [0;1;39m[0;1;31m[0;1;39m#18 0x7ffd434e3080 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f27842b5de0 @ 71)[0m
+Jul 18 23:54:20 jinmy-Inspiron-5720 org.gnome.Shell.desktop[1774]: [0;1;39m[0;1;31m[0;1;39m#19 0x55dba9bb0a08 i   resource:///org/gnome/shell/ui/calendar.js:779 (0x7f27786aade0 @ 29)[0m
+Jul 18 23:54:20 jinmy-Inspiron-5720 org.gnome.Shell.desktop[1774]: [0;1;39m[0;1;31m[0;1;39m#20 0x7ffd434e4390 b   resource:///org/gnome/gjs/modules/signals.js:128 (0x7f27842d3230 @ 386)[0m
+Jul 18 23:54:20 jinmy-Inspiron-5720 org.gnome.Shell.desktop[1774]: [0;1;39m[0;1;31m[0;1;39m#21 0x55dba9bb0978 i   resource:///org/gnome/shell/ui/messageTray.js:487 (0x7f277869dc48 @ 50)[0m
+Jul 18 23:54:20 jinmy-Inspiron-5720 org.gnome.Shell.desktop[1774]: [0;1;39m[0;1;31m[0;1;39m#22 0x7ffd434e4ff0 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f27842b5de0 @ 71)[0m
+Jul 18 23:54:20 jinmy-Inspiron-5720 org.gnome.Shell.desktop[1774]: [0;1;39m[0;1;31m[0;1;39m#23 0x55dba9bb08d0 i   resource:///org/gnome/shell/ui/messageTray.js:834 (0x7f27786a02b8 @ 87)[0m
+Jul 18 23:54:20 jinmy-Inspiron-5720 org.gnome.Shell.desktop[1774]: [0;1;39m[0;1;31m[0;1;39m#24 0x7ffd434e5bd0 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f27842b5de0 @ 71)[0m
+Jul 18 23:54:20 jinmy-Inspiron-5720 org.gnome.Shell.desktop[1774]: [0;1;39m[0;1;31m[0;1;39m#25 0x55dba9bb0850 i   resource:///org/gnome/shell/ui/notificationDaemon.js:547 (0x7f27783409a0 @ 32)[0m
+Jul 18 23:54:20 jinmy-Inspiron-5720 org.gnome.Shell.desktop[1774]: [0;1;39m[0;1;31m[0;1;39m#26 0x7ffd434e67b0 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f27842b5de0 @ 71)[0m
+Jul 18 23:54:20 jinmy-Inspiron-5720 org.gnome.Shell.desktop[1774]: [0;1;39m[0;1;31m[0;1;39m#27 0x55dba9bb07d8 i   resource:///org/gnome/shell/ui/notificationDaemon.js:378 (0x7f27783402b8 @ 12)[0m
+Jul 18 23:54:20 jinmy-Inspiron-5720 org.gnome.Shell.desktop[1774]: [0;1;39m[0;1;31m[0;1;39m#28 0x7ffd434e7ac0 b   resource:///org/gnome/gjs/modules/signals.js:128 (0x7f27842d3230 @ 386)[0m
+Jul 18 23:54:20 jinmy-Inspiron-5720 org.gnome.Shell.desktop[1774]: [0;1;39m[0;1;31m[0;1;39m#29 0x55dba9bb0750 i   resource:///org/gnome/shell/ui/messageTray.js:479 (0x7f277869dbc0 @ 22)[0m
+Jul 18 23:54:20 jinmy-Inspiron-5720 org.gnome.Shell.desktop[1774]: [0;1;39m[0;1;31m[0;1;39m#30 0x7ffd434e8710 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f27842b5de0 @ 71)[0m
+Jul 18 23:54:20 jinmy-Inspiron-5720 org.gnome.Shell.desktop[1774]: [0;1;39m[0;1;31m[0;1;39m#31 0x55dba9bb06d0 i   resource:///org/gnome/shell/ui/calendar.js:801 (0x7f27786aaf78 @ 22)[0m
+Jul 18 23:54:20 jinmy-Inspiron-5720 org.gnome.Shell.desktop[1774]: [0;1;39m[0;1;31m[0;1;39m#32 0x7ffd434e9300 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f27842b5de0 @ 71)[0m
+Jul 18 23:54:20 jinmy-Inspiron-5720 org.gnome.Shell.desktop[1774]: [0;1;39m[0;1;31m[0;1;39m#33 0x7ffd434e93d0 b   self-hosted:917 (0x7f27842f12b8 @ 394)[0m
+Jul 18 23:54:22 jinmy-Inspiron-5720 gnome-shell[1774]: [0;1;39m[0;1;31m[0;1;39mObject St.Button (0x55dbad3f6880), has been already finalized. Impossible to set any property to it.[0m
+Jul 18 23:54:22 jinmy-Inspiron-5720 gnome-shell[1774]: [0;1;39m[0;1;31m[0;1;39mObject St.Button (0x55dbad3f6880), has been already finalized. Impossible to set any property to it.[0m
+Jul 18 23:54:22 jinmy-Inspiron-5720 org.gnome.Shell.desktop[1774]: [0;1;39m[0;1;31m[0;1;39m== Stack trace for context 0x55dba97ef330 ==[0m
+Jul 18 23:54:22 jinmy-Inspiron-5720 org.gnome.Shell.desktop[1774]: [0;1;39m[0;1;31m[0;1;39m#0 0x55dba9bb0ea0 i   resource:///org/gnome/shell/ui/messageList.js:504 (0x7f27786b4de0 @ 83)[0m
+Jul 18 23:54:22 jinmy-Inspiron-5720 org.gnome.Shell.desktop[1774]: [0;1;39m[0;1;31m[0;1;39m#1 0x7ffd434dbf00 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f27842b5de0 @ 71)[0m
+Jul 18 23:54:22 jinmy-Inspiron-5720 org.gnome.Shell.desktop[1774]: [0;1;39m[0;1;31m[0;1;39m#2 0x7ffd434dbfd0 b   self-hosted:917 (0x7f27842f12b8 @ 394)[0m
+Jul 18 23:54:22 jinmy-Inspiron-5720 org.gnome.Shell.desktop[1774]: [0;1;39m[0;1;31m[0;1;39m#3 0x55dba9bb0e10 i   resource:///org/gnome/shell/ui/messageTray.js:1461 (0x7f27786a2a28 @ 121)[0m
+Jul 18 23:54:22 jinmy-Inspiron-5720 org.gnome.Shell.desktop[1774]: [0;1;39m[0;1;31m[0;1;39m#4 0x7ffd434ddf50 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f27842b5de0 @ 71)[0m
+Jul 18 23:54:22 jinmy-Inspiron-5720 org.gnome.Shell.desktop[1774]: [0;1;39m[0;1;31m[0;1;39m#5 0x55dba9bb0d68 i   resource:///org/gnome/shell/ui/messageTray.js:1448 (0x7f27786a29a0 @ 406)[0m
+Jul 18 23:54:22 jinmy-Inspiron-5720 org.gnome.Shell.desktop[1774]: [0;1;39m[0;1;31m[0;1;39m#6 0x7ffd434deb30 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f27842b5de0 @ 71)[0m
+Jul 18 23:54:22 jinmy-Inspiron-5720 org.gnome.Shell.desktop[1774]: [0;1;39m[0;1;31m[0;1;39m#7 0x55dba9bb0cb0 i   resource:///org/gnome/shell/ui/messageTray.js:1249 (0x7f27786a2340 @ 729)[0m
+Jul 18 23:54:22 jinmy-Inspiron-5720 org.gnome.Shell.desktop[1774]: [0;1;39m[0;1;31m[0;1;39m#8 0x7ffd434df710 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f27842b5de0 @ 71)[0m
+Jul 18 23:54:22 jinmy-Inspiron-5720 org.gnome.Shell.desktop[1774]: [0;1;39m[0;1;31m[0;1;39m#9 0x55dba9bb0c18 i   resource:///org/gnome/shell/ui/messageTray.js:1067 (0x7f27786a0e68 @ 124)[0m
+Jul 18 23:54:22 jinmy-Inspiron-5720 org.gnome.Shell.desktop[1774]: [0;1;39m[0;1;31m[0;1;39m#10 0x7ffd434e0300 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f27842b5de0 @ 71)[0m
+Jul 18 23:54:22 jinmy-Inspiron-5720 org.gnome.Shell.desktop[1774]: [0;1;39m[0;1;31m[0;1;39m#11 0x7ffd434e03d0 b   self-hosted:917 (0x7f27842f12b8 @ 394)[0m
+Jul 18 23:54:22 jinmy-Inspiron-5720 org.gnome.Shell.desktop[1774]: [0;1;39m[0;1;31m[0;1;39m#12 0x7ffd434e04c0 b   resource:///org/gnome/gjs/modules/signals.js:128 (0x7f27842d3230 @ 386)[0m
+Jul 18 23:54:22 jinmy-Inspiron-5720 org.gnome.Shell.desktop[1774]: [0;1;39m[0;1;31m[0;1;39m#13 0x55dba9bb0b88 i   resource:///org/gnome/shell/ui/messageTray.js:487 (0x7f277869dc48 @ 50)[0m
+Jul 18 23:54:22 jinmy-Inspiron-5720 org.gnome.Shell.desktop[1774]: [0;1;39m[0;1;31m[0;1;39m#14 0x7ffd434e1120 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f27842b5de0 @ 71)[0m
+Jul 18 23:54:22 jinmy-Inspiron-5720 org.gnome.Shell.desktop[1774]: [0;1;39m[0;1;31m[0;1;39m#15 0x55dba9bb0b08 i   resource:///org/gnome/shell/ui/calendar.js:775 (0x7f27786aad58 @ 44)[0m
+Jul 18 23:54:22 jinmy-Inspiron-5720 org.gnome.Shell.desktop[1774]: [0;1;39m[0;1;31m[0;1;39m#16 0x7ffd434e2430 b   resource:///org/gnome/gjs/modules/signals.js:128 (0x7f27842d3230 @ 386)[0m
+Jul 18 23:54:22 jinmy-Inspiron-5720 org.gnome.Shell.desktop[1774]: [0;1;39m[0;1;31m[0;1;39m#17 0x55dba9bb0a80 i   resource:///org/gnome/shell/ui/messageList.js:372 (0x7f27786b4670 @ 22)[0m
+Jul 18 23:54:22 jinmy-Inspiron-5720 org.gnome.Shell.desktop[1774]: [0;1;39m[0;1;31m[0;1;39m#18 0x7ffd434e3080 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f27842b5de0 @ 71)[0m
+Jul 18 23:54:22 jinmy-Inspiron-5720 org.gnome.Shell.desktop[1774]: [0;1;39m[0;1;31m[0;1;39m#19 0x55dba9bb0a08 i   resource:///org/gnome/shell/ui/calendar.js:779 (0x7f27786aade0 @ 29)[0m
+Jul 18 23:54:22 jinmy-Inspiron-5720 org.gnome.Shell.desktop[1774]: [0;1;39m[0;1;31m[0;1;39m#20 0x7ffd434e4390 b   resource:///org/gnome/gjs/modules/signals.js:128 (0x7f27842d3230 @ 386)[0m
+Jul 18 23:54:22 jinmy-Inspiron-5720 org.gnome.Shell.desktop[1774]: [0;1;39m[0;1;31m[0;1;39m#21 0x55dba9bb0978 i   resource:///org/gnome/shell/ui/messageTray.js:487 (0x7f277869dc48 @ 50)[0m
+Jul 18 23:54:22 jinmy-Inspiron-5720 org.gnome.Shell.desktop[1774]: [0;1;39m[0;1;31m[0;1;39m#22 0x7ffd434e4ff0 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f27842b5de0 @ 71)[0m
+Jul 18 23:54:22 jinmy-Inspiron-5720 org.gnome.Shell.desktop[1774]: [0;1;39m[0;1;31m[0;1;39m#23 0x55dba9bb08d0 i   resource:///org/gnome/shell/ui/messageTray.js:834 (0x7f27786a02b8 @ 87)[0m
+Jul 18 23:54:22 jinmy-Inspiron-5720 org.gnome.Shell.desktop[1774]: [0;1;39m[0;1;31m[0;1;39m#24 0x7ffd434e5bd0 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f27842b5de0 @ 71)[0m
+Jul 18 23:54:22 jinmy-Inspiron-5720 org.gnome.Shell.desktop[1774]: [0;1;39m[0;1;31m[0;1;39m#25 0x55dba9bb0850 i   resource:///org/gnome/shell/ui/notificationDaemon.js:547 (0x7f27783409a0 @ 32)[0m
+Jul 18 23:54:22 jinmy-Inspiron-5720 org.gnome.Shell.desktop[1774]: [0;1;39m[0;1;31m[0;1;39m#26 0x7ffd434e67b0 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f27842b5de0 @ 71)[0m
+Jul 18 23:54:22 jinmy-Inspiron-5720 org.gnome.Shell.desktop[1774]: [0;1;39m[0;1;31m[0;1;39m#27 0x55dba9bb07d8 i   resource:///org/gnome/shell/ui/notificationDaemon.js:378 (0x7f27783402b8 @ 12)[0m
+Jul 18 23:54:22 jinmy-Inspiron-5720 org.gnome.Shell.desktop[1774]: [0;1;39m[0;1;31m[0;1;39m#28 0x7ffd434e7ac0 b   resource:///org/gnome/gjs/modules/signals.js:128 (0x7f27842d3230 @ 386)[0m
+Jul 18 23:54:22 jinmy-Inspiron-5720 org.gnome.Shell.desktop[1774]: [0;1;39m[0;1;31m[0;1;39m#29 0x55dba9bb0750 i   resource:///org/gnome/shell/ui/messageTray.js:479 (0x7f277869dbc0 @ 22)[0m
+Jul 18 23:54:22 jinmy-Inspiron-5720 org.gnome.Shell.desktop[1774]: [0;1;39m[0;1;31m[0;1;39m#30 0x7ffd434e8710 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f27842b5de0 @ 71)[0m
+Jul 18 23:54:22 jinmy-Inspiron-5720 org.gnome.Shell.desktop[1774]: [0;1;39m[0;1;31m[0;1;39m#31 0x55dba9bb06d0 i   resource:///org/gnome/shell/ui/calendar.js:801 (0x7f27786aaf78 @ 22)[0m
+Jul 18 23:54:22 jinmy-Inspiron-5720 org.gnome.Shell.desktop[1774]: [0;1;39m[0;1;31m[0;1;39m#32 0x7ffd434e9300 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f27842b5de0 @ 71)[0m
+Jul 18 23:54:22 jinmy-Inspiron-5720 org.gnome.Shell.desktop[1774]: [0;1;39m[0;1;31m[0;1;39m#33 0x7ffd434e93d0 b   self-hosted:917 (0x7f27842f12b8 @ 394)[0m
+Jul 18 23:54:22 jinmy-Inspiron-5720 org.gnome.Shell.desktop[1774]: [0;1;39m[0;1;31m[0;1;39m== Stack trace for context 0x55dba97ef330 ==[0m
+Jul 18 23:54:22 jinmy-Inspiron-5720 org.gnome.Shell.desktop[1774]: [0;1;39m[0;1;31m[0;1;39m#0 0x55dba9bb0ea0 i   resource:///org/gnome/shell/ui/messageList.js:505 (0x7f27786b4de0 @ 102)[0m
+Jul 18 23:54:22 jinmy-Inspiron-5720 org.gnome.Shell.desktop[1774]: [0;1;39m[0;1;31m[0;1;39m#1 0x7ffd434dbf00 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f27842b5de0 @ 71)[0m
+Jul 18 23:54:22 jinmy-Inspiron-5720 org.gnome.Shell.desktop[1774]: [0;1;39m[0;1;31m[0;1;39m#2 0x7ffd434dbfd0 b   self-hosted:917 (0x7f27842f12b8 @ 394)[0m
+Jul 18 23:54:22 jinmy-Inspiron-5720 org.gnome.Shell.desktop[1774]: [0;1;39m[0;1;31m[0;1;39m#3 0x55dba9bb0e10 i   resource:///org/gnome/shell/ui/messageTray.js:1461 (0x7f27786a2a28 @ 121)[0m
+Jul 18 23:54:22 jinmy-Inspiron-5720 org.gnome.Shell.desktop[1774]: [0;1;39m[0;1;31m[0;1;39m#4 0x7ffd434ddf50 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f27842b5de0 @ 71)[0m
+Jul 18 23:54:22 jinmy-Inspiron-5720 org.gnome.Shell.desktop[1774]: [0;1;39m[0;1;31m[0;1;39m#5 0x55dba9bb0d68 i   resource:///org/gnome/shell/ui/messageTray.js:1448 (0x7f27786a29a0 @ 406)[0m
+Jul 18 23:54:22 jinmy-Inspiron-5720 org.gnome.Shell.desktop[1774]: [0;1;39m[0;1;31m[0;1;39m#6 0x7ffd434deb30 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f27842b5de0 @ 71)[0m
+Jul 18 23:54:22 jinmy-Inspiron-5720 org.gnome.Shell.desktop[1774]: [0;1;39m[0;1;31m[0;1;39m#7 0x55dba9bb0cb0 i   resource:///org/gnome/shell/ui/messageTray.js:1249 (0x7f27786a2340 @ 729)[0m
+Jul 18 23:54:22 jinmy-Inspiron-5720 org.gnome.Shell.desktop[1774]: [0;1;39m[0;1;31m[0;1;39m#8 0x7ffd434df710 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f27842b5de0 @ 71)[0m
+Jul 18 23:54:22 jinmy-Inspiron-5720 org.gnome.Shell.desktop[1774]: [0;1;39m[0;1;31m[0;1;39m#9 0x55dba9bb0c18 i   resource:///org/gnome/shell/ui/messageTray.js:1067 (0x7f27786a0e68 @ 124)[0m
+Jul 18 23:54:22 jinmy-Inspiron-5720 org.gnome.Shell.desktop[1774]: [0;1;39m[0;1;31m[0;1;39m#10 0x7ffd434e0300 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f27842b5de0 @ 71)[0m
+Jul 18 23:54:22 jinmy-Inspiron-5720 org.gnome.Shell.desktop[1774]: [0;1;39m[0;1;31m[0;1;39m#11 0x7ffd434e03d0 b   self-hosted:917 (0x7f27842f12b8 @ 394)[0m
+Jul 18 23:54:22 jinmy-Inspiron-5720 org.gnome.Shell.desktop[1774]: [0;1;39m[0;1;31m[0;1;39m#12 0x7ffd434e04c0 b   resource:///org/gnome/gjs/modules/signals.js:128 (0x7f27842d3230 @ 386)[0m
+Jul 18 23:54:22 jinmy-Inspiron-5720 org.gnome.Shell.desktop[1774]: [0;1;39m[0;1;31m[0;1;39m#13 0x55dba9bb0b88 i   resource:///org/gnome/shell/ui/messageTray.js:487 (0x7f277869dc48 @ 50)[0m
+Jul 18 23:54:22 jinmy-Inspiron-5720 org.gnome.Shell.desktop[1774]: [0;1;39m[0;1;31m[0;1;39m#14 0x7ffd434e1120 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f27842b5de0 @ 71)[0m
+Jul 18 23:54:22 jinmy-Inspiron-5720 org.gnome.Shell.desktop[1774]: [0;1;39m[0;1;31m[0;1;39m#15 0x55dba9bb0b08 i   resource:///org/gnome/shell/ui/calendar.js:775 (0x7f27786aad58 @ 44)[0m
+Jul 18 23:54:22 jinmy-Inspiron-5720 org.gnome.Shell.desktop[1774]: [0;1;39m[0;1;31m[0;1;39m#16 0x7ffd434e2430 b   resource:///org/gnome/gjs/modules/signals.js:128 (0x7f27842d3230 @ 386)[0m
+Jul 18 23:54:22 jinmy-Inspiron-5720 org.gnome.Shell.desktop[1774]: [0;1;39m[0;1;31m[0;1;39m#17 0x55dba9bb0a80 i   resource:///org/gnome/shell/ui/messageList.js:372 (0x7f27786b4670 @ 22)[0m
+Jul 18 23:54:22 jinmy-Inspiron-5720 org.gnome.Shell.desktop[1774]: [0;1;39m[0;1;31m[0;1;39m#18 0x7ffd434e3080 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f27842b5de0 @ 71)[0m
+Jul 18 23:54:22 jinmy-Inspiron-5720 org.gnome.Shell.desktop[1774]: [0;1;39m[0;1;31m[0;1;39m#19 0x55dba9bb0a08 i   resource:///org/gnome/shell/ui/calendar.js:779 (0x7f27786aade0 @ 29)[0m
+Jul 18 23:54:22 jinmy-Inspiron-5720 org.gnome.Shell.desktop[1774]: [0;1;39m[0;1;31m[0;1;39m#20 0x7ffd434e4390 b   resource:///org/gnome/gjs/modules/signals.js:128 (0x7f27842d3230 @ 386)[0m
+Jul 18 23:54:22 jinmy-Inspiron-5720 org.gnome.Shell.desktop[1774]: [0;1;39m[0;1;31m[0;1;39m#21 0x55dba9bb0978 i   resource:///org/gnome/shell/ui/messageTray.js:487 (0x7f277869dc48 @ 50)[0m
+Jul 18 23:54:22 jinmy-Inspiron-5720 org.gnome.Shell.desktop[1774]: [0;1;39m[0;1;31m[0;1;39m#22 0x7ffd434e4ff0 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f27842b5de0 @ 71)[0m
+Jul 18 23:54:22 jinmy-Inspiron-5720 org.gnome.Shell.desktop[1774]: [0;1;39m[0;1;31m[0;1;39m#23 0x55dba9bb08d0 i   resource:///org/gnome/shell/ui/messageTray.js:834 (0x7f27786a02b8 @ 87)[0m
+Jul 18 23:54:22 jinmy-Inspiron-5720 org.gnome.Shell.desktop[1774]: [0;1;39m[0;1;31m[0;1;39m#24 0x7ffd434e5bd0 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f27842b5de0 @ 71)[0m
+Jul 18 23:54:22 jinmy-Inspiron-5720 org.gnome.Shell.desktop[1774]: [0;1;39m[0;1;31m[0;1;39m#25 0x55dba9bb0850 i   resource:///org/gnome/shell/ui/notificationDaemon.js:547 (0x7f27783409a0 @ 32)[0m
+Jul 18 23:54:22 jinmy-Inspiron-5720 org.gnome.Shell.desktop[1774]: [0;1;39m[0;1;31m[0;1;39m#26 0x7ffd434e67b0 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f27842b5de0 @ 71)[0m
+Jul 18 23:54:22 jinmy-Inspiron-5720 org.gnome.Shell.desktop[1774]: [0;1;39m[0;1;31m[0;1;39m#27 0x55dba9bb07d8 i   resource:///org/gnome/shell/ui/notificationDaemon.js:378 (0x7f27783402b8 @ 12)[0m
+Jul 18 23:54:22 jinmy-Inspiron-5720 org.gnome.Shell.desktop[1774]: [0;1;39m[0;1;31m[0;1;39m#28 0x7ffd434e7ac0 b   resource:///org/gnome/gjs/modules/signals.js:128 (0x7f27842d3230 @ 386)[0m
+Jul 18 23:54:22 jinmy-Inspiron-5720 org.gnome.Shell.desktop[1774]: [0;1;39m[0;1;31m[0;1;39m#29 0x55dba9bb0750 i   resource:///org/gnome/shell/ui/messageTray.js:479 (0x7f277869dbc0 @ 22)[0m
+Jul 18 23:54:22 jinmy-Inspiron-5720 org.gnome.Shell.desktop[1774]: [0;1;39m[0;1;31m[0;1;39m#30 0x7ffd434e8710 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f27842b5de0 @ 71)[0m
+Jul 18 23:54:22 jinmy-Inspiron-5720 org.gnome.Shell.desktop[1774]: [0;1;39m[0;1;31m[0;1;39m#31 0x55dba9bb06d0 i   resource:///org/gnome/shell/ui/calendar.js:801 (0x7f27786aaf78 @ 22)[0m
+Jul 18 23:54:22 jinmy-Inspiron-5720 org.gnome.Shell.desktop[1774]: [0;1;39m[0;1;31m[0;1;39m#32 0x7ffd434e9300 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f27842b5de0 @ 71)[0m
+Jul 18 23:54:22 jinmy-Inspiron-5720 org.gnome.Shell.desktop[1774]: [0;1;39m[0;1;31m[0;1;39m#33 0x7ffd434e93d0 b   self-hosted:917 (0x7f27842f12b8 @ 394)[0m
+Jul 18 23:56:42 jinmy-Inspiron-5720 gnome-shell[1774]: [0;1;39m[0;1;31m[0;1;39mObject St.Button (0x55dbab4a2480), has been already finalized. Impossible to set any property to it.[0m
+Jul 18 23:56:42 jinmy-Inspiron-5720 gnome-shell[1774]: [0;1;39m[0;1;31m[0;1;39mObject St.Button (0x55dbab4a2480), has been already finalized. Impossible to set any property to it.[0m
+Jul 18 23:56:42 jinmy-Inspiron-5720 org.gnome.Shell.desktop[1774]: [0;1;39m[0;1;31m[0;1;39m== Stack trace for context 0x55dba97ef330 ==[0m
+Jul 18 23:56:42 jinmy-Inspiron-5720 org.gnome.Shell.desktop[1774]: [0;1;39m[0;1;31m[0;1;39m#0 0x55dba9bb0ea0 i   resource:///org/gnome/shell/ui/messageList.js:504 (0x7f27786b4de0 @ 83)[0m
+Jul 18 23:56:42 jinmy-Inspiron-5720 org.gnome.Shell.desktop[1774]: [0;1;39m[0;1;31m[0;1;39m#1 0x7ffd434dbf00 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f27842b5de0 @ 71)[0m
+Jul 18 23:56:42 jinmy-Inspiron-5720 org.gnome.Shell.desktop[1774]: [0;1;39m[0;1;31m[0;1;39m#2 0x7ffd434dbfd0 b   self-hosted:917 (0x7f27842f12b8 @ 394)[0m
+Jul 18 23:56:42 jinmy-Inspiron-5720 org.gnome.Shell.desktop[1774]: [0;1;39m[0;1;31m[0;1;39m#3 0x55dba9bb0e10 i   resource:///org/gnome/shell/ui/messageTray.js:1461 (0x7f27786a2a28 @ 121)[0m
+Jul 18 23:56:42 jinmy-Inspiron-5720 org.gnome.Shell.desktop[1774]: [0;1;39m[0;1;31m[0;1;39m#4 0x7ffd434ddf50 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f27842b5de0 @ 71)[0m
+Jul 18 23:56:42 jinmy-Inspiron-5720 org.gnome.Shell.desktop[1774]: [0;1;39m[0;1;31m[0;1;39m#5 0x55dba9bb0d68 i   resource:///org/gnome/shell/ui/messageTray.js:1448 (0x7f27786a29a0 @ 406)[0m
+Jul 18 23:56:42 jinmy-Inspiron-5720 org.gnome.Shell.desktop[1774]: [0;1;39m[0;1;31m[0;1;39m#6 0x7ffd434deb30 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f27842b5de0 @ 71)[0m
+Jul 18 23:56:42 jinmy-Inspiron-5720 org.gnome.Shell.desktop[1774]: [0;1;39m[0;1;31m[0;1;39m#7 0x55dba9bb0cb0 i   resource:///org/gnome/shell/ui/messageTray.js:1249 (0x7f27786a2340 @ 729)[0m
+Jul 18 23:56:42 jinmy-Inspiron-5720 org.gnome.Shell.desktop[1774]: [0;1;39m[0;1;31m[0;1;39m#8 0x7ffd434df710 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f27842b5de0 @ 71)[0m
+Jul 18 23:56:42 jinmy-Inspiron-5720 org.gnome.Shell.desktop[1774]: [0;1;39m[0;1;31m[0;1;39m#9 0x55dba9bb0c18 i   resource:///org/gnome/shell/ui/messageTray.js:1067 (0x7f27786a0e68 @ 124)[0m
+Jul 18 23:56:42 jinmy-Inspiron-5720 org.gnome.Shell.desktop[1774]: [0;1;39m[0;1;31m[0;1;39m#10 0x7ffd434e0300 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f27842b5de0 @ 71)[0m
+Jul 18 23:56:42 jinmy-Inspiron-5720 org.gnome.Shell.desktop[1774]: [0;1;39m[0;1;31m[0;1;39m#11 0x7ffd434e03d0 b   self-hosted:917 (0x7f27842f12b8 @ 394)[0m
+Jul 18 23:56:42 jinmy-Inspiron-5720 org.gnome.Shell.desktop[1774]: [0;1;39m[0;1;31m[0;1;39m#12 0x7ffd434e04c0 b   resource:///org/gnome/gjs/modules/signals.js:128 (0x7f27842d3230 @ 386)[0m
+Jul 18 23:56:42 jinmy-Inspiron-5720 org.gnome.Shell.desktop[1774]: [0;1;39m[0;1;31m[0;1;39m#13 0x55dba9bb0b88 i   resource:///org/gnome/shell/ui/messageTray.js:487 (0x7f277869dc48 @ 50)[0m
+Jul 18 23:56:42 jinmy-Inspiron-5720 org.gnome.Shell.desktop[1774]: [0;1;39m[0;1;31m[0;1;39m#14 0x7ffd434e1120 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f27842b5de0 @ 71)[0m
+Jul 18 23:56:42 jinmy-Inspiron-5720 org.gnome.Shell.desktop[1774]: [0;1;39m[0;1;31m[0;1;39m#15 0x55dba9bb0b08 i   resource:///org/gnome/shell/ui/calendar.js:775 (0x7f27786aad58 @ 44)[0m
+Jul 18 23:56:42 jinmy-Inspiron-5720 org.gnome.Shell.desktop[1774]: [0;1;39m[0;1;31m[0;1;39m#16 0x7ffd434e2430 b   resource:///org/gnome/gjs/modules/signals.js:128 (0x7f27842d3230 @ 386)[0m
+Jul 18 23:56:42 jinmy-Inspiron-5720 org.gnome.Shell.desktop[1774]: [0;1;39m[0;1;31m[0;1;39m#17 0x55dba9bb0a80 i   resource:///org/gnome/shell/ui/messageList.js:372 (0x7f27786b4670 @ 22)[0m
+Jul 18 23:56:42 jinmy-Inspiron-5720 org.gnome.Shell.desktop[1774]: [0;1;39m[0;1;31m[0;1;39m#18 0x7ffd434e3080 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f27842b5de0 @ 71)[0m
+Jul 18 23:56:42 jinmy-Inspiron-5720 org.gnome.Shell.desktop[1774]: [0;1;39m[0;1;31m[0;1;39m#19 0x55dba9bb0a08 i   resource:///org/gnome/shell/ui/calendar.js:779 (0x7f27786aade0 @ 29)[0m
+Jul 18 23:56:42 jinmy-Inspiron-5720 org.gnome.Shell.desktop[1774]: [0;1;39m[0;1;31m[0;1;39m#20 0x7ffd434e4390 b   resource:///org/gnome/gjs/modules/signals.js:128 (0x7f27842d3230 @ 386)[0m
+Jul 18 23:56:42 jinmy-Inspiron-5720 org.gnome.Shell.desktop[1774]: [0;1;39m[0;1;31m[0;1;39m#21 0x55dba9bb0978 i   resource:///org/gnome/shell/ui/messageTray.js:487 (0x7f277869dc48 @ 50)[0m
+Jul 18 23:56:42 jinmy-Inspiron-5720 org.gnome.Shell.desktop[1774]: [0;1;39m[0;1;31m[0;1;39m#22 0x7ffd434e4ff0 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f27842b5de0 @ 71)[0m
+Jul 18 23:56:42 jinmy-Inspiron-5720 org.gnome.Shell.desktop[1774]: [0;1;39m[0;1;31m[0;1;39m#23 0x55dba9bb08d0 i   resource:///org/gnome/shell/ui/messageTray.js:834 (0x7f27786a02b8 @ 87)[0m
+Jul 18 23:56:42 jinmy-Inspiron-5720 org.gnome.Shell.desktop[1774]: [0;1;39m[0;1;31m[0;1;39m#24 0x7ffd434e5bd0 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f27842b5de0 @ 71)[0m
+Jul 18 23:56:42 jinmy-Inspiron-5720 org.gnome.Shell.desktop[1774]: [0;1;39m[0;1;31m[0;1;39m#25 0x55dba9bb0850 i   resource:///org/gnome/shell/ui/notificationDaemon.js:547 (0x7f27783409a0 @ 32)[0m
+Jul 18 23:56:42 jinmy-Inspiron-5720 org.gnome.Shell.desktop[1774]: [0;1;39m[0;1;31m[0;1;39m#26 0x7ffd434e67b0 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f27842b5de0 @ 71)[0m
+Jul 18 23:56:42 jinmy-Inspiron-5720 org.gnome.Shell.desktop[1774]: [0;1;39m[0;1;31m[0;1;39m#27 0x55dba9bb07d8 i   resource:///org/gnome/shell/ui/notificationDaemon.js:378 (0x7f27783402b8 @ 12)[0m
+Jul 18 23:56:42 jinmy-Inspiron-5720 org.gnome.Shell.desktop[1774]: [0;1;39m[0;1;31m[0;1;39m#28 0x7ffd434e7ac0 b   resource:///org/gnome/gjs/modules/signals.js:128 (0x7f27842d3230 @ 386)[0m
+Jul 18 23:56:42 jinmy-Inspiron-5720 org.gnome.Shell.desktop[1774]: [0;1;39m[0;1;31m[0;1;39m#29 0x55dba9bb0750 i   resource:///org/gnome/shell/ui/messageTray.js:479 (0x7f277869dbc0 @ 22)[0m
+Jul 18 23:56:42 jinmy-Inspiron-5720 org.gnome.Shell.desktop[1774]: [0;1;39m[0;1;31m[0;1;39m#30 0x7ffd434e8710 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f27842b5de0 @ 71)[0m
+Jul 18 23:56:42 jinmy-Inspiron-5720 org.gnome.Shell.desktop[1774]: [0;1;39m[0;1;31m[0;1;39m#31 0x55dba9bb06d0 i   resource:///org/gnome/shell/ui/calendar.js:801 (0x7f27786aaf78 @ 22)[0m
+Jul 18 23:56:42 jinmy-Inspiron-5720 org.gnome.Shell.desktop[1774]: [0;1;39m[0;1;31m[0;1;39m#32 0x7ffd434e9300 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f27842b5de0 @ 71)[0m
+Jul 18 23:56:42 jinmy-Inspiron-5720 org.gnome.Shell.desktop[1774]: [0;1;39m[0;1;31m[0;1;39m#33 0x7ffd434e93d0 b   self-hosted:917 (0x7f27842f12b8 @ 394)[0m
+Jul 18 23:56:42 jinmy-Inspiron-5720 org.gnome.Shell.desktop[1774]: [0;1;39m[0;1;31m[0;1;39m== Stack trace for context 0x55dba97ef330 ==[0m
+Jul 18 23:56:42 jinmy-Inspiron-5720 org.gnome.Shell.desktop[1774]: [0;1;39m[0;1;31m[0;1;39m#0 0x55dba9bb0ea0 i   resource:///org/gnome/shell/ui/messageList.js:505 (0x7f27786b4de0 @ 102)[0m
+Jul 18 23:56:42 jinmy-Inspiron-5720 org.gnome.Shell.desktop[1774]: [0;1;39m[0;1;31m[0;1;39m#1 0x7ffd434dbf00 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f27842b5de0 @ 71)[0m
+Jul 18 23:56:42 jinmy-Inspiron-5720 org.gnome.Shell.desktop[1774]: [0;1;39m[0;1;31m[0;1;39m#2 0x7ffd434dbfd0 b   self-hosted:917 (0x7f27842f12b8 @ 394)[0m
+Jul 18 23:56:42 jinmy-Inspiron-5720 org.gnome.Shell.desktop[1774]: [0;1;39m[0;1;31m[0;1;39m#3 0x55dba9bb0e10 i   resource:///org/gnome/shell/ui/messageTray.js:1461 (0x7f27786a2a28 @ 121)[0m
+Jul 18 23:56:42 jinmy-Inspiron-5720 org.gnome.Shell.desktop[1774]: [0;1;39m[0;1;31m[0;1;39m#4 0x7ffd434ddf50 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f27842b5de0 @ 71)[0m
+Jul 18 23:56:42 jinmy-Inspiron-5720 org.gnome.Shell.desktop[1774]: [0;1;39m[0;1;31m[0;1;39m#5 0x55dba9bb0d68 i   resource:///org/gnome/shell/ui/messageTray.js:1448 (0x7f27786a29a0 @ 406)[0m
+Jul 18 23:56:42 jinmy-Inspiron-5720 org.gnome.Shell.desktop[1774]: [0;1;39m[0;1;31m[0;1;39m#6 0x7ffd434deb30 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f27842b5de0 @ 71)[0m
+Jul 18 23:56:42 jinmy-Inspiron-5720 org.gnome.Shell.desktop[1774]: [0;1;39m[0;1;31m[0;1;39m#7 0x55dba9bb0cb0 i   resource:///org/gnome/shell/ui/messageTray.js:1249 (0x7f27786a2340 @ 729)[0m
+Jul 18 23:56:42 jinmy-Inspiron-5720 org.gnome.Shell.desktop[1774]: [0;1;39m[0;1;31m[0;1;39m#8 0x7ffd434df710 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f27842b5de0 @ 71)[0m
+Jul 18 23:56:42 jinmy-Inspiron-5720 org.gnome.Shell.desktop[1774]: [0;1;39m[0;1;31m[0;1;39m#9 0x55dba9bb0c18 i   resource:///org/gnome/shell/ui/messageTray.js:1067 (0x7f27786a0e68 @ 124)[0m
+Jul 18 23:56:42 jinmy-Inspiron-5720 org.gnome.Shell.desktop[1774]: [0;1;39m[0;1;31m[0;1;39m#10 0x7ffd434e0300 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f27842b5de0 @ 71)[0m
+Jul 18 23:56:42 jinmy-Inspiron-5720 org.gnome.Shell.desktop[1774]: [0;1;39m[0;1;31m[0;1;39m#11 0x7ffd434e03d0 b   self-hosted:917 (0x7f27842f12b8 @ 394)[0m
+Jul 18 23:56:42 jinmy-Inspiron-5720 org.gnome.Shell.desktop[1774]: [0;1;39m[0;1;31m[0;1;39m#12 0x7ffd434e04c0 b   resource:///org/gnome/gjs/modules/signals.js:128 (0x7f27842d3230 @ 386)[0m
+Jul 18 23:56:42 jinmy-Inspiron-5720 org.gnome.Shell.desktop[1774]: [0;1;39m[0;1;31m[0;1;39m#13 0x55dba9bb0b88 i   resource:///org/gnome/shell/ui/messageTray.js:487 (0x7f277869dc48 @ 50)[0m
+Jul 18 23:56:42 jinmy-Inspiron-5720 org.gnome.Shell.desktop[1774]: [0;1;39m[0;1;31m[0;1;39m#14 0x7ffd434e1120 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f27842b5de0 @ 71)[0m
+Jul 18 23:56:42 jinmy-Inspiron-5720 org.gnome.Shell.desktop[1774]: [0;1;39m[0;1;31m[0;1;39m#15 0x55dba9bb0b08 i   resource:///org/gnome/shell/ui/calendar.js:775 (0x7f27786aad58 @ 44)[0m
+Jul 18 23:56:42 jinmy-Inspiron-5720 org.gnome.Shell.desktop[1774]: [0;1;39m[0;1;31m[0;1;39m#16 0x7ffd434e2430 b   resource:///org/gnome/gjs/modules/signals.js:128 (0x7f27842d3230 @ 386)[0m
+Jul 18 23:56:42 jinmy-Inspiron-5720 org.gnome.Shell.desktop[1774]: [0;1;39m[0;1;31m[0;1;39m#17 0x55dba9bb0a80 i   resource:///org/gnome/shell/ui/messageList.js:372 (0x7f27786b4670 @ 22)[0m
+Jul 18 23:56:42 jinmy-Inspiron-5720 org.gnome.Shell.desktop[1774]: [0;1;39m[0;1;31m[0;1;39m#18 0x7ffd434e3080 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f27842b5de0 @ 71)[0m
+Jul 18 23:56:42 jinmy-Inspiron-5720 org.gnome.Shell.desktop[1774]: [0;1;39m[0;1;31m[0;1;39m#19 0x55dba9bb0a08 i   resource:///org/gnome/shell/ui/calendar.js:779 (0x7f27786aade0 @ 29)[0m
+Jul 18 23:56:42 jinmy-Inspiron-5720 org.gnome.Shell.desktop[1774]: [0;1;39m[0;1;31m[0;1;39m#20 0x7ffd434e4390 b   resource:///org/gnome/gjs/modules/signals.js:128 (0x7f27842d3230 @ 386)[0m
+Jul 18 23:56:42 jinmy-Inspiron-5720 org.gnome.Shell.desktop[1774]: [0;1;39m[0;1;31m[0;1;39m#21 0x55dba9bb0978 i   resource:///org/gnome/shell/ui/messageTray.js:487 (0x7f277869dc48 @ 50)[0m
+Jul 18 23:56:42 jinmy-Inspiron-5720 org.gnome.Shell.desktop[1774]: [0;1;39m[0;1;31m[0;1;39m#22 0x7ffd434e4ff0 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f27842b5de0 @ 71)[0m
+Jul 18 23:56:42 jinmy-Inspiron-5720 org.gnome.Shell.desktop[1774]: [0;1;39m[0;1;31m[0;1;39m#23 0x55dba9bb08d0 i   resource:///org/gnome/shell/ui/messageTray.js:834 (0x7f27786a02b8 @ 87)[0m
+Jul 18 23:56:42 jinmy-Inspiron-5720 org.gnome.Shell.desktop[1774]: [0;1;39m[0;1;31m[0;1;39m#24 0x7ffd434e5bd0 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f27842b5de0 @ 71)[0m
+Jul 18 23:56:42 jinmy-Inspiron-5720 org.gnome.Shell.desktop[1774]: [0;1;39m[0;1;31m[0;1;39m#25 0x55dba9bb0850 i   resource:///org/gnome/shell/ui/notificationDaemon.js:547 (0x7f27783409a0 @ 32)[0m
+Jul 18 23:56:42 jinmy-Inspiron-5720 org.gnome.Shell.desktop[1774]: [0;1;39m[0;1;31m[0;1;39m#26 0x7ffd434e67b0 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f27842b5de0 @ 71)[0m
+Jul 18 23:56:42 jinmy-Inspiron-5720 org.gnome.Shell.desktop[1774]: [0;1;39m[0;1;31m[0;1;39m#27 0x55dba9bb07d8 i   resource:///org/gnome/shell/ui/notificationDaemon.js:378 (0x7f27783402b8 @ 12)[0m
+Jul 18 23:56:42 jinmy-Inspiron-5720 org.gnome.Shell.desktop[1774]: [0;1;39m[0;1;31m[0;1;39m#28 0x7ffd434e7ac0 b   resource:///org/gnome/gjs/modules/signals.js:128 (0x7f27842d3230 @ 386)[0m
+Jul 18 23:56:42 jinmy-Inspiron-5720 org.gnome.Shell.desktop[1774]: [0;1;39m[0;1;31m[0;1;39m#29 0x55dba9bb0750 i   resource:///org/gnome/shell/ui/messageTray.js:479 (0x7f277869dbc0 @ 22)[0m
+Jul 18 23:56:42 jinmy-Inspiron-5720 org.gnome.Shell.desktop[1774]: [0;1;39m[0;1;31m[0;1;39m#30 0x7ffd434e8710 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f27842b5de0 @ 71)[0m
+Jul 18 23:56:42 jinmy-Inspiron-5720 org.gnome.Shell.desktop[1774]: [0;1;39m[0;1;31m[0;1;39m#31 0x55dba9bb06d0 i   resource:///org/gnome/shell/ui/calendar.js:801 (0x7f27786aaf78 @ 22)[0m
+Jul 18 23:56:42 jinmy-Inspiron-5720 org.gnome.Shell.desktop[1774]: [0;1;39m[0;1;31m[0;1;39m#32 0x7ffd434e9300 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f27842b5de0 @ 71)[0m
+Jul 18 23:56:42 jinmy-Inspiron-5720 org.gnome.Shell.desktop[1774]: [0;1;39m[0;1;31m[0;1;39m#33 0x7ffd434e93d0 b   self-hosted:917 (0x7f27842f12b8 @ 394)[0m
+Jul 19 00:04:05 jinmy-Inspiron-5720 systemd[1]: Started Run anacron jobs.
+-- Subject: Unit anacron.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- Unit anacron.service has finished starting up.
+-- 
+-- The start-up result is RESULT.
+Jul 19 00:04:05 jinmy-Inspiron-5720 anacron[17778]: [0;1;39m[0;1;31m[0;1;39mAnacron 2.3 started on 2018-07-19[0m
+Jul 19 00:04:05 jinmy-Inspiron-5720 anacron[17778]: [0;1;39m[0;1;31m[0;1;39mWill run job `cron.daily' in 5 min.[0m
+Jul 19 00:04:05 jinmy-Inspiron-5720 anacron[17778]: [0;1;39m[0;1;31m[0;1;39mJobs will be executed sequentially[0m
+Jul 19 00:05:33 jinmy-Inspiron-5720 code.desktop[2521]: [main 00:05:33] update#setState checking for updates
+Jul 19 00:05:35 jinmy-Inspiron-5720 code.desktop[2521]: [main 00:05:35] update#setState idle
+Jul 19 00:06:29 jinmy-Inspiron-5720 dhclient[1363]: DHCPREQUEST of 192.168.0.8 on wlp1s0 to 192.168.0.1 port 67 (xid=0x27881ec2)
+Jul 19 00:06:29 jinmy-Inspiron-5720 dhclient[1363]: DHCPACK of 192.168.0.8 from 192.168.0.1
+Jul 19 00:06:29 jinmy-Inspiron-5720 NetworkManager[818]: <info>  [1531976789.6312] dhcp4 (wlp1s0):   address 192.168.0.8
+Jul 19 00:06:29 jinmy-Inspiron-5720 NetworkManager[818]: <info>  [1531976789.6312] dhcp4 (wlp1s0):   plen 24 (255.255.255.0)
+Jul 19 00:06:29 jinmy-Inspiron-5720 NetworkManager[818]: <info>  [1531976789.6312] dhcp4 (wlp1s0):   gateway 192.168.0.1
+Jul 19 00:06:29 jinmy-Inspiron-5720 NetworkManager[818]: <info>  [1531976789.6312] dhcp4 (wlp1s0):   lease time 3600
+Jul 19 00:06:29 jinmy-Inspiron-5720 NetworkManager[818]: <info>  [1531976789.6312] dhcp4 (wlp1s0):   hostname 'jinmy-Inspiron-5720'
+Jul 19 00:06:29 jinmy-Inspiron-5720 NetworkManager[818]: <info>  [1531976789.6312] dhcp4 (wlp1s0):   nameserver '190.113.220.18'
+Jul 19 00:06:29 jinmy-Inspiron-5720 NetworkManager[818]: <info>  [1531976789.6313] dhcp4 (wlp1s0):   nameserver '190.113.220.51'
+Jul 19 00:06:29 jinmy-Inspiron-5720 NetworkManager[818]: <info>  [1531976789.6313] dhcp4 (wlp1s0):   nameserver '190.113.220.54'
+Jul 19 00:06:29 jinmy-Inspiron-5720 NetworkManager[818]: <info>  [1531976789.6313] dhcp4 (wlp1s0): state changed bound -> bound
+Jul 19 00:06:29 jinmy-Inspiron-5720 dbus-daemon[713]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.13' (uid=0 pid=818 comm="/usr/sbin/NetworkManager --no-daemon " label="unconfined")
+Jul 19 00:06:29 jinmy-Inspiron-5720 systemd[1]: Starting Network Manager Script Dispatcher Service...
+-- Subject: Unit NetworkManager-dispatcher.service has begun start-up
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- Unit NetworkManager-dispatcher.service has begun starting up.
+Jul 19 00:06:29 jinmy-Inspiron-5720 dhclient[1363]: bound to 192.168.0.8 -- renewal in 1686 seconds.
+Jul 19 00:06:29 jinmy-Inspiron-5720 dbus-daemon[713]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Jul 19 00:06:29 jinmy-Inspiron-5720 systemd[1]: Started Network Manager Script Dispatcher Service.
+-- Subject: Unit NetworkManager-dispatcher.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- Unit NetworkManager-dispatcher.service has finished starting up.
+-- 
+-- The start-up result is RESULT.
+Jul 19 00:06:29 jinmy-Inspiron-5720 nm-dispatcher[17829]: req:1 'dhcp4-change' [wlp1s0]: new request (1 scripts)
+Jul 19 00:06:29 jinmy-Inspiron-5720 nm-dispatcher[17829]: req:1 'dhcp4-change' [wlp1s0]: start running ordered scripts...
+Jul 19 00:09:00 jinmy-Inspiron-5720 sudo[17886]: [0;1;39m[0;1;31m[0;1;39m   jinmy : TTY=pts/0 ; PWD=/var/www/mundipack/bootstrap ; USER=root ; COMMAND=/bin/chmod 777 -R cache/[0m
+Jul 19 00:09:00 jinmy-Inspiron-5720 sudo[17886]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul 19 00:09:00 jinmy-Inspiron-5720 systemd[1]: Starting Clean php session files...
+-- Subject: Unit phpsessionclean.service has begun start-up
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- Unit phpsessionclean.service has begun starting up.
+Jul 19 00:09:00 jinmy-Inspiron-5720 sudo[17886]: pam_unix(sudo:session): session closed for user root
+Jul 19 00:09:01 jinmy-Inspiron-5720 systemd[1]: Started Clean php session files.
+-- Subject: Unit phpsessionclean.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- Unit phpsessionclean.service has finished starting up.
+-- 
+-- The start-up result is RESULT.
+Jul 19 00:09:01 jinmy-Inspiron-5720 CRON[17943]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 19 00:09:01 jinmy-Inspiron-5720 CRON[17944]: (root) CMD (  [ -x /usr/lib/php/sessionclean ] && if [ ! -d /run/systemd/system ]; then /usr/lib/php/sessionclean; fi)
+Jul 19 00:09:01 jinmy-Inspiron-5720 CRON[17943]: pam_unix(cron:session): session closed for user root
+Jul 19 00:09:05 jinmy-Inspiron-5720 anacron[17778]: [0;1;39m[0;1;31m[0;1;39mJob `cron.daily' started[0m
+Jul 19 00:09:05 jinmy-Inspiron-5720 anacron[17957]: [0;1;39m[0;1;31m[0;1;39mUpdated timestamp for job `cron.daily' to 2018-07-19[0m
+Jul 19 00:09:06 jinmy-Inspiron-5720 cracklib[17988]: no dictionary update necessary.
+Jul 19 00:09:06 jinmy-Inspiron-5720 systemd[1]: Reloading The Apache HTTP Server.
+-- Subject: Unit apache2.service has begun reloading its configuration
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- Unit apache2.service has begun reloading its configuration
+Jul 19 00:09:06 jinmy-Inspiron-5720 apachectl[18100]: AH00112: Warning: DocumentRoot [/var/www/fronterasdelnorte.com/] does not exist
+Jul 19 00:09:06 jinmy-Inspiron-5720 apachectl[18100]: AH00112: Warning: DocumentRoot [/var/www/ntxcharter/] does not exist
+Jul 19 00:09:06 jinmy-Inspiron-5720 apachectl[18100]: AH00112: Warning: DocumentRoot [/var/www/wiscon.com/] does not exist
+Jul 19 00:09:06 jinmy-Inspiron-5720 apachectl[18100]: AH00112: Warning: DocumentRoot [/var/www/ejercicio/vue/] does not exist
+Jul 19 00:09:06 jinmy-Inspiron-5720 apachectl[18100]: AH00112: Warning: DocumentRoot [/var/www/ubusoft/3.3.3.1] does not exist
+Jul 19 00:09:06 jinmy-Inspiron-5720 apachectl[18100]: AH00112: Warning: DocumentRoot [/var/www/ubusoft/3.3.3.1] does not exist
+Jul 19 00:09:06 jinmy-Inspiron-5720 apachectl[18100]: AH00112: Warning: DocumentRoot [/var/www/ubusoft/3.3.3.1] does not exist
+Jul 19 00:09:06 jinmy-Inspiron-5720 apachectl[18100]: AH00112: Warning: DocumentRoot [/var/www/sianweb/3.3.3.4/] does not exist
+Jul 19 00:09:06 jinmy-Inspiron-5720 apachectl[18100]: AH00112: Warning: DocumentRoot [/var/www/sianweb/3.3.3.4] does not exist
+Jul 19 00:09:06 jinmy-Inspiron-5720 apachectl[18100]: AH00112: Warning: DocumentRoot [/var/www/wepaersa] does not exist
+Jul 19 00:09:06 jinmy-Inspiron-5720 apachectl[18100]: AH00112: Warning: DocumentRoot [/var/www/web-components-samples] does not exist
+Jul 19 00:09:06 jinmy-Inspiron-5720 apachectl[18100]: AH00112: Warning: DocumentRoot [/var/www/pymsupport] does not exist
+Jul 19 00:09:06 jinmy-Inspiron-5720 apachectl[18100]: AH00112: Warning: DocumentRoot [/var/www/sian] does not exist
+Jul 19 00:09:06 jinmy-Inspiron-5720 apachectl[18100]: AH00112: Warning: DocumentRoot [/var/www/labsantaveronica] does not exist
+Jul 19 00:09:06 jinmy-Inspiron-5720 apachectl[18100]: AH00112: Warning: DocumentRoot [/var/www/cenconor.com] does not exist
+Jul 19 00:09:06 jinmy-Inspiron-5720 apachectl[18100]: AH00112: Warning: DocumentRoot [/var/www/logisystem] does not exist
+Jul 19 00:09:06 jinmy-Inspiron-5720 apachectl[18100]: AH00112: Warning: DocumentRoot [/var/www/discoverbybusweb] does not exist
+Jul 19 00:09:06 jinmy-Inspiron-5720 apachectl[18100]: AH00112: Warning: DocumentRoot [/var/www/discoverbybus] does not exist
+Jul 19 00:09:06 jinmy-Inspiron-5720 apachectl[18100]: AH00112: Warning: DocumentRoot [/var/www/savannah16.com] does not exist
+Jul 19 00:09:06 jinmy-Inspiron-5720 apachectl[18100]: AH00112: Warning: DocumentRoot [/var/www/pegassotours.com] does not exist
+Jul 19 00:09:06 jinmy-Inspiron-5720 apachectl[18100]: AH00112: Warning: DocumentRoot [/var/www/huastecos.com] does not exist
+Jul 19 00:09:06 jinmy-Inspiron-5720 apachectl[18100]: AH00112: Warning: DocumentRoot [/var/www/chihuahua.com] does not exist
+Jul 19 00:09:06 jinmy-Inspiron-5720 apachectl[18100]: AH00112: Warning: DocumentRoot [/var/www/icommunecate.com] does not exist
+Jul 19 00:09:06 jinmy-Inspiron-5720 apachectl[18100]: AH00112: Warning: DocumentRoot [/var/www/chayotemp] does not exist
+Jul 19 00:09:06 jinmy-Inspiron-5720 apachectl[18100]: AH00112: Warning: DocumentRoot [/var/www/projects/sites/monitoreo_pym_v2/3.3/www] does not exist
+Jul 19 00:09:06 jinmy-Inspiron-5720 apachectl[18100]: AH00112: Warning: DocumentRoot [/var/www/projects/kohana/dev_modules/3.3/bts3] does not exist
+Jul 19 00:09:06 jinmy-Inspiron-5720 apachectl[18100]: AH00112: Warning: DocumentRoot [/var/www/projects/sites/afichesysenales_mf/3.3.6] does not exist
+Jul 19 00:09:06 jinmy-Inspiron-5720 apachectl[18100]: AH00112: Warning: DocumentRoot [/var/www/projects/sites/istasv2/3.4/www] does not exist
+Jul 19 00:09:06 jinmy-Inspiron-5720 apachectl[18100]: AH00112: Warning: DocumentRoot [/var/www/projects/kohana/dev_modules/3.4/bts3] does not exist
+Jul 19 00:09:06 jinmy-Inspiron-5720 apachectl[18100]: AH00112: Warning: DocumentRoot [/var/www/projects/sites/istasv2_mf/3.3.6] does not exist
+Jul 19 00:09:06 jinmy-Inspiron-5720 apachectl[18100]: AH00112: Warning: DocumentRoot [/var/www/dbb_bts/public] does not exist
+Jul 19 00:09:06 jinmy-Inspiron-5720 apachectl[18100]: AH00112: Warning: DocumentRoot [/var/www/loschavez/] does not exist
+Jul 19 00:09:06 jinmy-Inspiron-5720 apachectl[18100]: AH00112: Warning: DocumentRoot [/var/www/cerrodepasco/] does not exist
+Jul 19 00:09:06 jinmy-Inspiron-5720 apachectl[18100]: AH00112: Warning: DocumentRoot [/var/www/ghbus/] does not exist
+Jul 19 00:09:06 jinmy-Inspiron-5720 apachectl[18100]: AH00112: Warning: DocumentRoot [/var/www/jrexpress/] does not exist
+Jul 19 00:09:06 jinmy-Inspiron-5720 apachectl[18100]: AH00112: Warning: DocumentRoot [/var/www/expresoselva/] does not exist
+Jul 19 00:09:06 jinmy-Inspiron-5720 apachectl[18100]: AH00112: Warning: DocumentRoot [/var/www/tjr/] does not exist
+Jul 19 00:09:06 jinmy-Inspiron-5720 apachectl[18100]: AH00112: Warning: DocumentRoot [/var/www/torres/] does not exist
+Jul 19 00:09:06 jinmy-Inspiron-5720 apachectl[18100]: AH00112: Warning: DocumentRoot [/var/www/transportesincaatahualpa/] does not exist
+Jul 19 00:09:06 jinmy-Inspiron-5720 apachectl[18100]: AH00112: Warning: DocumentRoot [/var/www/tbc-charters.com/] does not exist
+Jul 19 00:09:06 jinmy-Inspiron-5720 apachectl[18100]: AH00112: Warning: DocumentRoot [/var/www/manbus] does not exist
+Jul 19 00:09:06 jinmy-Inspiron-5720 apachectl[18100]: AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 127.0.1.1. Set the 'ServerName' directive globally to suppress this message
+Jul 19 00:09:06 jinmy-Inspiron-5720 systemd[1]: Reloaded The Apache HTTP Server.
+-- Subject: Unit apache2.service has finished reloading its configuration
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- Unit apache2.service has finished reloading its configuration
+-- 
+-- The result is RESULT.
+Jul 19 00:09:06 jinmy-Inspiron-5720 systemd[1]: Stopping Make remote CUPS printers available locally...
+-- Subject: Unit cups-browsed.service has begun shutting down
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- Unit cups-browsed.service has begun shutting down.
+Jul 19 00:09:06 jinmy-Inspiron-5720 systemd[1]: Stopped Make remote CUPS printers available locally.
+-- Subject: Unit cups-browsed.service has finished shutting down
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- Unit cups-browsed.service has finished shutting down.
+Jul 19 00:09:06 jinmy-Inspiron-5720 systemd[1]: Stopping CUPS Scheduler...
+-- Subject: Unit cups.service has begun shutting down
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- Unit cups.service has begun shutting down.
+Jul 19 00:09:06 jinmy-Inspiron-5720 systemd[1]: Stopped CUPS Scheduler.
+-- Subject: Unit cups.service has finished shutting down
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- Unit cups.service has finished shutting down.
+Jul 19 00:09:06 jinmy-Inspiron-5720 systemd[1]: Stopped CUPS Scheduler.
+-- Subject: Unit cups.path has finished shutting down
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- Unit cups.path has finished shutting down.
+Jul 19 00:09:06 jinmy-Inspiron-5720 systemd[1]: Stopping CUPS Scheduler.
+-- Subject: Unit cups.path has begun shutting down
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- Unit cups.path has begun shutting down.
+Jul 19 00:09:06 jinmy-Inspiron-5720 systemd[1]: Started CUPS Scheduler.
+-- Subject: Unit cups.path has finished start-up
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- Unit cups.path has finished starting up.
+-- 
+-- The start-up result is RESULT.
+Jul 19 00:09:06 jinmy-Inspiron-5720 systemd[1]: Closed CUPS Scheduler.
+-- Subject: Unit cups.socket has finished shutting down
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- Unit cups.socket has finished shutting down.
+Jul 19 00:09:06 jinmy-Inspiron-5720 systemd[1]: Stopping CUPS Scheduler.
+-- Subject: Unit cups.socket has begun shutting down
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- Unit cups.socket has begun shutting down.
+Jul 19 00:09:06 jinmy-Inspiron-5720 systemd[1]: Listening on CUPS Scheduler.
+-- Subject: Unit cups.socket has finished start-up
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- Unit cups.socket has finished starting up.
+-- 
+-- The start-up result is RESULT.
+Jul 19 00:09:06 jinmy-Inspiron-5720 systemd[1]: Started CUPS Scheduler.
+-- Subject: Unit cups.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- Unit cups.service has finished starting up.
+-- 
+-- The start-up result is RESULT.
+Jul 19 00:09:06 jinmy-Inspiron-5720 systemd[1]: Started Make remote CUPS printers available locally.
+-- Subject: Unit cups-browsed.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- Unit cups-browsed.service has finished starting up.
+-- 
+-- The start-up result is RESULT.
+Jul 19 00:09:06 jinmy-Inspiron-5720 rsyslogd[709]:  [origin software="rsyslogd" swVersion="8.32.0" x-pid="709" x-info="http://www.rsyslog.com"] rsyslogd was HUPed
+Jul 19 00:09:10 jinmy-Inspiron-5720 anacron[17778]: [0;1;39m[0;1;31m[0;1;39mJob `cron.daily' terminated (exit status: 1) (mailing output)[0m
+Jul 19 00:09:10 jinmy-Inspiron-5720 anacron[17778]: [0;1;31m[0;1;39m[0;1;31mCan't find sendmail at /usr/sbin/sendmail, not mailing output[0m
+Jul 19 00:09:10 jinmy-Inspiron-5720 anacron[17778]: anacron: Can't find sendmail at /usr/sbin/sendmail, not mailing output
+Jul 19 00:09:10 jinmy-Inspiron-5720 anacron[17778]: [0;1;39m[0;1;31m[0;1;39mNormal exit (1 job run)[0m
+Jul 19 00:09:34 jinmy-Inspiron-5720 sudo[18190]: [0;1;39m[0;1;31m[0;1;39m   jinmy : TTY=pts/0 ; PWD=/var/www/mundipack ; USER=root ; COMMAND=/bin/chmod 777 -R storage/[0m
+Jul 19 00:09:34 jinmy-Inspiron-5720 sudo[18190]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul 19 00:09:34 jinmy-Inspiron-5720 sudo[18190]: pam_unix(sudo:session): session closed for user root
+Jul 19 00:11:03 jinmy-Inspiron-5720 gnome-shell[1774]: [0;1;39m[0;1;31m[0;1;39mObject St.Button (0x55dbad998c80), has been already finalized. Impossible to set any property to it.[0m
+Jul 19 00:11:03 jinmy-Inspiron-5720 gnome-shell[1774]: [0;1;39m[0;1;31m[0;1;39mObject St.Button (0x55dbad998c80), has been already finalized. Impossible to set any property to it.[0m
+Jul 19 00:11:03 jinmy-Inspiron-5720 org.gnome.Shell.desktop[1774]: [0;1;39m[0;1;31m[0;1;39m== Stack trace for context 0x55dba97ef330 ==[0m
+Jul 19 00:11:03 jinmy-Inspiron-5720 org.gnome.Shell.desktop[1774]: [0;1;39m[0;1;31m[0;1;39m#0 0x55dba9bb0ea0 i   resource:///org/gnome/shell/ui/messageList.js:504 (0x7f27786b4de0 @ 83)[0m
+Jul 19 00:11:03 jinmy-Inspiron-5720 org.gnome.Shell.desktop[1774]: [0;1;39m[0;1;31m[0;1;39m#1 0x7ffd434dbf00 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f27842b5de0 @ 71)[0m
+Jul 19 00:11:03 jinmy-Inspiron-5720 org.gnome.Shell.desktop[1774]: [0;1;39m[0;1;31m[0;1;39m#2 0x7ffd434dbfd0 b   self-hosted:917 (0x7f27842f12b8 @ 394)[0m
+Jul 19 00:11:03 jinmy-Inspiron-5720 org.gnome.Shell.desktop[1774]: [0;1;39m[0;1;31m[0;1;39m#3 0x55dba9bb0e10 i   resource:///org/gnome/shell/ui/messageTray.js:1461 (0x7f27786a2a28 @ 121)[0m
+Jul 19 00:11:03 jinmy-Inspiron-5720 org.gnome.Shell.desktop[1774]: [0;1;39m[0;1;31m[0;1;39m#4 0x7ffd434ddf50 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f27842b5de0 @ 71)[0m
+Jul 19 00:11:03 jinmy-Inspiron-5720 org.gnome.Shell.desktop[1774]: [0;1;39m[0;1;31m[0;1;39m#5 0x55dba9bb0d68 i   resource:///org/gnome/shell/ui/messageTray.js:1448 (0x7f27786a29a0 @ 406)[0m
+Jul 19 00:11:03 jinmy-Inspiron-5720 org.gnome.Shell.desktop[1774]: [0;1;39m[0;1;31m[0;1;39m#6 0x7ffd434deb30 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f27842b5de0 @ 71)[0m
+Jul 19 00:11:03 jinmy-Inspiron-5720 org.gnome.Shell.desktop[1774]: [0;1;39m[0;1;31m[0;1;39m#7 0x55dba9bb0cb0 i   resource:///org/gnome/shell/ui/messageTray.js:1249 (0x7f27786a2340 @ 729)[0m
+Jul 19 00:11:03 jinmy-Inspiron-5720 org.gnome.Shell.desktop[1774]: [0;1;39m[0;1;31m[0;1;39m#8 0x7ffd434df710 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f27842b5de0 @ 71)[0m
+Jul 19 00:11:03 jinmy-Inspiron-5720 org.gnome.Shell.desktop[1774]: [0;1;39m[0;1;31m[0;1;39m#9 0x55dba9bb0c18 i   resource:///org/gnome/shell/ui/messageTray.js:1067 (0x7f27786a0e68 @ 124)[0m
+Jul 19 00:11:03 jinmy-Inspiron-5720 org.gnome.Shell.desktop[1774]: [0;1;39m[0;1;31m[0;1;39m#10 0x7ffd434e0300 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f27842b5de0 @ 71)[0m
+Jul 19 00:11:03 jinmy-Inspiron-5720 org.gnome.Shell.desktop[1774]: [0;1;39m[0;1;31m[0;1;39m#11 0x7ffd434e03d0 b   self-hosted:917 (0x7f27842f12b8 @ 394)[0m
+Jul 19 00:11:03 jinmy-Inspiron-5720 org.gnome.Shell.desktop[1774]: [0;1;39m[0;1;31m[0;1;39m#12 0x7ffd434e04c0 b   resource:///org/gnome/gjs/modules/signals.js:128 (0x7f27842d3230 @ 386)[0m
+Jul 19 00:11:03 jinmy-Inspiron-5720 org.gnome.Shell.desktop[1774]: [0;1;39m[0;1;31m[0;1;39m#13 0x55dba9bb0b88 i   resource:///org/gnome/shell/ui/messageTray.js:487 (0x7f277869dc48 @ 50)[0m
+Jul 19 00:11:03 jinmy-Inspiron-5720 org.gnome.Shell.desktop[1774]: [0;1;39m[0;1;31m[0;1;39m#14 0x7ffd434e1120 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f27842b5de0 @ 71)[0m
+Jul 19 00:11:03 jinmy-Inspiron-5720 org.gnome.Shell.desktop[1774]: [0;1;39m[0;1;31m[0;1;39m#15 0x55dba9bb0b08 i   resource:///org/gnome/shell/ui/calendar.js:775 (0x7f27786aad58 @ 44)[0m
+Jul 19 00:11:03 jinmy-Inspiron-5720 org.gnome.Shell.desktop[1774]: [0;1;39m[0;1;31m[0;1;39m#16 0x7ffd434e2430 b   resource:///org/gnome/gjs/modules/signals.js:128 (0x7f27842d3230 @ 386)[0m
+Jul 19 00:11:03 jinmy-Inspiron-5720 org.gnome.Shell.desktop[1774]: [0;1;39m[0;1;31m[0;1;39m#17 0x55dba9bb0a80 i   resource:///org/gnome/shell/ui/messageList.js:372 (0x7f27786b4670 @ 22)[0m
+Jul 19 00:11:03 jinmy-Inspiron-5720 org.gnome.Shell.desktop[1774]: [0;1;39m[0;1;31m[0;1;39m#18 0x7ffd434e3080 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f27842b5de0 @ 71)[0m
+Jul 19 00:11:03 jinmy-Inspiron-5720 org.gnome.Shell.desktop[1774]: [0;1;39m[0;1;31m[0;1;39m#19 0x55dba9bb0a08 i   resource:///org/gnome/shell/ui/calendar.js:779 (0x7f27786aade0 @ 29)[0m
+Jul 19 00:11:03 jinmy-Inspiron-5720 org.gnome.Shell.desktop[1774]: [0;1;39m[0;1;31m[0;1;39m#20 0x7ffd434e4390 b   resource:///org/gnome/gjs/modules/signals.js:128 (0x7f27842d3230 @ 386)[0m
+Jul 19 00:11:03 jinmy-Inspiron-5720 org.gnome.Shell.desktop[1774]: [0;1;39m[0;1;31m[0;1;39m#21 0x55dba9bb0978 i   resource:///org/gnome/shell/ui/messageTray.js:487 (0x7f277869dc48 @ 50)[0m
+Jul 19 00:11:03 jinmy-Inspiron-5720 org.gnome.Shell.desktop[1774]: [0;1;39m[0;1;31m[0;1;39m#22 0x7ffd434e4ff0 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f27842b5de0 @ 71)[0m
+Jul 19 00:11:03 jinmy-Inspiron-5720 org.gnome.Shell.desktop[1774]: [0;1;39m[0;1;31m[0;1;39m#23 0x55dba9bb08d0 i   resource:///org/gnome/shell/ui/messageTray.js:834 (0x7f27786a02b8 @ 87)[0m
+Jul 19 00:11:03 jinmy-Inspiron-5720 org.gnome.Shell.desktop[1774]: [0;1;39m[0;1;31m[0;1;39m#24 0x7ffd434e5bd0 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f27842b5de0 @ 71)[0m
+Jul 19 00:11:03 jinmy-Inspiron-5720 org.gnome.Shell.desktop[1774]: [0;1;39m[0;1;31m[0;1;39m#25 0x55dba9bb0850 i   resource:///org/gnome/shell/ui/notificationDaemon.js:547 (0x7f27783409a0 @ 32)[0m
+Jul 19 00:11:03 jinmy-Inspiron-5720 org.gnome.Shell.desktop[1774]: [0;1;39m[0;1;31m[0;1;39m#26 0x7ffd434e67b0 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f27842b5de0 @ 71)[0m
+Jul 19 00:11:03 jinmy-Inspiron-5720 org.gnome.Shell.desktop[1774]: [0;1;39m[0;1;31m[0;1;39m#27 0x55dba9bb07d8 i   resource:///org/gnome/shell/ui/notificationDaemon.js:378 (0x7f27783402b8 @ 12)[0m
+Jul 19 00:11:03 jinmy-Inspiron-5720 org.gnome.Shell.desktop[1774]: [0;1;39m[0;1;31m[0;1;39m#28 0x7ffd434e7ac0 b   resource:///org/gnome/gjs/modules/signals.js:128 (0x7f27842d3230 @ 386)[0m
+Jul 19 00:11:03 jinmy-Inspiron-5720 org.gnome.Shell.desktop[1774]: [0;1;39m[0;1;31m[0;1;39m#29 0x55dba9bb0750 i   resource:///org/gnome/shell/ui/messageTray.js:479 (0x7f277869dbc0 @ 22)[0m
+Jul 19 00:11:03 jinmy-Inspiron-5720 org.gnome.Shell.desktop[1774]: [0;1;39m[0;1;31m[0;1;39m#30 0x7ffd434e8710 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f27842b5de0 @ 71)[0m
+Jul 19 00:11:03 jinmy-Inspiron-5720 org.gnome.Shell.desktop[1774]: [0;1;39m[0;1;31m[0;1;39m#31 0x55dba9bb06d0 i   resource:///org/gnome/shell/ui/calendar.js:801 (0x7f27786aaf78 @ 22)[0m
+Jul 19 00:11:03 jinmy-Inspiron-5720 org.gnome.Shell.desktop[1774]: [0;1;39m[0;1;31m[0;1;39m#32 0x7ffd434e9300 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f27842b5de0 @ 71)[0m
+Jul 19 00:11:03 jinmy-Inspiron-5720 org.gnome.Shell.desktop[1774]: [0;1;39m[0;1;31m[0;1;39m#33 0x7ffd434e93d0 b   self-hosted:917 (0x7f27842f12b8 @ 394)[0m
+Jul 19 00:11:03 jinmy-Inspiron-5720 org.gnome.Shell.desktop[1774]: [0;1;39m[0;1;31m[0;1;39m== Stack trace for context 0x55dba97ef330 ==[0m
+Jul 19 00:11:03 jinmy-Inspiron-5720 org.gnome.Shell.desktop[1774]: [0;1;39m[0;1;31m[0;1;39m#0 0x55dba9bb0ea0 i   resource:///org/gnome/shell/ui/messageList.js:505 (0x7f27786b4de0 @ 102)[0m
+Jul 19 00:11:03 jinmy-Inspiron-5720 org.gnome.Shell.desktop[1774]: [0;1;39m[0;1;31m[0;1;39m#1 0x7ffd434dbf00 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f27842b5de0 @ 71)[0m
+Jul 19 00:11:03 jinmy-Inspiron-5720 org.gnome.Shell.desktop[1774]: [0;1;39m[0;1;31m[0;1;39m#2 0x7ffd434dbfd0 b   self-hosted:917 (0x7f27842f12b8 @ 394)[0m
+Jul 19 00:11:03 jinmy-Inspiron-5720 org.gnome.Shell.desktop[1774]: [0;1;39m[0;1;31m[0;1;39m#3 0x55dba9bb0e10 i   resource:///org/gnome/shell/ui/messageTray.js:1461 (0x7f27786a2a28 @ 121)[0m
+Jul 19 00:11:03 jinmy-Inspiron-5720 org.gnome.Shell.desktop[1774]: [0;1;39m[0;1;31m[0;1;39m#4 0x7ffd434ddf50 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f27842b5de0 @ 71)[0m
+Jul 19 00:11:03 jinmy-Inspiron-5720 org.gnome.Shell.desktop[1774]: [0;1;39m[0;1;31m[0;1;39m#5 0x55dba9bb0d68 i   resource:///org/gnome/shell/ui/messageTray.js:1448 (0x7f27786a29a0 @ 406)[0m
+Jul 19 00:11:03 jinmy-Inspiron-5720 org.gnome.Shell.desktop[1774]: [0;1;39m[0;1;31m[0;1;39m#6 0x7ffd434deb30 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f27842b5de0 @ 71)[0m
+Jul 19 00:11:03 jinmy-Inspiron-5720 org.gnome.Shell.desktop[1774]: [0;1;39m[0;1;31m[0;1;39m#7 0x55dba9bb0cb0 i   resource:///org/gnome/shell/ui/messageTray.js:1249 (0x7f27786a2340 @ 729)[0m
+Jul 19 00:11:03 jinmy-Inspiron-5720 org.gnome.Shell.desktop[1774]: [0;1;39m[0;1;31m[0;1;39m#8 0x7ffd434df710 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f27842b5de0 @ 71)[0m
+Jul 19 00:11:03 jinmy-Inspiron-5720 org.gnome.Shell.desktop[1774]: [0;1;39m[0;1;31m[0;1;39m#9 0x55dba9bb0c18 i   resource:///org/gnome/shell/ui/messageTray.js:1067 (0x7f27786a0e68 @ 124)[0m
+Jul 19 00:11:03 jinmy-Inspiron-5720 org.gnome.Shell.desktop[1774]: [0;1;39m[0;1;31m[0;1;39m#10 0x7ffd434e0300 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f27842b5de0 @ 71)[0m
+Jul 19 00:11:03 jinmy-Inspiron-5720 org.gnome.Shell.desktop[1774]: [0;1;39m[0;1;31m[0;1;39m#11 0x7ffd434e03d0 b   self-hosted:917 (0x7f27842f12b8 @ 394)[0m
+Jul 19 00:11:03 jinmy-Inspiron-5720 org.gnome.Shell.desktop[1774]: [0;1;39m[0;1;31m[0;1;39m#12 0x7ffd434e04c0 b   resource:///org/gnome/gjs/modules/signals.js:128 (0x7f27842d3230 @ 386)[0m
+Jul 19 00:11:03 jinmy-Inspiron-5720 org.gnome.Shell.desktop[1774]: [0;1;39m[0;1;31m[0;1;39m#13 0x55dba9bb0b88 i   resource:///org/gnome/shell/ui/messageTray.js:487 (0x7f277869dc48 @ 50)[0m
+Jul 19 00:11:03 jinmy-Inspiron-5720 org.gnome.Shell.desktop[1774]: [0;1;39m[0;1;31m[0;1;39m#14 0x7ffd434e1120 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f27842b5de0 @ 71)[0m
+Jul 19 00:11:03 jinmy-Inspiron-5720 org.gnome.Shell.desktop[1774]: [0;1;39m[0;1;31m[0;1;39m#15 0x55dba9bb0b08 i   resource:///org/gnome/shell/ui/calendar.js:775 (0x7f27786aad58 @ 44)[0m
+Jul 19 00:11:03 jinmy-Inspiron-5720 org.gnome.Shell.desktop[1774]: [0;1;39m[0;1;31m[0;1;39m#16 0x7ffd434e2430 b   resource:///org/gnome/gjs/modules/signals.js:128 (0x7f27842d3230 @ 386)[0m
+Jul 19 00:11:03 jinmy-Inspiron-5720 org.gnome.Shell.desktop[1774]: [0;1;39m[0;1;31m[0;1;39m#17 0x55dba9bb0a80 i   resource:///org/gnome/shell/ui/messageList.js:372 (0x7f27786b4670 @ 22)[0m
+Jul 19 00:11:03 jinmy-Inspiron-5720 org.gnome.Shell.desktop[1774]: [0;1;39m[0;1;31m[0;1;39m#18 0x7ffd434e3080 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f27842b5de0 @ 71)[0m
+Jul 19 00:11:03 jinmy-Inspiron-5720 org.gnome.Shell.desktop[1774]: [0;1;39m[0;1;31m[0;1;39m#19 0x55dba9bb0a08 i   resource:///org/gnome/shell/ui/calendar.js:779 (0x7f27786aade0 @ 29)[0m
+Jul 19 00:11:03 jinmy-Inspiron-5720 org.gnome.Shell.desktop[1774]: [0;1;39m[0;1;31m[0;1;39m#20 0x7ffd434e4390 b   resource:///org/gnome/gjs/modules/signals.js:128 (0x7f27842d3230 @ 386)[0m
+Jul 19 00:11:03 jinmy-Inspiron-5720 org.gnome.Shell.desktop[1774]: [0;1;39m[0;1;31m[0;1;39m#21 0x55dba9bb0978 i   resource:///org/gnome/shell/ui/messageTray.js:487 (0x7f277869dc48 @ 50)[0m
+Jul 19 00:11:03 jinmy-Inspiron-5720 org.gnome.Shell.desktop[1774]: [0;1;39m[0;1;31m[0;1;39m#22 0x7ffd434e4ff0 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f27842b5de0 @ 71)[0m
+Jul 19 00:11:03 jinmy-Inspiron-5720 org.gnome.Shell.desktop[1774]: [0;1;39m[0;1;31m[0;1;39m#23 0x55dba9bb08d0 i   resource:///org/gnome/shell/ui/messageTray.js:834 (0x7f27786a02b8 @ 87)[0m
+Jul 19 00:11:03 jinmy-Inspiron-5720 org.gnome.Shell.desktop[1774]: [0;1;39m[0;1;31m[0;1;39m#24 0x7ffd434e5bd0 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f27842b5de0 @ 71)[0m
+Jul 19 00:11:03 jinmy-Inspiron-5720 org.gnome.Shell.desktop[1774]: [0;1;39m[0;1;31m[0;1;39m#25 0x55dba9bb0850 i   resource:///org/gnome/shell/ui/notificationDaemon.js:547 (0x7f27783409a0 @ 32)[0m
+Jul 19 00:11:03 jinmy-Inspiron-5720 org.gnome.Shell.desktop[1774]: [0;1;39m[0;1;31m[0;1;39m#26 0x7ffd434e67b0 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f27842b5de0 @ 71)[0m
+Jul 19 00:11:03 jinmy-Inspiron-5720 org.gnome.Shell.desktop[1774]: [0;1;39m[0;1;31m[0;1;39m#27 0x55dba9bb07d8 i   resource:///org/gnome/shell/ui/notificationDaemon.js:378 (0x7f27783402b8 @ 12)[0m
+Jul 19 00:11:03 jinmy-Inspiron-5720 org.gnome.Shell.desktop[1774]: [0;1;39m[0;1;31m[0;1;39m#28 0x7ffd434e7ac0 b   resource:///org/gnome/gjs/modules/signals.js:128 (0x7f27842d3230 @ 386)[0m
+Jul 19 00:11:03 jinmy-Inspiron-5720 org.gnome.Shell.desktop[1774]: [0;1;39m[0;1;31m[0;1;39m#29 0x55dba9bb0750 i   resource:///org/gnome/shell/ui/messageTray.js:479 (0x7f277869dbc0 @ 22)[0m
+Jul 19 00:11:03 jinmy-Inspiron-5720 org.gnome.Shell.desktop[1774]: [0;1;39m[0;1;31m[0;1;39m#30 0x7ffd434e8710 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f27842b5de0 @ 71)[0m
+Jul 19 00:11:03 jinmy-Inspiron-5720 org.gnome.Shell.desktop[1774]: [0;1;39m[0;1;31m[0;1;39m#31 0x55dba9bb06d0 i   resource:///org/gnome/shell/ui/calendar.js:801 (0x7f27786aaf78 @ 22)[0m
+Jul 19 00:11:03 jinmy-Inspiron-5720 org.gnome.Shell.desktop[1774]: [0;1;39m[0;1;31m[0;1;39m#32 0x7ffd434e9300 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f27842b5de0 @ 71)[0m
+Jul 19 00:11:03 jinmy-Inspiron-5720 org.gnome.Shell.desktop[1774]: [0;1;39m[0;1;31m[0;1;39m#33 0x7ffd434e93d0 b   self-hosted:917 (0x7f27842f12b8 @ 394)[0m
+Jul 19 00:11:06 jinmy-Inspiron-5720 gnome-shell[1774]: [0;1;39m[0;1;31m[0;1;39mObject St.Button (0x55dbab47ec80), has been already finalized. Impossible to set any property to it.[0m
+Jul 19 00:11:06 jinmy-Inspiron-5720 gnome-shell[1774]: [0;1;39m[0;1;31m[0;1;39mObject St.Button (0x55dbab47ec80), has been already finalized. Impossible to set any property to it.[0m
+Jul 19 00:11:06 jinmy-Inspiron-5720 org.gnome.Shell.desktop[1774]: [0;1;39m[0;1;31m[0;1;39m== Stack trace for context 0x55dba97ef330 ==[0m
+Jul 19 00:11:06 jinmy-Inspiron-5720 org.gnome.Shell.desktop[1774]: [0;1;39m[0;1;31m[0;1;39m#0 0x55dba9bb0ea0 i   resource:///org/gnome/shell/ui/messageList.js:504 (0x7f27786b4de0 @ 83)[0m
+Jul 19 00:11:06 jinmy-Inspiron-5720 org.gnome.Shell.desktop[1774]: [0;1;39m[0;1;31m[0;1;39m#1 0x7ffd434dbf00 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f27842b5de0 @ 71)[0m
+Jul 19 00:11:06 jinmy-Inspiron-5720 org.gnome.Shell.desktop[1774]: [0;1;39m[0;1;31m[0;1;39m#2 0x7ffd434dbfd0 b   self-hosted:917 (0x7f27842f12b8 @ 394)[0m
+Jul 19 00:11:06 jinmy-Inspiron-5720 org.gnome.Shell.desktop[1774]: [0;1;39m[0;1;31m[0;1;39m#3 0x55dba9bb0e10 i   resource:///org/gnome/shell/ui/messageTray.js:1461 (0x7f27786a2a28 @ 121)[0m
+Jul 19 00:11:06 jinmy-Inspiron-5720 org.gnome.Shell.desktop[1774]: [0;1;39m[0;1;31m[0;1;39m#4 0x7ffd434ddf50 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f27842b5de0 @ 71)[0m
+Jul 19 00:11:06 jinmy-Inspiron-5720 org.gnome.Shell.desktop[1774]: [0;1;39m[0;1;31m[0;1;39m#5 0x55dba9bb0d68 i   resource:///org/gnome/shell/ui/messageTray.js:1448 (0x7f27786a29a0 @ 406)[0m
+Jul 19 00:11:06 jinmy-Inspiron-5720 org.gnome.Shell.desktop[1774]: [0;1;39m[0;1;31m[0;1;39m#6 0x7ffd434deb30 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f27842b5de0 @ 71)[0m
+Jul 19 00:11:06 jinmy-Inspiron-5720 org.gnome.Shell.desktop[1774]: [0;1;39m[0;1;31m[0;1;39m#7 0x55dba9bb0cb0 i   resource:///org/gnome/shell/ui/messageTray.js:1249 (0x7f27786a2340 @ 729)[0m
+Jul 19 00:11:06 jinmy-Inspiron-5720 org.gnome.Shell.desktop[1774]: [0;1;39m[0;1;31m[0;1;39m#8 0x7ffd434df710 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f27842b5de0 @ 71)[0m
+Jul 19 00:11:06 jinmy-Inspiron-5720 org.gnome.Shell.desktop[1774]: [0;1;39m[0;1;31m[0;1;39m#9 0x55dba9bb0c18 i   resource:///org/gnome/shell/ui/messageTray.js:1067 (0x7f27786a0e68 @ 124)[0m
+Jul 19 00:11:06 jinmy-Inspiron-5720 org.gnome.Shell.desktop[1774]: [0;1;39m[0;1;31m[0;1;39m#10 0x7ffd434e0300 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f27842b5de0 @ 71)[0m
+Jul 19 00:11:06 jinmy-Inspiron-5720 org.gnome.Shell.desktop[1774]: [0;1;39m[0;1;31m[0;1;39m#11 0x7ffd434e03d0 b   self-hosted:917 (0x7f27842f12b8 @ 394)[0m
+Jul 19 00:11:06 jinmy-Inspiron-5720 org.gnome.Shell.desktop[1774]: [0;1;39m[0;1;31m[0;1;39m#12 0x7ffd434e04c0 b   resource:///org/gnome/gjs/modules/signals.js:128 (0x7f27842d3230 @ 386)[0m
+Jul 19 00:11:06 jinmy-Inspiron-5720 org.gnome.Shell.desktop[1774]: [0;1;39m[0;1;31m[0;1;39m#13 0x55dba9bb0b88 i   resource:///org/gnome/shell/ui/messageTray.js:487 (0x7f277869dc48 @ 50)[0m
+Jul 19 00:11:06 jinmy-Inspiron-5720 org.gnome.Shell.desktop[1774]: [0;1;39m[0;1;31m[0;1;39m#14 0x7ffd434e1120 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f27842b5de0 @ 71)[0m
+Jul 19 00:11:06 jinmy-Inspiron-5720 org.gnome.Shell.desktop[1774]: [0;1;39m[0;1;31m[0;1;39m#15 0x55dba9bb0b08 i   resource:///org/gnome/shell/ui/calendar.js:775 (0x7f27786aad58 @ 44)[0m
+Jul 19 00:11:06 jinmy-Inspiron-5720 org.gnome.Shell.desktop[1774]: [0;1;39m[0;1;31m[0;1;39m#16 0x7ffd434e2430 b   resource:///org/gnome/gjs/modules/signals.js:128 (0x7f27842d3230 @ 386)[0m
+Jul 19 00:11:06 jinmy-Inspiron-5720 org.gnome.Shell.desktop[1774]: [0;1;39m[0;1;31m[0;1;39m#17 0x55dba9bb0a80 i   resource:///org/gnome/shell/ui/messageList.js:372 (0x7f27786b4670 @ 22)[0m
+Jul 19 00:11:06 jinmy-Inspiron-5720 org.gnome.Shell.desktop[1774]: [0;1;39m[0;1;31m[0;1;39m#18 0x7ffd434e3080 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f27842b5de0 @ 71)[0m
+Jul 19 00:11:06 jinmy-Inspiron-5720 org.gnome.Shell.desktop[1774]: [0;1;39m[0;1;31m[0;1;39m#19 0x55dba9bb0a08 i   resource:///org/gnome/shell/ui/calendar.js:779 (0x7f27786aade0 @ 29)[0m
+Jul 19 00:11:06 jinmy-Inspiron-5720 org.gnome.Shell.desktop[1774]: [0;1;39m[0;1;31m[0;1;39m#20 0x7ffd434e4390 b   resource:///org/gnome/gjs/modules/signals.js:128 (0x7f27842d3230 @ 386)[0m
+Jul 19 00:11:06 jinmy-Inspiron-5720 org.gnome.Shell.desktop[1774]: [0;1;39m[0;1;31m[0;1;39m#21 0x55dba9bb0978 i   resource:///org/gnome/shell/ui/messageTray.js:487 (0x7f277869dc48 @ 50)[0m
+Jul 19 00:11:06 jinmy-Inspiron-5720 org.gnome.Shell.desktop[1774]: [0;1;39m[0;1;31m[0;1;39m#22 0x7ffd434e4ff0 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f27842b5de0 @ 71)[0m
+Jul 19 00:11:06 jinmy-Inspiron-5720 org.gnome.Shell.desktop[1774]: [0;1;39m[0;1;31m[0;1;39m#23 0x55dba9bb08d0 i   resource:///org/gnome/shell/ui/messageTray.js:834 (0x7f27786a02b8 @ 87)[0m
+Jul 19 00:11:06 jinmy-Inspiron-5720 org.gnome.Shell.desktop[1774]: [0;1;39m[0;1;31m[0;1;39m#24 0x7ffd434e5bd0 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f27842b5de0 @ 71)[0m
+Jul 19 00:11:06 jinmy-Inspiron-5720 org.gnome.Shell.desktop[1774]: [0;1;39m[0;1;31m[0;1;39m#25 0x55dba9bb0850 i   resource:///org/gnome/shell/ui/notificationDaemon.js:547 (0x7f27783409a0 @ 32)[0m
+Jul 19 00:11:06 jinmy-Inspiron-5720 org.gnome.Shell.desktop[1774]: [0;1;39m[0;1;31m[0;1;39m#26 0x7ffd434e67b0 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f27842b5de0 @ 71)[0m
+Jul 19 00:11:06 jinmy-Inspiron-5720 org.gnome.Shell.desktop[1774]: [0;1;39m[0;1;31m[0;1;39m#27 0x55dba9bb07d8 i   resource:///org/gnome/shell/ui/notificationDaemon.js:378 (0x7f27783402b8 @ 12)[0m
+Jul 19 00:11:06 jinmy-Inspiron-5720 org.gnome.Shell.desktop[1774]: [0;1;39m[0;1;31m[0;1;39m#28 0x7ffd434e7ac0 b   resource:///org/gnome/gjs/modules/signals.js:128 (0x7f27842d3230 @ 386)[0m
+Jul 19 00:11:06 jinmy-Inspiron-5720 org.gnome.Shell.desktop[1774]: [0;1;39m[0;1;31m[0;1;39m#29 0x55dba9bb0750 i   resource:///org/gnome/shell/ui/messageTray.js:479 (0x7f277869dbc0 @ 22)[0m
+Jul 19 00:11:06 jinmy-Inspiron-5720 org.gnome.Shell.desktop[1774]: [0;1;39m[0;1;31m[0;1;39m#30 0x7ffd434e8710 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f27842b5de0 @ 71)[0m
+Jul 19 00:11:06 jinmy-Inspiron-5720 org.gnome.Shell.desktop[1774]: [0;1;39m[0;1;31m[0;1;39m#31 0x55dba9bb06d0 i   resource:///org/gnome/shell/ui/calendar.js:801 (0x7f27786aaf78 @ 22)[0m
+Jul 19 00:11:06 jinmy-Inspiron-5720 org.gnome.Shell.desktop[1774]: [0;1;39m[0;1;31m[0;1;39m#32 0x7ffd434e9300 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f27842b5de0 @ 71)[0m
+Jul 19 00:11:06 jinmy-Inspiron-5720 org.gnome.Shell.desktop[1774]: [0;1;39m[0;1;31m[0;1;39m#33 0x7ffd434e93d0 b   self-hosted:917 (0x7f27842f12b8 @ 394)[0m
+Jul 19 00:11:06 jinmy-Inspiron-5720 org.gnome.Shell.desktop[1774]: [0;1;39m[0;1;31m[0;1;39m== Stack trace for context 0x55dba97ef330 ==[0m
+Jul 19 00:11:06 jinmy-Inspiron-5720 org.gnome.Shell.desktop[1774]: [0;1;39m[0;1;31m[0;1;39m#0 0x55dba9bb0ea0 i   resource:///org/gnome/shell/ui/messageList.js:505 (0x7f27786b4de0 @ 102)[0m
+Jul 19 00:11:06 jinmy-Inspiron-5720 org.gnome.Shell.desktop[1774]: [0;1;39m[0;1;31m[0;1;39m#1 0x7ffd434dbf00 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f27842b5de0 @ 71)[0m
+Jul 19 00:11:06 jinmy-Inspiron-5720 org.gnome.Shell.desktop[1774]: [0;1;39m[0;1;31m[0;1;39m#2 0x7ffd434dbfd0 b   self-hosted:917 (0x7f27842f12b8 @ 394)[0m
+Jul 19 00:11:06 jinmy-Inspiron-5720 org.gnome.Shell.desktop[1774]: [0;1;39m[0;1;31m[0;1;39m#3 0x55dba9bb0e10 i   resource:///org/gnome/shell/ui/messageTray.js:1461 (0x7f27786a2a28 @ 121)[0m
+Jul 19 00:11:06 jinmy-Inspiron-5720 org.gnome.Shell.desktop[1774]: [0;1;39m[0;1;31m[0;1;39m#4 0x7ffd434ddf50 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f27842b5de0 @ 71)[0m
+Jul 19 00:11:06 jinmy-Inspiron-5720 org.gnome.Shell.desktop[1774]: [0;1;39m[0;1;31m[0;1;39m#5 0x55dba9bb0d68 i   resource:///org/gnome/shell/ui/messageTray.js:1448 (0x7f27786a29a0 @ 406)[0m
+Jul 19 00:11:06 jinmy-Inspiron-5720 org.gnome.Shell.desktop[1774]: [0;1;39m[0;1;31m[0;1;39m#6 0x7ffd434deb30 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f27842b5de0 @ 71)[0m
+Jul 19 00:11:06 jinmy-Inspiron-5720 org.gnome.Shell.desktop[1774]: [0;1;39m[0;1;31m[0;1;39m#7 0x55dba9bb0cb0 i   resource:///org/gnome/shell/ui/messageTray.js:1249 (0x7f27786a2340 @ 729)[0m
+Jul 19 00:11:06 jinmy-Inspiron-5720 org.gnome.Shell.desktop[1774]: [0;1;39m[0;1;31m[0;1;39m#8 0x7ffd434df710 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f27842b5de0 @ 71)[0m
+Jul 19 00:11:06 jinmy-Inspiron-5720 org.gnome.Shell.desktop[1774]: [0;1;39m[0;1;31m[0;1;39m#9 0x55dba9bb0c18 i   resource:///org/gnome/shell/ui/messageTray.js:1067 (0x7f27786a0e68 @ 124)[0m
+Jul 19 00:11:06 jinmy-Inspiron-5720 org.gnome.Shell.desktop[1774]: [0;1;39m[0;1;31m[0;1;39m#10 0x7ffd434e0300 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f27842b5de0 @ 71)[0m
+Jul 19 00:11:06 jinmy-Inspiron-5720 org.gnome.Shell.desktop[1774]: [0;1;39m[0;1;31m[0;1;39m#11 0x7ffd434e03d0 b   self-hosted:917 (0x7f27842f12b8 @ 394)[0m
+Jul 19 00:11:06 jinmy-Inspiron-5720 org.gnome.Shell.desktop[1774]: [0;1;39m[0;1;31m[0;1;39m#12 0x7ffd434e04c0 b   resource:///org/gnome/gjs/modules/signals.js:128 (0x7f27842d3230 @ 386)[0m
+Jul 19 00:11:06 jinmy-Inspiron-5720 org.gnome.Shell.desktop[1774]: [0;1;39m[0;1;31m[0;1;39m#13 0x55dba9bb0b88 i   resource:///org/gnome/shell/ui/messageTray.js:487 (0x7f277869dc48 @ 50)[0m
+Jul 19 00:11:06 jinmy-Inspiron-5720 org.gnome.Shell.desktop[1774]: [0;1;39m[0;1;31m[0;1;39m#14 0x7ffd434e1120 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f27842b5de0 @ 71)[0m
+Jul 19 00:11:06 jinmy-Inspiron-5720 org.gnome.Shell.desktop[1774]: [0;1;39m[0;1;31m[0;1;39m#15 0x55dba9bb0b08 i   resource:///org/gnome/shell/ui/calendar.js:775 (0x7f27786aad58 @ 44)[0m
+Jul 19 00:11:06 jinmy-Inspiron-5720 org.gnome.Shell.desktop[1774]: [0;1;39m[0;1;31m[0;1;39m#16 0x7ffd434e2430 b   resource:///org/gnome/gjs/modules/signals.js:128 (0x7f27842d3230 @ 386)[0m
+Jul 19 00:11:06 jinmy-Inspiron-5720 org.gnome.Shell.desktop[1774]: [0;1;39m[0;1;31m[0;1;39m#17 0x55dba9bb0a80 i   resource:///org/gnome/shell/ui/messageList.js:372 (0x7f27786b4670 @ 22)[0m
+Jul 19 00:11:06 jinmy-Inspiron-5720 org.gnome.Shell.desktop[1774]: [0;1;39m[0;1;31m[0;1;39m#18 0x7ffd434e3080 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f27842b5de0 @ 71)[0m
+Jul 19 00:11:06 jinmy-Inspiron-5720 org.gnome.Shell.desktop[1774]: [0;1;39m[0;1;31m[0;1;39m#19 0x55dba9bb0a08 i   resource:///org/gnome/shell/ui/calendar.js:779 (0x7f27786aade0 @ 29)[0m
+Jul 19 00:11:06 jinmy-Inspiron-5720 org.gnome.Shell.desktop[1774]: [0;1;39m[0;1;31m[0;1;39m#20 0x7ffd434e4390 b   resource:///org/gnome/gjs/modules/signals.js:128 (0x7f27842d3230 @ 386)[0m
+Jul 19 00:11:06 jinmy-Inspiron-5720 org.gnome.Shell.desktop[1774]: [0;1;39m[0;1;31m[0;1;39m#21 0x55dba9bb0978 i   resource:///org/gnome/shell/ui/messageTray.js:487 (0x7f277869dc48 @ 50)[0m
+Jul 19 00:11:06 jinmy-Inspiron-5720 org.gnome.Shell.desktop[1774]: [0;1;39m[0;1;31m[0;1;39m#22 0x7ffd434e4ff0 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f27842b5de0 @ 71)[0m
+Jul 19 00:11:06 jinmy-Inspiron-5720 org.gnome.Shell.desktop[1774]: [0;1;39m[0;1;31m[0;1;39m#23 0x55dba9bb08d0 i   resource:///org/gnome/shell/ui/messageTray.js:834 (0x7f27786a02b8 @ 87)[0m
+Jul 19 00:11:06 jinmy-Inspiron-5720 org.gnome.Shell.desktop[1774]: [0;1;39m[0;1;31m[0;1;39m#24 0x7ffd434e5bd0 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f27842b5de0 @ 71)[0m
+Jul 19 00:11:06 jinmy-Inspiron-5720 org.gnome.Shell.desktop[1774]: [0;1;39m[0;1;31m[0;1;39m#25 0x55dba9bb0850 i   resource:///org/gnome/shell/ui/notificationDaemon.js:547 (0x7f27783409a0 @ 32)[0m
+Jul 19 00:11:06 jinmy-Inspiron-5720 org.gnome.Shell.desktop[1774]: [0;1;39m[0;1;31m[0;1;39m#26 0x7ffd434e67b0 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f27842b5de0 @ 71)[0m
+Jul 19 00:11:06 jinmy-Inspiron-5720 org.gnome.Shell.desktop[1774]: [0;1;39m[0;1;31m[0;1;39m#27 0x55dba9bb07d8 i   resource:///org/gnome/shell/ui/notificationDaemon.js:378 (0x7f27783402b8 @ 12)[0m
+Jul 19 00:11:06 jinmy-Inspiron-5720 org.gnome.Shell.desktop[1774]: [0;1;39m[0;1;31m[0;1;39m#28 0x7ffd434e7ac0 b   resource:///org/gnome/gjs/modules/signals.js:128 (0x7f27842d3230 @ 386)[0m
+Jul 19 00:11:06 jinmy-Inspiron-5720 org.gnome.Shell.desktop[1774]: [0;1;39m[0;1;31m[0;1;39m#29 0x55dba9bb0750 i   resource:///org/gnome/shell/ui/messageTray.js:479 (0x7f277869dbc0 @ 22)[0m
+Jul 19 00:11:06 jinmy-Inspiron-5720 org.gnome.Shell.desktop[1774]: [0;1;39m[0;1;31m[0;1;39m#30 0x7ffd434e8710 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f27842b5de0 @ 71)[0m
+Jul 19 00:11:06 jinmy-Inspiron-5720 org.gnome.Shell.desktop[1774]: [0;1;39m[0;1;31m[0;1;39m#31 0x55dba9bb06d0 i   resource:///org/gnome/shell/ui/calendar.js:801 (0x7f27786aaf78 @ 22)[0m
+Jul 19 00:11:06 jinmy-Inspiron-5720 org.gnome.Shell.desktop[1774]: [0;1;39m[0;1;31m[0;1;39m#32 0x7ffd434e9300 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f27842b5de0 @ 71)[0m
+Jul 19 00:11:06 jinmy-Inspiron-5720 org.gnome.Shell.desktop[1774]: [0;1;39m[0;1;31m[0;1;39m#33 0x7ffd434e93d0 b   self-hosted:917 (0x7f27842f12b8 @ 394)[0m
+Jul 19 00:17:01 jinmy-Inspiron-5720 CRON[18617]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 19 00:17:01 jinmy-Inspiron-5720 CRON[18618]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Jul 19 00:17:01 jinmy-Inspiron-5720 CRON[18617]: pam_unix(cron:session): session closed for user root
+Jul 19 00:17:07 jinmy-Inspiron-5720 gnome-shell[1774]: [0;1;39m[0;1;31m[0;1;39mSome code accessed the property 'WindowPreviewMenu' on the module 'windowPreview'. That property was defined with 'let' or 'const' inside the module. This was previously supported, but is not correct according to the ES6 standard. Any symbols to be exported from a module must be defined with 'var'. The property access will work as previously for the time being, but please fix your code anyway.[0m
+Jul 19 00:19:13 jinmy-Inspiron-5720 dbus-daemon[1651]: [session uid=1000 pid=1651] Activating service name='org.gnome.Screenshot' requested by ':1.21' (uid=1000 pid=1774 comm="/usr/bin/gnome-shell " label="unconfined")
+Jul 19 00:19:13 jinmy-Inspiron-5720 dbus-daemon[1651]: [session uid=1000 pid=1651] Successfully activated service 'org.gnome.Screenshot'
+Jul 19 00:19:19 jinmy-Inspiron-5720 dbus-daemon[713]: [system] Activating via systemd: service name='org.freedesktop.hostname1' unit='dbus-org.freedesktop.hostname1.service' requested by ':1.157' (uid=1000 pid=18705 comm="/usr/bin/gnome-screenshot --gapplication-service " label="unconfined")
+Jul 19 00:19:19 jinmy-Inspiron-5720 systemd[1]: Starting Hostname Service...
+-- Subject: Unit systemd-hostnamed.service has begun start-up
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- Unit systemd-hostnamed.service has begun starting up.
+Jul 19 00:19:19 jinmy-Inspiron-5720 gvfsd[1780]: mkdir failed on directory /var/cache/samba: Permiso denegado
+Jul 19 00:19:19 jinmy-Inspiron-5720 dbus-daemon[713]: [system] Successfully activated service 'org.freedesktop.hostname1'
+Jul 19 00:19:19 jinmy-Inspiron-5720 systemd[1]: Started Hostname Service.
+-- Subject: Unit systemd-hostnamed.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- Unit systemd-hostnamed.service has finished starting up.
+-- 
+-- The start-up result is RESULT.
+Jul 19 00:19:20 jinmy-Inspiron-5720 gvfsd[1780]: mkdir failed on directory /var/cache/samba: Permiso denegado
+Jul 19 00:19:21 jinmy-Inspiron-5720 gvfsd[1780]: mkdir failed on directory /var/cache/samba: Permiso denegado
+Jul 19 00:19:22 jinmy-Inspiron-5720 gvfsd[1780]: mkdir failed on directory /var/cache/samba: Permiso denegado
+Jul 19 00:19:23 jinmy-Inspiron-5720 gvfsd[1780]: mkdir failed on directory /var/cache/samba: Permiso denegado
+Jul 19 00:19:24 jinmy-Inspiron-5720 gvfsd[1780]: mkdir failed on directory /var/cache/samba: Permiso denegado
+Jul 19 00:19:25 jinmy-Inspiron-5720 gvfsd[1780]: mkdir failed on directory /var/cache/samba: Permiso denegado
+Jul 19 00:19:26 jinmy-Inspiron-5720 gvfsd[1780]: mkdir failed on directory /var/cache/samba: Permiso denegado
+Jul 19 00:19:27 jinmy-Inspiron-5720 gvfsd[1780]: mkdir failed on directory /var/cache/samba: Permiso denegado
+Jul 19 00:20:56 jinmy-Inspiron-5720 dbus-daemon[1651]: [session uid=1000 pid=1651] Activating service name='org.gnome.Screenshot' requested by ':1.21' (uid=1000 pid=1774 comm="/usr/bin/gnome-shell " label="unconfined")
+Jul 19 00:20:56 jinmy-Inspiron-5720 dbus-daemon[1651]: [session uid=1000 pid=1651] Successfully activated service 'org.gnome.Screenshot'
+Jul 19 00:21:04 jinmy-Inspiron-5720 dbus-daemon[713]: [system] Activating via systemd: service name='org.freedesktop.hostname1' unit='dbus-org.freedesktop.hostname1.service' requested by ':1.160' (uid=1000 pid=18810 comm="/usr/bin/gnome-screenshot --gapplication-service " label="unconfined")
+Jul 19 00:21:04 jinmy-Inspiron-5720 systemd[1]: Starting Hostname Service...
+-- Subject: Unit systemd-hostnamed.service has begun start-up
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- Unit systemd-hostnamed.service has begun starting up.
+Jul 19 00:21:04 jinmy-Inspiron-5720 dbus-daemon[713]: [system] Successfully activated service 'org.freedesktop.hostname1'
+Jul 19 00:21:04 jinmy-Inspiron-5720 systemd[1]: Started Hostname Service.
+-- Subject: Unit systemd-hostnamed.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- Unit systemd-hostnamed.service has finished starting up.
+-- 
+-- The start-up result is RESULT.
+Jul 19 00:22:21 jinmy-Inspiron-5720 dbus-daemon[1651]: [session uid=1000 pid=1651] Activating service name='org.gnome.Screenshot' requested by ':1.21' (uid=1000 pid=1774 comm="/usr/bin/gnome-shell " label="unconfined")
+Jul 19 00:22:21 jinmy-Inspiron-5720 dbus-daemon[1651]: [session uid=1000 pid=1651] Successfully activated service 'org.gnome.Screenshot'
+Jul 19 00:22:33 jinmy-Inspiron-5720 dbus-daemon[713]: [system] Activating via systemd: service name='org.freedesktop.hostname1' unit='dbus-org.freedesktop.hostname1.service' requested by ':1.162' (uid=1000 pid=18870 comm="/usr/bin/gnome-screenshot --gapplication-service " label="unconfined")
+Jul 19 00:22:33 jinmy-Inspiron-5720 systemd[1]: Starting Hostname Service...
+-- Subject: Unit systemd-hostnamed.service has begun start-up
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- Unit systemd-hostnamed.service has begun starting up.
+Jul 19 00:22:34 jinmy-Inspiron-5720 dbus-daemon[713]: [system] Successfully activated service 'org.freedesktop.hostname1'
+Jul 19 00:22:34 jinmy-Inspiron-5720 systemd[1]: Started Hostname Service.
+-- Subject: Unit systemd-hostnamed.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- Unit systemd-hostnamed.service has finished starting up.
+-- 
+-- The start-up result is RESULT.
+Jul 19 00:26:03 jinmy-Inspiron-5720 dbus-daemon[1651]: [session uid=1000 pid=1651] Activating service name='org.gnome.Nautilus' requested by ':1.21' (uid=1000 pid=1774 comm="/usr/bin/gnome-shell " label="unconfined")
+Jul 19 00:26:03 jinmy-Inspiron-5720 dbus-daemon[1651]: [session uid=1000 pid=1651] Successfully activated service 'org.gnome.Nautilus'
+Jul 19 00:26:04 jinmy-Inspiron-5720 dbus-daemon[713]: [system] Activating via systemd: service name='org.freedesktop.hostname1' unit='dbus-org.freedesktop.hostname1.service' requested by ':1.164' (uid=1000 pid=19022 comm="/usr/bin/nautilus --gapplication-service " label="unconfined")
+Jul 19 00:26:04 jinmy-Inspiron-5720 systemd[1]: Starting Hostname Service...
+-- Subject: Unit systemd-hostnamed.service has begun start-up
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- Unit systemd-hostnamed.service has begun starting up.
+Jul 19 00:26:04 jinmy-Inspiron-5720 nautilus[19022]: [0;1;39m[0;1;31m[0;1;39mCalled "net usershare info" but it failed: Falló al ejecutar el proceso hijo «net» (No such file or directory)[0m
+Jul 19 00:26:04 jinmy-Inspiron-5720 dbus-daemon[713]: [system] Successfully activated service 'org.freedesktop.hostname1'
+Jul 19 00:26:04 jinmy-Inspiron-5720 systemd[1]: Started Hostname Service.
+-- Subject: Unit systemd-hostnamed.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- Unit systemd-hostnamed.service has finished starting up.
+-- 
+-- The start-up result is RESULT.
+Jul 19 00:27:54 jinmy-Inspiron-5720 sudo[19084]: [0;1;39m[0;1;31m[0;1;39m   jinmy : TTY=pts/2 ; PWD=/var/www/mundipack/public ; USER=root ; COMMAND=/bin/chmod 777 -R storage[0m
+Jul 19 00:27:54 jinmy-Inspiron-5720 sudo[19084]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul 19 00:27:54 jinmy-Inspiron-5720 sudo[19084]: pam_unix(sudo:session): session closed for user root
+Jul 19 00:28:03 jinmy-Inspiron-5720 sudo[19093]: [0;1;39m[0;1;31m[0;1;39m   jinmy : TTY=pts/2 ; PWD=/var/www/mundipack/public ; USER=root ; COMMAND=/bin/chmod 777 -R storage/[0m
+Jul 19 00:28:03 jinmy-Inspiron-5720 sudo[19093]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul 19 00:28:03 jinmy-Inspiron-5720 sudo[19093]: pam_unix(sudo:session): session closed for user root
+Jul 19 00:29:43 jinmy-Inspiron-5720 dbus-daemon[1651]: [session uid=1000 pid=1651] Activating service name='org.gnome.Screenshot' requested by ':1.21' (uid=1000 pid=1774 comm="/usr/bin/gnome-shell " label="unconfined")
+Jul 19 00:29:43 jinmy-Inspiron-5720 dbus-daemon[1651]: [session uid=1000 pid=1651] Successfully activated service 'org.gnome.Screenshot'
+Jul 19 00:29:51 jinmy-Inspiron-5720 dbus-daemon[713]: [system] Activating via systemd: service name='org.freedesktop.hostname1' unit='dbus-org.freedesktop.hostname1.service' requested by ':1.166' (uid=1000 pid=19143 comm="/usr/bin/gnome-screenshot --gapplication-service " label="unconfined")
+Jul 19 00:29:51 jinmy-Inspiron-5720 systemd[1]: Starting Hostname Service...
+-- Subject: Unit systemd-hostnamed.service has begun start-up
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- Unit systemd-hostnamed.service has begun starting up.
+Jul 19 00:29:52 jinmy-Inspiron-5720 dbus-daemon[713]: [system] Successfully activated service 'org.freedesktop.hostname1'
+Jul 19 00:29:52 jinmy-Inspiron-5720 systemd[1]: Started Hostname Service.
+-- Subject: Unit systemd-hostnamed.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- Unit systemd-hostnamed.service has finished starting up.
+-- 
+-- The start-up result is RESULT.
+Jul 19 00:34:35 jinmy-Inspiron-5720 dhclient[1363]: DHCPREQUEST of 192.168.0.8 on wlp1s0 to 192.168.0.1 port 67 (xid=0x27881ec2)
+Jul 19 00:34:35 jinmy-Inspiron-5720 dhclient[1363]: DHCPACK of 192.168.0.8 from 192.168.0.1
+Jul 19 00:34:35 jinmy-Inspiron-5720 NetworkManager[818]: <info>  [1531978475.6887] dhcp4 (wlp1s0):   address 192.168.0.8
+Jul 19 00:34:35 jinmy-Inspiron-5720 NetworkManager[818]: <info>  [1531978475.6888] dhcp4 (wlp1s0):   plen 24 (255.255.255.0)
+Jul 19 00:34:35 jinmy-Inspiron-5720 NetworkManager[818]: <info>  [1531978475.6888] dhcp4 (wlp1s0):   gateway 192.168.0.1
+Jul 19 00:34:35 jinmy-Inspiron-5720 NetworkManager[818]: <info>  [1531978475.6889] dhcp4 (wlp1s0):   lease time 3600
+Jul 19 00:34:35 jinmy-Inspiron-5720 NetworkManager[818]: <info>  [1531978475.6889] dhcp4 (wlp1s0):   hostname 'jinmy-Inspiron-5720'
+Jul 19 00:34:35 jinmy-Inspiron-5720 NetworkManager[818]: <info>  [1531978475.6889] dhcp4 (wlp1s0):   nameserver '190.113.220.18'
+Jul 19 00:34:35 jinmy-Inspiron-5720 NetworkManager[818]: <info>  [1531978475.6889] dhcp4 (wlp1s0):   nameserver '190.113.220.51'
+Jul 19 00:34:35 jinmy-Inspiron-5720 NetworkManager[818]: <info>  [1531978475.6889] dhcp4 (wlp1s0):   nameserver '190.113.220.54'
+Jul 19 00:34:35 jinmy-Inspiron-5720 NetworkManager[818]: <info>  [1531978475.6889] dhcp4 (wlp1s0): state changed bound -> bound
+Jul 19 00:34:35 jinmy-Inspiron-5720 dbus-daemon[713]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.13' (uid=0 pid=818 comm="/usr/sbin/NetworkManager --no-daemon " label="unconfined")
+Jul 19 00:34:35 jinmy-Inspiron-5720 systemd[1]: Starting Network Manager Script Dispatcher Service...
+-- Subject: Unit NetworkManager-dispatcher.service has begun start-up
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- Unit NetworkManager-dispatcher.service has begun starting up.
+Jul 19 00:34:35 jinmy-Inspiron-5720 dhclient[1363]: bound to 192.168.0.8 -- renewal in 1577 seconds.
+Jul 19 00:34:35 jinmy-Inspiron-5720 dbus-daemon[713]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Jul 19 00:34:35 jinmy-Inspiron-5720 systemd[1]: Started Network Manager Script Dispatcher Service.
+-- Subject: Unit NetworkManager-dispatcher.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- Unit NetworkManager-dispatcher.service has finished starting up.
+-- 
+-- The start-up result is RESULT.
+Jul 19 00:34:35 jinmy-Inspiron-5720 nm-dispatcher[19417]: req:1 'dhcp4-change' [wlp1s0]: new request (1 scripts)
+Jul 19 00:34:35 jinmy-Inspiron-5720 nm-dispatcher[19417]: req:1 'dhcp4-change' [wlp1s0]: start running ordered scripts...
+Jul 19 00:35:51 jinmy-Inspiron-5720 nautilus[19022]: [0;1;39m[0;1;31m[0;1;39mCalled "net usershare info" but it failed: Falló al ejecutar el proceso hijo «net» (No such file or directory)[0m
+Jul 19 00:37:21 jinmy-Inspiron-5720 dbus-daemon[1651]: [session uid=1000 pid=1651] Activating service name='org.gnome.Screenshot' requested by ':1.21' (uid=1000 pid=1774 comm="/usr/bin/gnome-shell " label="unconfined")
+Jul 19 00:37:21 jinmy-Inspiron-5720 dbus-daemon[1651]: [session uid=1000 pid=1651] Successfully activated service 'org.gnome.Screenshot'
+Jul 19 00:37:27 jinmy-Inspiron-5720 dbus-daemon[713]: [system] Activating via systemd: service name='org.freedesktop.hostname1' unit='dbus-org.freedesktop.hostname1.service' requested by ':1.169' (uid=1000 pid=19507 comm="/usr/bin/gnome-screenshot --gapplication-service " label="unconfined")
+Jul 19 00:37:27 jinmy-Inspiron-5720 systemd[1]: Starting Hostname Service...
+-- Subject: Unit systemd-hostnamed.service has begun start-up
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- Unit systemd-hostnamed.service has begun starting up.
+Jul 19 00:37:27 jinmy-Inspiron-5720 dbus-daemon[713]: [system] Successfully activated service 'org.freedesktop.hostname1'
+Jul 19 00:37:27 jinmy-Inspiron-5720 systemd[1]: Started Hostname Service.
+-- Subject: Unit systemd-hostnamed.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- Unit systemd-hostnamed.service has finished starting up.
+-- 
+-- The start-up result is RESULT.
+Jul 19 00:39:01 jinmy-Inspiron-5720 CRON[19591]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 19 00:39:01 jinmy-Inspiron-5720 CRON[19592]: (root) CMD (  [ -x /usr/lib/php/sessionclean ] && if [ ! -d /run/systemd/system ]; then /usr/lib/php/sessionclean; fi)
+Jul 19 00:39:01 jinmy-Inspiron-5720 systemd[1]: Starting Clean php session files...
+-- Subject: Unit phpsessionclean.service has begun start-up
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- Unit phpsessionclean.service has begun starting up.
+Jul 19 00:39:01 jinmy-Inspiron-5720 CRON[19591]: pam_unix(cron:session): session closed for user root
+Jul 19 00:39:01 jinmy-Inspiron-5720 systemd[1]: Started Clean php session files.
+-- Subject: Unit phpsessionclean.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- Unit phpsessionclean.service has finished starting up.
+-- 
+-- The start-up result is RESULT.
+Jul 19 00:39:36 jinmy-Inspiron-5720 nautilus[19022]: [0;1;39m[0;1;31m[0;1;39mCalled "net usershare info" but it failed: Falló al ejecutar el proceso hijo «net» (No such file or directory)[0m
+Jul 19 00:39:53 jinmy-Inspiron-5720 wpa_supplicant[742]: [0;1;39m[0;1;31m[0;1;39mwlp1s0: WPA: Group rekeying completed with 08:3e:0c:96:b9:40 [GTK=TKIP][0m
+Jul 19 00:44:43 jinmy-Inspiron-5720 dbus-daemon[1651]: [session uid=1000 pid=1651] Activating service name='org.gnome.ControlCenter.SearchProvider' requested by ':1.21' (uid=1000 pid=1774 comm="/usr/bin/gnome-shell " label="unconfined")
+Jul 19 00:44:43 jinmy-Inspiron-5720 dbus-daemon[1651]: [session uid=1000 pid=1651] Activating service name='org.gnome.Calendar' requested by ':1.21' (uid=1000 pid=1774 comm="/usr/bin/gnome-shell " label="unconfined")
+Jul 19 00:44:43 jinmy-Inspiron-5720 dbus-daemon[1651]: [session uid=1000 pid=1651] Activating service name='org.gnome.seahorse.Application' requested by ':1.21' (uid=1000 pid=1774 comm="/usr/bin/gnome-shell " label="unconfined")
+Jul 19 00:44:43 jinmy-Inspiron-5720 dbus-daemon[1651]: [session uid=1000 pid=1651] Successfully activated service 'org.gnome.ControlCenter.SearchProvider'
+Jul 19 00:44:43 jinmy-Inspiron-5720 dbus-daemon[1651]: [session uid=1000 pid=1651] Successfully activated service 'org.gnome.seahorse.Application'
+Jul 19 00:44:43 jinmy-Inspiron-5720 dbus-daemon[1651]: [session uid=1000 pid=1651] Successfully activated service 'org.gnome.Calendar'
+Jul 19 00:44:46 jinmy-Inspiron-5720 PackageKit[1494]: resolve transaction /825_ceebddcd from uid 1000 finished with success after 559ms
+Jul 19 00:48:45 jinmy-Inspiron-5720 PackageKit[1494]: get-details-local transaction /826_aeeccdba from uid 1000 finished with success after 971ms
+Jul 19 00:48:46 jinmy-Inspiron-5720 PackageKit[1494]: get-files-local transaction /827_eceabdae from uid 1000 finished with success after 1214ms
+Jul 19 00:48:47 jinmy-Inspiron-5720 PackageKit[1494]: get-details transaction /828_eeeeacbd from uid 1000 finished with success after 539ms
+Jul 19 00:48:47 jinmy-Inspiron-5720 PackageKit[1494]: get-details transaction /829_bbcabbcb from uid 1000 finished with success after 528ms
+Jul 19 00:48:54 jinmy-Inspiron-5720 PackageKit[1494]: uid 1000 is trying to obtain org.freedesktop.packagekit.package-install-untrusted auth (only_trusted:0)
+Jul 19 00:48:59 jinmy-Inspiron-5720 polkit-agent-helper-1[20270]: [0;1;39m[0;1;31m[0;1;39mpam_unix(polkit-1:auth): authentication failure; logname= uid=1000 euid=0 tty= ruser=jinmy rhost=  user=jinmy[0m
+Jul 19 00:49:01 jinmy-Inspiron-5720 org.gnome.Shell.desktop[1774]: [0;1;39m[0;1;31m[0;1;39mpolkit-agent-helper-1: pam_authenticate failed: Authentication failure[0m
+Jul 19 00:49:05 jinmy-Inspiron-5720 polkitd(authority=local)[873]: [0;1;39m[0;1;31m[0;1;39mOperator of unix-session:2 successfully authenticated as unix-user:jinmy to gain ONE-SHOT authorization for action org.freedesktop.packagekit.package-install-untrusted for system-bus-name::1.100 [/usr/bin/gnome-software --gapplication-service] (owned by unix-user:jinmy)[0m
+Jul 19 00:49:05 jinmy-Inspiron-5720 PackageKit[1494]: uid 1000 obtained auth for org.freedesktop.packagekit.package-install-untrusted
+Jul 19 00:49:23 jinmy-Inspiron-5720 packagekitd[1494]: PARENT process running...
+Jul 19 00:49:29 jinmy-Inspiron-5720 gnome-software[1984]: [0;1;39m[0;1;31m[0;1;39mfailed to rescan: Failed to parse /usr/share/applications/com.teamviewer.TeamViewer.desktop file: cannot process file of type application/x-desktop[0m
+Jul 19 00:49:29 jinmy-Inspiron-5720 dbus-daemon[1651]: [session uid=1000 pid=1651] Reloaded configuration
+Jul 19 00:49:29 jinmy-Inspiron-5720 dbus-daemon[1117]: [session uid=120 pid=1117] Reloaded configuration
+Jul 19 00:49:30 jinmy-Inspiron-5720 systemd[1]: Reloading.
+Jul 19 00:49:30 jinmy-Inspiron-5720 systemd[1]: Reloading.
+Jul 19 00:49:30 jinmy-Inspiron-5720 systemd[1]: Starting TeamViewer remote control daemon...
+-- Subject: Unit teamviewerd.service has begun start-up
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- Unit teamviewerd.service has begun starting up.
+Jul 19 00:49:31 jinmy-Inspiron-5720 systemd[1]: teamviewerd.service: Can't open PID file /var/run/teamviewerd.pid (yet?) after start: No such file or directory
+Jul 19 00:49:31 jinmy-Inspiron-5720 systemd[1]: Started TeamViewer remote control daemon.
+-- Subject: Unit teamviewerd.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- Unit teamviewerd.service has finished starting up.
+-- 
+-- The start-up result is RESULT.
+Jul 19 00:49:35 jinmy-Inspiron-5720 packagekitd[1494]: Parent finished...
+Jul 19 00:49:35 jinmy-Inspiron-5720 PackageKit[1494]: install-files transaction /830_acecbaed from uid 1000 finished with success after 30474ms
+Jul 19 00:49:35 jinmy-Inspiron-5720 gnome-software[1984]: [0;1;39m[0;1;31m[0;1;39mSource ID 6753 was not found when attempting to remove it[0m
+Jul 19 00:49:36 jinmy-Inspiron-5720 PackageKit[1494]: resolve transaction /831_dababdab from uid 1000 finished with success after 535ms
+Jul 19 00:49:36 jinmy-Inspiron-5720 PackageKit[1494]: get-details transaction /832_acbaeedc from uid 1000 finished with success after 532ms
+Jul 19 00:49:48 jinmy-Inspiron-5720 dbus-daemon[1651]: [session uid=1000 pid=1651] Activating service name='org.gnome.ControlCenter.SearchProvider' requested by ':1.21' (uid=1000 pid=1774 comm="/usr/bin/gnome-shell " label="unconfined")
+Jul 19 00:49:48 jinmy-Inspiron-5720 dbus-daemon[1651]: [session uid=1000 pid=1651] Activating service name='org.gnome.Calendar' requested by ':1.21' (uid=1000 pid=1774 comm="/usr/bin/gnome-shell " label="unconfined")
+Jul 19 00:49:48 jinmy-Inspiron-5720 dbus-daemon[1651]: [session uid=1000 pid=1651] Activating service name='org.gnome.seahorse.Application' requested by ':1.21' (uid=1000 pid=1774 comm="/usr/bin/gnome-shell " label="unconfined")
+Jul 19 00:49:48 jinmy-Inspiron-5720 dbus-daemon[1651]: [session uid=1000 pid=1651] Successfully activated service 'org.gnome.ControlCenter.SearchProvider'
+Jul 19 00:49:48 jinmy-Inspiron-5720 dbus-daemon[1651]: [session uid=1000 pid=1651] Successfully activated service 'org.gnome.seahorse.Application'
+Jul 19 00:49:48 jinmy-Inspiron-5720 dbus-daemon[1651]: [session uid=1000 pid=1651] Successfully activated service 'org.gnome.Calendar'
+Jul 19 00:49:54 jinmy-Inspiron-5720 com.teamviewer.TeamViewer.desktop[21102]: Init...
+Jul 19 00:49:54 jinmy-Inspiron-5720 com.teamviewer.TeamViewer.desktop[21102]: CheckCPU: SSE2 support: yes
+Jul 19 00:49:54 jinmy-Inspiron-5720 com.teamviewer.TeamViewer.desktop[21102]: Checking setup...
+Jul 19 00:49:54 jinmy-Inspiron-5720 com.teamviewer.TeamViewer.desktop[21102]: Launching TeamViewer ...
+Jul 19 00:49:54 jinmy-Inspiron-5720 com.teamviewer.TeamViewer.desktop[21102]: Launching TeamViewer GUI ...
+Jul 19 00:49:54 jinmy-Inspiron-5720 /usr/lib/gdm3/gdm-x-session[1643]: [0;1;39m[0;1;31m[0;1;39m(II) modeset(0): EDID vendor "AUO", prod id 5534[0m
+Jul 19 00:49:54 jinmy-Inspiron-5720 /usr/lib/gdm3/gdm-x-session[1643]: [0;1;39m[0;1;31m[0;1;39m(II) modeset(0): Printing DDC gathered Modelines:[0m
+Jul 19 00:49:54 jinmy-Inspiron-5720 /usr/lib/gdm3/gdm-x-session[1643]: [0;1;39m[0;1;31m[0;1;39m(II) modeset(0): Modeline "1600x900"x0.0  100.00  1600 1648 1680 1798  900 903 909 926 +hsync -vsync (55.6 kHz eP)[0m
+Jul 19 00:49:54 jinmy-Inspiron-5720 /usr/lib/gdm3/gdm-x-session[1643]: [0;1;39m[0;1;31m[0;1;39m(II) modeset(0): EDID vendor "AUO", prod id 5534[0m
+Jul 19 00:49:54 jinmy-Inspiron-5720 /usr/lib/gdm3/gdm-x-session[1643]: [0;1;39m[0;1;31m[0;1;39m(II) modeset(0): Printing DDC gathered Modelines:[0m
+Jul 19 00:49:54 jinmy-Inspiron-5720 /usr/lib/gdm3/gdm-x-session[1643]: [0;1;39m[0;1;31m[0;1;39m(II) modeset(0): Modeline "1600x900"x0.0  100.00  1600 1648 1680 1798  900 903 909 926 +hsync -vsync (55.6 kHz eP)[0m
+Jul 19 00:49:57 jinmy-Inspiron-5720 gnome-shell[1774]: [0;1;39m[0;1;31m[0;1;39mSome code accessed the property 'getUniqueBusNameSync' on the module 'util'. That property was defined with 'let' or 'const' inside the module. This was previously supported, but is not correct according to the ES6 standard. Any symbols to be exported from a module must be defined with 'var'. The property access will work as previously for the time being, but please fix your code anyway.[0m
+Jul 19 00:49:57 jinmy-Inspiron-5720 gnome-shell[1774]: [0;1;39m[0;1;31m[0;1;39m[AppIndicatorSupport-DEBUG] Registering StatusNotifierItem :1.447/StatusNotifierItem[0m
+Jul 19 00:49:57 jinmy-Inspiron-5720 gnome-shell[1774]: [0;1;39m[0;1;31m[0;1;39mReceived property ToolTip with type s does not match expected type (sa(iiay)ss) in the expected interface[0m
+Jul 19 00:49:57 jinmy-Inspiron-5720 gnome-shell[1774]: [0;1;39m[0;1;31m[0;1;39mReceived property WindowId with type u does not match expected type i in the expected interface[0m
+Jul 19 00:50:43 jinmy-Inspiron-5720 dbus-daemon[1651]: [session uid=1000 pid=1651] Activating service name='com.teamviewer.TeamViewer.Desktop' requested by ':1.451' (uid=1000 pid=20688 comm="/opt/teamviewer/tv_bin/teamviewerd -d " label="unconfined")
+Jul 19 00:50:43 jinmy-Inspiron-5720 dbus-daemon[1651]: [session uid=1000 pid=1651] Successfully activated service 'com.teamviewer.TeamViewer.Desktop'
+Jul 19 00:50:43 jinmy-Inspiron-5720 /usr/lib/gdm3/gdm-x-session[1643]: [0;1;39m[0;1;31m[0;1;39m(II) modeset(0): EDID vendor "AUO", prod id 5534[0m
+Jul 19 00:50:43 jinmy-Inspiron-5720 /usr/lib/gdm3/gdm-x-session[1643]: [0;1;39m[0;1;31m[0;1;39m(II) modeset(0): Printing DDC gathered Modelines:[0m
+Jul 19 00:50:43 jinmy-Inspiron-5720 /usr/lib/gdm3/gdm-x-session[1643]: [0;1;39m[0;1;31m[0;1;39m(II) modeset(0): Modeline "1600x900"x0.0  100.00  1600 1648 1680 1798  900 903 909 926 +hsync -vsync (55.6 kHz eP)[0m
+Jul 19 00:50:56 jinmy-Inspiron-5720 /usr/lib/gdm3/gdm-x-session[1643]: [0;1;39m[0;1;31m[0;1;39m(II) modeset(0): EDID vendor "AUO", prod id 5534[0m
+Jul 19 00:50:56 jinmy-Inspiron-5720 /usr/lib/gdm3/gdm-x-session[1643]: [0;1;39m[0;1;31m[0;1;39m(II) modeset(0): Printing DDC gathered Modelines:[0m
+Jul 19 00:50:56 jinmy-Inspiron-5720 /usr/lib/gdm3/gdm-x-session[1643]: [0;1;39m[0;1;31m[0;1;39m(II) modeset(0): Modeline "1600x900"x0.0  100.00  1600 1648 1680 1798  900 903 909 926 +hsync -vsync (55.6 kHz eP)[0m
+Jul 19 00:51:06 jinmy-Inspiron-5720 gnome-shell[1774]: [0;1;39m[0;1;31m[0;1;39mSome code accessed the property 'discreteGpuAvailable' on the module 'appDisplay'. That property was defined with 'let' or 'const' inside the module. This was previously supported, but is not correct according to the ES6 standard. Any symbols to be exported from a module must be defined with 'var'. The property access will work as previously for the time being, but please fix your code anyway.[0m
+Jul 19 00:51:06 jinmy-Inspiron-5720 gnome-shell[1774]: [0;1;39m[0;1;31m[0;1;39mSome code accessed the property 'WindowPreviewMenuItem' on the module 'windowPreview'. That property was defined with 'let' or 'const' inside the module. This was previously supported, but is not correct according to the ES6 standard. Any symbols to be exported from a module must be defined with 'var'. The property access will work as previously for the time being, but please fix your code anyway.[0m
+Jul 19 00:51:08 jinmy-Inspiron-5720 /usr/lib/gdm3/gdm-x-session[1643]: [0;1;39m[0;1;31m[0;1;39m(II) modeset(0): EDID vendor "AUO", prod id 5534[0m
+Jul 19 00:51:08 jinmy-Inspiron-5720 /usr/lib/gdm3/gdm-x-session[1643]: [0;1;39m[0;1;31m[0;1;39m(II) modeset(0): Printing DDC gathered Modelines:[0m
+Jul 19 00:51:08 jinmy-Inspiron-5720 /usr/lib/gdm3/gdm-x-session[1643]: [0;1;39m[0;1;31m[0;1;39m(II) modeset(0): Modeline "1600x900"x0.0  100.00  1600 1648 1680 1798  900 903 909 926 +hsync -vsync (55.6 kHz eP)[0m
+Jul 19 00:52:44 jinmy-Inspiron-5720 chromium-browser.desktop[21370]: Se creó una nueva ventana en la sesión existente del navegador.
+Jul 19 00:55:32 jinmy-Inspiron-5720 dbus-daemon[1651]: [session uid=1000 pid=1651] Activating service name='com.teamviewer.TeamViewer.Desktop' requested by ':1.460' (uid=1000 pid=20688 comm="/opt/teamviewer/tv_bin/teamviewerd -d " label="unconfined")
+Jul 19 00:55:32 jinmy-Inspiron-5720 dbus-daemon[1651]: [session uid=1000 pid=1651] Successfully activated service 'com.teamviewer.TeamViewer.Desktop'
+Jul 19 00:55:32 jinmy-Inspiron-5720 /usr/lib/gdm3/gdm-x-session[1643]: [0;1;39m[0;1;31m[0;1;39m(II) modeset(0): EDID vendor "AUO", prod id 5534[0m
+Jul 19 00:55:32 jinmy-Inspiron-5720 /usr/lib/gdm3/gdm-x-session[1643]: [0;1;39m[0;1;31m[0;1;39m(II) modeset(0): Printing DDC gathered Modelines:[0m
+Jul 19 00:55:32 jinmy-Inspiron-5720 /usr/lib/gdm3/gdm-x-session[1643]: [0;1;39m[0;1;31m[0;1;39m(II) modeset(0): Modeline "1600x900"x0.0  100.00  1600 1648 1680 1798  900 903 909 926 +hsync -vsync (55.6 kHz eP)[0m
+Jul 19 00:55:50 jinmy-Inspiron-5720 /usr/lib/gdm3/gdm-x-session[1643]: [0;1;39m[0;1;31m[0;1;39m(II) modeset(0): EDID vendor "AUO", prod id 5534[0m
+Jul 19 00:55:50 jinmy-Inspiron-5720 /usr/lib/gdm3/gdm-x-session[1643]: [0;1;39m[0;1;31m[0;1;39m(II) modeset(0): Printing DDC gathered Modelines:[0m
+Jul 19 00:55:50 jinmy-Inspiron-5720 /usr/lib/gdm3/gdm-x-session[1643]: [0;1;39m[0;1;31m[0;1;39m(II) modeset(0): Modeline "1600x900"x0.0  100.00  1600 1648 1680 1798  900 903 909 926 +hsync -vsync (55.6 kHz eP)[0m
+Jul 19 00:56:02 jinmy-Inspiron-5720 /usr/lib/gdm3/gdm-x-session[1643]: [0;1;39m[0;1;31m[0;1;39m(II) modeset(0): EDID vendor "AUO", prod id 5534[0m
+Jul 19 00:56:02 jinmy-Inspiron-5720 /usr/lib/gdm3/gdm-x-session[1643]: [0;1;39m[0;1;31m[0;1;39m(II) modeset(0): Printing DDC gathered Modelines:[0m
+Jul 19 00:56:02 jinmy-Inspiron-5720 /usr/lib/gdm3/gdm-x-session[1643]: [0;1;39m[0;1;31m[0;1;39m(II) modeset(0): Modeline "1600x900"x0.0  100.00  1600 1648 1680 1798  900 903 909 926 +hsync -vsync (55.6 kHz eP)[0m
+Jul 19 00:59:18 jinmy-Inspiron-5720 sudo[21995]: [0;1;39m[0;1;31m[0;1;39mpam_unix(sudo:auth): authentication failure; logname= uid=1000 euid=0 tty=/dev/pts/1 ruser=jinmy rhost=  user=jinmy[0m
+Jul 19 00:59:30 jinmy-Inspiron-5720 sudo[21995]: [0;1;39m[0;1;31m[0;1;39m   jinmy : TTY=pts/1 ; PWD=/var/www/mundipack ; USER=root ; COMMAND=/bin/chmod -R 777 bootstrap/cache[0m
+Jul 19 00:59:30 jinmy-Inspiron-5720 sudo[21995]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul 19 00:59:30 jinmy-Inspiron-5720 sudo[21995]: pam_unix(sudo:session): session closed for user root
+Jul 19 00:59:34 jinmy-Inspiron-5720 sudo[22013]: [0;1;39m[0;1;31m[0;1;39m   jinmy : TTY=pts/1 ; PWD=/var/www/mundipack ; USER=root ; COMMAND=/bin/chmod -R 777 bootstrap/cache[0m
+Jul 19 00:59:34 jinmy-Inspiron-5720 sudo[22013]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul 19 00:59:34 jinmy-Inspiron-5720 sudo[22013]: pam_unix(sudo:session): session closed for user root
+Jul 19 01:00:11 jinmy-Inspiron-5720 systemd[1]: Started Run anacron jobs.
+-- Subject: Unit anacron.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- Unit anacron.service has finished starting up.
+-- 
+-- The start-up result is RESULT.
+Jul 19 01:00:11 jinmy-Inspiron-5720 anacron[22023]: [0;1;39m[0;1;31m[0;1;39mAnacron 2.3 started on 2018-07-19[0m
+Jul 19 01:00:11 jinmy-Inspiron-5720 anacron[22023]: [0;1;39m[0;1;31m[0;1;39mNormal exit (0 jobs run)[0m
+Jul 19 01:00:23 jinmy-Inspiron-5720 sudo[22033]: [0;1;39m[0;1;31m[0;1;39m   jinmy : TTY=pts/1 ; PWD=/var/www/mundipack ; USER=root ; COMMAND=/bin/chmod -R 777 storage/[0m
+Jul 19 01:00:23 jinmy-Inspiron-5720 sudo[22033]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul 19 01:00:23 jinmy-Inspiron-5720 sudo[22033]: pam_unix(sudo:session): session closed for user root
+Jul 19 01:00:36 jinmy-Inspiron-5720 org.gnome.Shell.desktop[1774]: Se creó una nueva ventana en la sesión existente del navegador.
+Jul 19 01:00:52 jinmy-Inspiron-5720 dhclient[1363]: DHCPREQUEST of 192.168.0.8 on wlp1s0 to 192.168.0.1 port 67 (xid=0x27881ec2)
+Jul 19 01:00:52 jinmy-Inspiron-5720 dhclient[1363]: DHCPACK of 192.168.0.8 from 192.168.0.1
+Jul 19 01:00:52 jinmy-Inspiron-5720 NetworkManager[818]: <info>  [1531980052.9622] dhcp4 (wlp1s0):   address 192.168.0.8
+Jul 19 01:00:52 jinmy-Inspiron-5720 NetworkManager[818]: <info>  [1531980052.9622] dhcp4 (wlp1s0):   plen 24 (255.255.255.0)
+Jul 19 01:00:52 jinmy-Inspiron-5720 NetworkManager[818]: <info>  [1531980052.9622] dhcp4 (wlp1s0):   gateway 192.168.0.1
+Jul 19 01:00:52 jinmy-Inspiron-5720 NetworkManager[818]: <info>  [1531980052.9622] dhcp4 (wlp1s0):   lease time 3600
+Jul 19 01:00:52 jinmy-Inspiron-5720 NetworkManager[818]: <info>  [1531980052.9623] dhcp4 (wlp1s0):   hostname 'jinmy-Inspiron-5720'
+Jul 19 01:00:52 jinmy-Inspiron-5720 NetworkManager[818]: <info>  [1531980052.9623] dhcp4 (wlp1s0):   nameserver '190.113.220.18'
+Jul 19 01:00:52 jinmy-Inspiron-5720 NetworkManager[818]: <info>  [1531980052.9623] dhcp4 (wlp1s0):   nameserver '190.113.220.51'
+Jul 19 01:00:52 jinmy-Inspiron-5720 NetworkManager[818]: <info>  [1531980052.9623] dhcp4 (wlp1s0):   nameserver '190.113.220.54'
+Jul 19 01:00:52 jinmy-Inspiron-5720 NetworkManager[818]: <info>  [1531980052.9623] dhcp4 (wlp1s0): state changed bound -> bound
+Jul 19 01:00:52 jinmy-Inspiron-5720 dbus-daemon[713]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.13' (uid=0 pid=818 comm="/usr/sbin/NetworkManager --no-daemon " label="unconfined")
+Jul 19 01:00:52 jinmy-Inspiron-5720 systemd[1]: Starting Network Manager Script Dispatcher Service...
+-- Subject: Unit NetworkManager-dispatcher.service has begun start-up
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- Unit NetworkManager-dispatcher.service has begun starting up.
+Jul 19 01:00:52 jinmy-Inspiron-5720 dhclient[1363]: bound to 192.168.0.8 -- renewal in 1629 seconds.
+Jul 19 01:00:52 jinmy-Inspiron-5720 dbus-daemon[713]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Jul 19 01:00:52 jinmy-Inspiron-5720 systemd[1]: Started Network Manager Script Dispatcher Service.
+-- Subject: Unit NetworkManager-dispatcher.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- Unit NetworkManager-dispatcher.service has finished starting up.
+-- 
+-- The start-up result is RESULT.
+Jul 19 01:00:52 jinmy-Inspiron-5720 nm-dispatcher[22193]: req:1 'dhcp4-change' [wlp1s0]: new request (1 scripts)
+Jul 19 01:00:52 jinmy-Inspiron-5720 nm-dispatcher[22193]: req:1 'dhcp4-change' [wlp1s0]: start running ordered scripts...
+Jul 19 01:05:34 jinmy-Inspiron-5720 code.desktop[2521]: [main 01:05:34] update#setState checking for updates
+Jul 19 01:05:34 jinmy-Inspiron-5720 code.desktop[2521]: [main 01:05:34] update#setState idle
+Jul 19 01:06:59 jinmy-Inspiron-5720 sudo[22376]: [0;1;39m[0;1;31m[0;1;39m   jinmy : TTY=pts/1 ; PWD=/var/www/mundipack ; USER=root ; COMMAND=/usr/bin/apt update[0m
+Jul 19 01:06:59 jinmy-Inspiron-5720 sudo[22376]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul 19 01:07:10 jinmy-Inspiron-5720 gnome-software[1984]: [0;1;39m[0;1;31m[0;1;39mOnly 0 apps for recent list, hiding[0m
+Jul 19 01:07:10 jinmy-Inspiron-5720 gnome-software[1984]: [0;1;39m[0;1;31m[0;1;39mhiding category productivity featured applications: found only 0 to show, need at least 9[0m
+Jul 19 01:07:10 jinmy-Inspiron-5720 gnome-software[1984]: [0;1;39m[0;1;31m[0;1;39mhiding category graphics featured applications: found only 1 to show, need at least 9[0m
+Jul 19 01:07:10 jinmy-Inspiron-5720 gnome-software[1984]: [0;1;39m[0;1;31m[0;1;39mOnly 8 apps for popular list, hiding[0m
+Jul 19 01:07:11 jinmy-Inspiron-5720 PackageKit[1494]: resolve transaction /833_adddaded from uid 1000 finished with success after 780ms
+Jul 19 01:07:14 jinmy-Inspiron-5720 sudo[22376]: pam_unix(sudo:session): session closed for user root
+Jul 19 01:07:14 jinmy-Inspiron-5720 PackageKit[1494]: resolve transaction /834_adecabec from uid 1000 finished with success after 3485ms
+Jul 19 01:07:26 jinmy-Inspiron-5720 sudo[23087]: [0;1;39m[0;1;31m[0;1;39m   jinmy : TTY=pts/1 ; PWD=/var/www/mundipack ; USER=root ; COMMAND=/usr/bin/apt-get upgrade[0m
+Jul 19 01:07:26 jinmy-Inspiron-5720 sudo[23087]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul 19 01:07:39 jinmy-Inspiron-5720 sudo[23087]: pam_unix(sudo:session): session closed for user root
+Jul 19 01:08:02 jinmy-Inspiron-5720 sudo[23116]: [0;1;39m[0;1;31m[0;1;39m   jinmy : TTY=pts/1 ; PWD=/var/www/mundipack ; USER=root ; COMMAND=/usr/bin/apt-get upgrade[0m
+Jul 19 01:08:02 jinmy-Inspiron-5720 sudo[23116]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul 19 01:08:15 jinmy-Inspiron-5720 gnome-software[1984]: [0;1;39m[0;1;31m[0;1;39mfailed to rescan: Failed to parse /usr/share/applications/gnome-initial-setup.desktop file: cannot process file of type application/x-desktop[0m
+Jul 19 01:08:17 jinmy-Inspiron-5720 dbus-daemon[1117]: [session uid=120 pid=1117] Reloaded configuration
+Jul 19 01:08:17 jinmy-Inspiron-5720 dbus-daemon[1651]: [session uid=1000 pid=1651] Reloaded configuration
+Jul 19 01:08:17 jinmy-Inspiron-5720 dbus-daemon[1117]: [session uid=120 pid=1117] Reloaded configuration
+Jul 19 01:08:17 jinmy-Inspiron-5720 dbus-daemon[1651]: [session uid=1000 pid=1651] Reloaded configuration
+Jul 19 01:08:17 jinmy-Inspiron-5720 dbus-daemon[1117]: [session uid=120 pid=1117] Reloaded configuration
+Jul 19 01:08:17 jinmy-Inspiron-5720 dbus-daemon[1117]: [session uid=120 pid=1117] Reloaded configuration
+Jul 19 01:08:17 jinmy-Inspiron-5720 dbus-daemon[1651]: [session uid=1000 pid=1651] Reloaded configuration
+Jul 19 01:08:17 jinmy-Inspiron-5720 dbus-daemon[1651]: [session uid=1000 pid=1651] Reloaded configuration
+Jul 19 01:08:17 jinmy-Inspiron-5720 systemd[1]: Reloading.
+Jul 19 01:08:17 jinmy-Inspiron-5720 dbus-daemon[1117]: [session uid=120 pid=1117] Reloaded configuration
+Jul 19 01:08:17 jinmy-Inspiron-5720 dbus-daemon[1651]: [session uid=1000 pid=1651] Reloaded configuration
+Jul 19 01:08:17 jinmy-Inspiron-5720 dbus-daemon[1117]: [session uid=120 pid=1117] Reloaded configuration
+Jul 19 01:08:17 jinmy-Inspiron-5720 dbus-daemon[1651]: [session uid=1000 pid=1651] Reloaded configuration
+Jul 19 01:08:17 jinmy-Inspiron-5720 systemd[1]: Reloading.
+Jul 19 01:08:19 jinmy-Inspiron-5720 systemd[1]: Reloading.
+Jul 19 01:08:19 jinmy-Inspiron-5720 systemd[1]: Starting Socket activation for snappy daemon.
+-- Subject: Unit snapd.socket has begun start-up
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- Unit snapd.socket has begun starting up.
+Jul 19 01:08:19 jinmy-Inspiron-5720 systemd[1]: Listening on Socket activation for snappy daemon.
+-- Subject: Unit snapd.socket has finished start-up
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- Unit snapd.socket has finished starting up.
+-- 
+-- The start-up result is RESULT.
+Jul 19 01:08:19 jinmy-Inspiron-5720 systemd[1]: Starting Snappy daemon...
+-- Subject: Unit snapd.service has begun start-up
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- Unit snapd.service has begun starting up.
+Jul 19 01:08:19 jinmy-Inspiron-5720 snapd[23330]: AppArmor status: apparmor is enabled and all features are available
+Jul 19 01:08:19 jinmy-Inspiron-5720 snapd[23330]: error: assert storage root unexpectedly world-writable: /var/lib/snapd/assertions/asserts-v0
+Jul 19 01:08:19 jinmy-Inspiron-5720 systemd[1]: [0;1;39m[0;1;31m[0;1;39msnapd.service: Main process exited, code=exited, status=1/FAILURE[0m
+Jul 19 01:08:19 jinmy-Inspiron-5720 systemd[1]: [0;1;39m[0;1;31m[0;1;39msnapd.service: Failed with result 'exit-code'.[0m
+Jul 19 01:08:19 jinmy-Inspiron-5720 systemd[1]: [0;1;31m[0;1;39m[0;1;31mFailed to start Snappy daemon.[0m
+-- Subject: Unit snapd.service has failed
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- Unit snapd.service has failed.
+-- 
+-- The result is RESULT.
+Jul 19 01:08:19 jinmy-Inspiron-5720 systemd[1]: Starting Wait until snapd is fully seeded...
+-- Subject: Unit snapd.seeded.service has begun start-up
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- Unit snapd.seeded.service has begun starting up.
+Jul 19 01:08:20 jinmy-Inspiron-5720 systemd[1]: snapd.service: Service hold-off time over, scheduling restart.
+Jul 19 01:08:20 jinmy-Inspiron-5720 systemd[1]: snapd.service: Scheduled restart job, restart counter is at 1.
+-- Subject: Automatic restarting of a unit has been scheduled
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- Automatic restarting of the unit snapd.service has been scheduled, as the result for
+-- the configured Restart= setting for the unit.
+Jul 19 01:08:20 jinmy-Inspiron-5720 systemd[1]: Stopped Snappy daemon.
+-- Subject: Unit snapd.service has finished shutting down
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- Unit snapd.service has finished shutting down.
+Jul 19 01:08:20 jinmy-Inspiron-5720 systemd[1]: Starting Snappy daemon...
+-- Subject: Unit snapd.service has begun start-up
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- Unit snapd.service has begun starting up.
+Jul 19 01:08:20 jinmy-Inspiron-5720 snapd[23349]: AppArmor status: apparmor is enabled and all features are available
+Jul 19 01:08:20 jinmy-Inspiron-5720 snapd[23349]: error: assert storage root unexpectedly world-writable: /var/lib/snapd/assertions/asserts-v0
+Jul 19 01:08:20 jinmy-Inspiron-5720 systemd[1]: [0;1;39m[0;1;31m[0;1;39msnapd.service: Main process exited, code=exited, status=1/FAILURE[0m
+Jul 19 01:08:20 jinmy-Inspiron-5720 systemd[1]: [0;1;39m[0;1;31m[0;1;39msnapd.service: Failed with result 'exit-code'.[0m
+Jul 19 01:08:20 jinmy-Inspiron-5720 systemd[1]: [0;1;31m[0;1;39m[0;1;31mFailed to start Snappy daemon.[0m
+-- Subject: Unit snapd.service has failed
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- Unit snapd.service has failed.
+-- 
+-- The result is RESULT.
+Jul 19 01:08:20 jinmy-Inspiron-5720 systemd[1]: snapd.service: Service hold-off time over, scheduling restart.
+Jul 19 01:08:20 jinmy-Inspiron-5720 systemd[1]: snapd.service: Scheduled restart job, restart counter is at 2.
+-- Subject: Automatic restarting of a unit has been scheduled
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- Automatic restarting of the unit snapd.service has been scheduled, as the result for
+-- the configured Restart= setting for the unit.
+Jul 19 01:08:20 jinmy-Inspiron-5720 systemd[1]: Stopped Snappy daemon.
+-- Subject: Unit snapd.service has finished shutting down
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- Unit snapd.service has finished shutting down.
+Jul 19 01:08:20 jinmy-Inspiron-5720 systemd[1]: Starting Snappy daemon...
+-- Subject: Unit snapd.service has begun start-up
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- Unit snapd.service has begun starting up.
+Jul 19 01:08:20 jinmy-Inspiron-5720 snapd[23371]: AppArmor status: apparmor is enabled and all features are available
+Jul 19 01:08:20 jinmy-Inspiron-5720 gnome-software[1984]: [0;1;39m[0;1;31m[0;1;39mOnly 0 apps for recent list, hiding[0m
+Jul 19 01:08:20 jinmy-Inspiron-5720 gnome-software[1984]: [0;1;39m[0;1;31m[0;1;39mhiding category productivity featured applications: found only 0 to show, need at least 9[0m
+Jul 19 01:08:20 jinmy-Inspiron-5720 gnome-software[1984]: [0;1;39m[0;1;31m[0;1;39mhiding category graphics featured applications: found only 1 to show, need at least 9[0m
+Jul 19 01:08:20 jinmy-Inspiron-5720 gnome-software[1984]: [0;1;39m[0;1;31m[0;1;39mOnly 8 apps for popular list, hiding[0m
+Jul 19 01:08:20 jinmy-Inspiron-5720 snapd[23371]: error: assert storage root unexpectedly world-writable: /var/lib/snapd/assertions/asserts-v0
+Jul 19 01:08:20 jinmy-Inspiron-5720 systemd[1]: [0;1;39m[0;1;31m[0;1;39msnapd.service: Main process exited, code=exited, status=1/FAILURE[0m
+Jul 19 01:08:20 jinmy-Inspiron-5720 systemd[1]: [0;1;39m[0;1;31m[0;1;39msnapd.service: Failed with result 'exit-code'.[0m
+Jul 19 01:08:20 jinmy-Inspiron-5720 systemd[1]: [0;1;31m[0;1;39m[0;1;31mFailed to start Snappy daemon.[0m
+-- Subject: Unit snapd.service has failed
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- Unit snapd.service has failed.
+-- 
+-- The result is RESULT.
+Jul 19 01:08:20 jinmy-Inspiron-5720 systemd[1]: snapd.service: Service hold-off time over, scheduling restart.
+Jul 19 01:08:20 jinmy-Inspiron-5720 systemd[1]: snapd.service: Scheduled restart job, restart counter is at 3.
+-- Subject: Automatic restarting of a unit has been scheduled
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- Automatic restarting of the unit snapd.service has been scheduled, as the result for
+-- the configured Restart= setting for the unit.
+Jul 19 01:08:20 jinmy-Inspiron-5720 systemd[1]: Stopped Snappy daemon.
+-- Subject: Unit snapd.service has finished shutting down
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- Unit snapd.service has finished shutting down.
+Jul 19 01:08:20 jinmy-Inspiron-5720 systemd[1]: Starting Snappy daemon...
+-- Subject: Unit snapd.service has begun start-up
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- Unit snapd.service has begun starting up.
+Jul 19 01:08:20 jinmy-Inspiron-5720 snapd[23385]: AppArmor status: apparmor is enabled and all features are available
+Jul 19 01:08:20 jinmy-Inspiron-5720 snapd[23385]: error: assert storage root unexpectedly world-writable: /var/lib/snapd/assertions/asserts-v0
+Jul 19 01:08:20 jinmy-Inspiron-5720 systemd[1]: [0;1;39m[0;1;31m[0;1;39msnapd.service: Main process exited, code=exited, status=1/FAILURE[0m
+Jul 19 01:08:20 jinmy-Inspiron-5720 systemd[1]: [0;1;39m[0;1;31m[0;1;39msnapd.service: Failed with result 'exit-code'.[0m
+Jul 19 01:08:20 jinmy-Inspiron-5720 systemd[1]: [0;1;31m[0;1;39m[0;1;31mFailed to start Snappy daemon.[0m
+-- Subject: Unit snapd.service has failed
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- Unit snapd.service has failed.
+-- 
+-- The result is RESULT.
+Jul 19 01:08:20 jinmy-Inspiron-5720 systemd[1]: snapd.service: Service hold-off time over, scheduling restart.
+Jul 19 01:08:20 jinmy-Inspiron-5720 systemd[1]: snapd.service: Scheduled restart job, restart counter is at 4.
+-- Subject: Automatic restarting of a unit has been scheduled
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- Automatic restarting of the unit snapd.service has been scheduled, as the result for
+-- the configured Restart= setting for the unit.
+Jul 19 01:08:20 jinmy-Inspiron-5720 systemd[1]: Stopped Snappy daemon.
+-- Subject: Unit snapd.service has finished shutting down
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- Unit snapd.service has finished shutting down.
+Jul 19 01:08:20 jinmy-Inspiron-5720 systemd[1]: Starting Snappy daemon...
+-- Subject: Unit snapd.service has begun start-up
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- Unit snapd.service has begun starting up.
+Jul 19 01:08:20 jinmy-Inspiron-5720 snapd[23399]: AppArmor status: apparmor is enabled and all features are available
+Jul 19 01:08:21 jinmy-Inspiron-5720 snapd[23399]: error: assert storage root unexpectedly world-writable: /var/lib/snapd/assertions/asserts-v0
+Jul 19 01:08:21 jinmy-Inspiron-5720 systemd[1]: [0;1;39m[0;1;31m[0;1;39msnapd.service: Main process exited, code=exited, status=1/FAILURE[0m
+Jul 19 01:08:21 jinmy-Inspiron-5720 systemd[1]: [0;1;39m[0;1;31m[0;1;39msnapd.service: Failed with result 'exit-code'.[0m
+Jul 19 01:08:21 jinmy-Inspiron-5720 systemd[1]: [0;1;31m[0;1;39m[0;1;31mFailed to start Snappy daemon.[0m
+-- Subject: Unit snapd.service has failed
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- Unit snapd.service has failed.
+-- 
+-- The result is RESULT.
+Jul 19 01:08:21 jinmy-Inspiron-5720 systemd[1]: snapd.service: Service hold-off time over, scheduling restart.
+Jul 19 01:08:21 jinmy-Inspiron-5720 systemd[1]: snapd.service: Scheduled restart job, restart counter is at 5.
+-- Subject: Automatic restarting of a unit has been scheduled
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- Automatic restarting of the unit snapd.service has been scheduled, as the result for
+-- the configured Restart= setting for the unit.
+Jul 19 01:08:21 jinmy-Inspiron-5720 systemd[1]: Stopped Snappy daemon.
+-- Subject: Unit snapd.service has finished shutting down
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- Unit snapd.service has finished shutting down.
+Jul 19 01:08:21 jinmy-Inspiron-5720 systemd[1]: [0;1;39m[0;1;31m[0;1;39msnapd.service: Start request repeated too quickly.[0m
+Jul 19 01:08:21 jinmy-Inspiron-5720 systemd[1]: [0;1;39m[0;1;31m[0;1;39msnapd.service: Failed with result 'exit-code'.[0m
+Jul 19 01:08:21 jinmy-Inspiron-5720 systemd[1]: [0;1;31m[0;1;39m[0;1;31mFailed to start Snappy daemon.[0m
+-- Subject: Unit snapd.service has failed
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- Unit snapd.service has failed.
+-- 
+-- The result is RESULT.
+Jul 19 01:08:21 jinmy-Inspiron-5720 systemd[1]: [0;1;39m[0;1;31m[0;1;39msnapd.socket: Failed with result 'service-start-limit-hit'.[0m
+Jul 19 01:08:24 jinmy-Inspiron-5720 snap[23343]: error: cannot communicate with server: Get http://localhost/v2/snaps/system/conf?keys=seed.loaded: dial unix /run/snapd.socket: connect: connection refused
+Jul 19 01:08:24 jinmy-Inspiron-5720 systemd[1]: [0;1;39m[0;1;31m[0;1;39msnapd.seeded.service: Main process exited, code=exited, status=1/FAILURE[0m
+Jul 19 01:08:24 jinmy-Inspiron-5720 systemd[1]: [0;1;39m[0;1;31m[0;1;39msnapd.seeded.service: Failed with result 'exit-code'.[0m
+Jul 19 01:08:24 jinmy-Inspiron-5720 systemd[1]: [0;1;31m[0;1;39m[0;1;31mFailed to start Wait until snapd is fully seeded.[0m
+-- Subject: Unit snapd.seeded.service has failed
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- Unit snapd.seeded.service has failed.
+-- 
+-- The result is RESULT.
+Jul 19 01:08:25 jinmy-Inspiron-5720 audit[23418]: AVC apparmor="STATUS" operation="profile_replace" profile="unconfined" name="/usr/lib/snapd/snap-confine" pid=23418 comm="apparmor_parser"
+Jul 19 01:08:25 jinmy-Inspiron-5720 kernel: [0;1;39m[0;1;31m[0;1;39mkauditd_printk_skb: 32 callbacks suppressed[0m
+Jul 19 01:08:25 jinmy-Inspiron-5720 kernel: [0;1;39m[0;1;31m[0;1;39maudit: type=1400 audit(1531980505.207:43): apparmor="STATUS" operation="profile_replace" profile="unconfined" name="/usr/lib/snapd/snap-confine" pid=23418 comm="apparmor_parser"[0m
+Jul 19 01:08:25 jinmy-Inspiron-5720 audit[23418]: AVC apparmor="STATUS" operation="profile_replace" profile="unconfined" name="/usr/lib/snapd/snap-confine//mount-namespace-capture-helper" pid=23418 comm="apparmor_parser"
+Jul 19 01:08:25 jinmy-Inspiron-5720 kernel: [0;1;39m[0;1;31m[0;1;39maudit: type=1400 audit(1531980505.231:44): apparmor="STATUS" operation="profile_replace" profile="unconfined" name="/usr/lib/snapd/snap-confine//mount-namespace-capture-helper" pid=23418 comm="apparmor_parser"[0m
+Jul 19 01:08:25 jinmy-Inspiron-5720 systemd[1]: Reloading.
+Jul 19 01:08:26 jinmy-Inspiron-5720 systemd[1]: Reloading.
+Jul 19 01:08:26 jinmy-Inspiron-5720 systemd[1]: Reloading.
+Jul 19 01:08:30 jinmy-Inspiron-5720 gnome-shell[1774]: [0;1;39m[0;1;31m[0;1;39mObject .GProxyVolume (0x55dbabbf5860), has been already finalized. Impossible to set any property to it.[0m
+Jul 19 01:08:30 jinmy-Inspiron-5720 org.gnome.Shell.desktop[1774]: [0;1;39m[0;1;31m[0;1;39m== Stack trace for context 0x55dba97ef330 ==[0m
+Jul 19 01:08:30 jinmy-Inspiron-5720 org.gnome.Shell.desktop[1774]: [0;1;39m[0;1;31m[0;1;39m#0 0x55dba9bb06d0 i   resource:///org/gnome/shell/ui/components/automountManager.js:236 (0x7f273a97cf78 @ 6)[0m
+Jul 19 01:08:30 jinmy-Inspiron-5720 org.gnome.Shell.desktop[1774]: [0;1;39m[0;1;31m[0;1;39m== Stack trace for context 0x55dba97ef330 ==[0m
+Jul 19 01:08:30 jinmy-Inspiron-5720 org.gnome.Shell.desktop[1774]: [0;1;39m[0;1;31m[0;1;39m#0 0x55dba9bb06d0 i   resource:///org/gnome/shell/ui/components/automountManager.js:236 (0x7f273a97cf78 @ 6)[0m
+Jul 19 01:08:30 jinmy-Inspiron-5720 gnome-shell[1774]: [0;1;39m[0;1;31m[0;1;39mObject .GProxyVolume (0x55dbac4c31f0), has been already finalized. Impossible to set any property to it.[0m
+Jul 19 01:08:31 jinmy-Inspiron-5720 gnome-shell[1774]: [0;1;39m[0;1;31m[0;1;39mObject .GProxyVolume (0x55dbad99f9e0), has been already finalized. Impossible to set any property to it.[0m
+Jul 19 01:08:31 jinmy-Inspiron-5720 gnome-shell[1774]: [0;1;39m[0;1;31m[0;1;39mObject .GProxyVolume (0x55dbaad28d40), has been already finalized. Impossible to set any property to it.[0m
+Jul 19 01:08:31 jinmy-Inspiron-5720 org.gnome.Shell.desktop[1774]: [0;1;39m[0;1;31m[0;1;39m== Stack trace for context 0x55dba97ef330 ==[0m
+Jul 19 01:08:31 jinmy-Inspiron-5720 org.gnome.Shell.desktop[1774]: [0;1;39m[0;1;31m[0;1;39m#0 0x55dba9bb06d0 i   resource:///org/gnome/shell/ui/components/automountManager.js:236 (0x7f273a97cf78 @ 6)[0m
+Jul 19 01:08:31 jinmy-Inspiron-5720 org.gnome.Shell.desktop[1774]: [0;1;39m[0;1;31m[0;1;39m== Stack trace for context 0x55dba97ef330 ==[0m
+Jul 19 01:08:31 jinmy-Inspiron-5720 org.gnome.Shell.desktop[1774]: [0;1;39m[0;1;31m[0;1;39m#0 0x55dba9bb06d0 i   resource:///org/gnome/shell/ui/components/automountManager.js:236 (0x7f273a97cf78 @ 6)[0m
+Jul 19 01:08:31 jinmy-Inspiron-5720 sudo[23116]: pam_unix(sudo:session): session closed for user root
+Jul 19 01:09:01 jinmy-Inspiron-5720 CRON[24453]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 19 01:09:01 jinmy-Inspiron-5720 CRON[24454]: (root) CMD (  [ -x /usr/lib/php/sessionclean ] && if [ ! -d /run/systemd/system ]; then /usr/lib/php/sessionclean; fi)
+Jul 19 01:09:01 jinmy-Inspiron-5720 systemd[1]: Starting Clean php session files...
+-- Subject: Unit phpsessionclean.service has begun start-up
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- Unit phpsessionclean.service has begun starting up.
+Jul 19 01:09:01 jinmy-Inspiron-5720 CRON[24453]: pam_unix(cron:session): session closed for user root
+Jul 19 01:09:02 jinmy-Inspiron-5720 systemd[1]: Started Clean php session files.
+-- Subject: Unit phpsessionclean.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- Unit phpsessionclean.service has finished starting up.
+-- 
+-- The start-up result is RESULT.
+Jul 19 01:09:05 jinmy-Inspiron-5720 sudo[24508]: [0;1;39m[0;1;31m[0;1;39m   jinmy : TTY=pts/1 ; PWD=/var/www/mundipack ; USER=root ; COMMAND=/usr/bin/apt-get install mysql-server-5.7[0m
+Jul 19 01:09:05 jinmy-Inspiron-5720 sudo[24508]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul 19 01:09:27 jinmy-Inspiron-5720 systemd[1]: Stopping MariaDB database server...
+-- Subject: Unit mariadb.service has begun shutting down
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- Unit mariadb.service has begun shutting down.
+Jul 19 01:09:29 jinmy-Inspiron-5720 systemd[1]: Stopped MariaDB database server.
+-- Subject: Unit mariadb.service has finished shutting down
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- Unit mariadb.service has finished shutting down.
+Jul 19 01:09:29 jinmy-Inspiron-5720 systemd[1]: Reloading.
+Jul 19 01:09:40 jinmy-Inspiron-5720 systemd[1]: Reloading.
+Jul 19 01:09:42 jinmy-Inspiron-5720 systemd[1]: Reloading.
+Jul 19 01:09:43 jinmy-Inspiron-5720 systemd[1]: Reloading.
+Jul 19 01:09:45 jinmy-Inspiron-5720 sudo[24508]: pam_unix(sudo:session): session closed for user root
+Jul 19 01:10:58 jinmy-Inspiron-5720 dbus-daemon[1651]: [session uid=1000 pid=1651] Activating via systemd: service name='org.gnome.Terminal' unit='gnome-terminal-server.service' requested by ':1.480' (uid=1000 pid=25597 comm="/usr/bin/gnome-terminal.real " label="unconfined")
+Jul 19 01:10:58 jinmy-Inspiron-5720 systemd[1625]: Starting GNOME Terminal Server...
+-- Subject: Unit UNIT has begun start-up
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- Unit UNIT has begun starting up.
+Jul 19 01:10:58 jinmy-Inspiron-5720 dbus-daemon[1651]: [session uid=1000 pid=1651] Successfully activated service 'org.gnome.Terminal'
+Jul 19 01:10:58 jinmy-Inspiron-5720 systemd[1625]: Started GNOME Terminal Server.
+-- Subject: Unit UNIT has finished start-up
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- Unit UNIT has finished starting up.
+-- 
+-- The start-up result is RESULT.
+Jul 19 01:12:19 jinmy-Inspiron-5720 sudo[25655]: [0;1;39m[0;1;31m[0;1;39m   jinmy : TTY=pts/1 ; PWD=/var/www/mundipack ; USER=root ; COMMAND=/usr/sbin/service mysql status[0m
+Jul 19 01:12:19 jinmy-Inspiron-5720 sudo[25655]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul 19 01:12:20 jinmy-Inspiron-5720 sudo[25655]: pam_unix(sudo:session): session closed for user root
+Jul 19 01:12:28 jinmy-Inspiron-5720 sudo[25664]: [0;1;39m[0;1;31m[0;1;39m   jinmy : TTY=pts/1 ; PWD=/var/www/mundipack ; USER=root ; COMMAND=/usr/sbin/service mysql start[0m
+Jul 19 01:12:28 jinmy-Inspiron-5720 sudo[25664]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul 19 01:12:29 jinmy-Inspiron-5720 systemd[1]: Starting MySQL Community Server...
+-- Subject: Unit mysql.service has begun start-up
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- Unit mysql.service has begun starting up.
+Jul 19 01:12:29 jinmy-Inspiron-5720 mysql-systemd-start[25691]: ERROR: Unable to start MySQL server:
+Jul 19 01:12:29 jinmy-Inspiron-5720 mysql-systemd-start[25691]: mysqld: Error on realpath() on '/var/lib/mysql-files' (Error 2 - No such file or directory)
+Jul 19 01:12:29 jinmy-Inspiron-5720 mysql-systemd-start[25691]: 2018-07-19T06:12:29.431354Z 0 [ERROR] Failed to access directory for --secure-file-priv. Please make sure that directory exists and is accessible by MySQL Server. Supplied value : /var/lib/mysql-files
+Jul 19 01:12:29 jinmy-Inspiron-5720 mysql-systemd-start[25691]: 2018-07-19T06:12:29.434799Z 0 [ERROR] Aborting
+Jul 19 01:12:29 jinmy-Inspiron-5720 mysql-systemd-start[25691]: Please take a look at https://wiki.debian.org/Teams/MySQL/FAQ for tips on fixing common upgrade issues.
+Jul 19 01:12:29 jinmy-Inspiron-5720 mysql-systemd-start[25691]: Once the problem is resolved, restart the service.
+Jul 19 01:12:29 jinmy-Inspiron-5720 sudo[25664]: pam_unix(sudo:session): session closed for user root
+Jul 19 01:12:29 jinmy-Inspiron-5720 systemd[1]: [0;1;39m[0;1;31m[0;1;39mmysql.service: Control process exited, code=exited status=1[0m
+Jul 19 01:12:29 jinmy-Inspiron-5720 systemd[1]: [0;1;39m[0;1;31m[0;1;39mmysql.service: Failed with result 'exit-code'.[0m
+Jul 19 01:12:29 jinmy-Inspiron-5720 systemd[1]: [0;1;31m[0;1;39m[0;1;31mFailed to start MySQL Community Server.[0m
+-- Subject: Unit mysql.service has failed
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- Unit mysql.service has failed.
+-- 
+-- The result is RESULT.
+Jul 19 01:12:29 jinmy-Inspiron-5720 systemd[1]: mysql.service: Service hold-off time over, scheduling restart.
+Jul 19 01:12:29 jinmy-Inspiron-5720 systemd[1]: mysql.service: Scheduled restart job, restart counter is at 1.
+-- Subject: Automatic restarting of a unit has been scheduled
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- Automatic restarting of the unit mysql.service has been scheduled, as the result for
+-- the configured Restart= setting for the unit.
+Jul 19 01:12:29 jinmy-Inspiron-5720 systemd[1]: Stopped MySQL Community Server.
+-- Subject: Unit mysql.service has finished shutting down
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- Unit mysql.service has finished shutting down.
+Jul 19 01:12:29 jinmy-Inspiron-5720 systemd[1]: Starting MySQL Community Server...
+-- Subject: Unit mysql.service has begun start-up
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- Unit mysql.service has begun starting up.
+Jul 19 01:12:29 jinmy-Inspiron-5720 mysql-systemd-start[25699]: ERROR: Unable to start MySQL server:
+Jul 19 01:12:29 jinmy-Inspiron-5720 mysql-systemd-start[25699]: mysqld: Error on realpath() on '/var/lib/mysql-files' (Error 2 - No such file or directory)
+Jul 19 01:12:29 jinmy-Inspiron-5720 mysql-systemd-start[25699]: 2018-07-19T06:12:29.721841Z 0 [ERROR] Failed to access directory for --secure-file-priv. Please make sure that directory exists and is accessible by MySQL Server. Supplied value : /var/lib/mysql-files
+Jul 19 01:12:29 jinmy-Inspiron-5720 mysql-systemd-start[25699]: 2018-07-19T06:12:29.723544Z 0 [ERROR] Aborting
+Jul 19 01:12:29 jinmy-Inspiron-5720 mysql-systemd-start[25699]: Please take a look at https://wiki.debian.org/Teams/MySQL/FAQ for tips on fixing common upgrade issues.
+Jul 19 01:12:29 jinmy-Inspiron-5720 mysql-systemd-start[25699]: Once the problem is resolved, restart the service.
+Jul 19 01:12:29 jinmy-Inspiron-5720 systemd[1]: [0;1;39m[0;1;31m[0;1;39mmysql.service: Control process exited, code=exited status=1[0m
+Jul 19 01:12:29 jinmy-Inspiron-5720 systemd[1]: [0;1;39m[0;1;31m[0;1;39mmysql.service: Failed with result 'exit-code'.[0m
+Jul 19 01:12:29 jinmy-Inspiron-5720 systemd[1]: [0;1;31m[0;1;39m[0;1;31mFailed to start MySQL Community Server.[0m
+-- Subject: Unit mysql.service has failed
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- Unit mysql.service has failed.
+-- 
+-- The result is RESULT.
+Jul 19 01:12:29 jinmy-Inspiron-5720 systemd[1]: mysql.service: Service hold-off time over, scheduling restart.
+Jul 19 01:12:29 jinmy-Inspiron-5720 systemd[1]: mysql.service: Scheduled restart job, restart counter is at 2.
+-- Subject: Automatic restarting of a unit has been scheduled
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- Automatic restarting of the unit mysql.service has been scheduled, as the result for
+-- the configured Restart= setting for the unit.
+Jul 19 01:12:29 jinmy-Inspiron-5720 systemd[1]: Stopped MySQL Community Server.
+-- Subject: Unit mysql.service has finished shutting down
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- Unit mysql.service has finished shutting down.
+Jul 19 01:12:29 jinmy-Inspiron-5720 systemd[1]: Starting MySQL Community Server...
+-- Subject: Unit mysql.service has begun start-up
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- Unit mysql.service has begun starting up.
+Jul 19 01:12:29 jinmy-Inspiron-5720 mysql-systemd-start[25707]: ERROR: Unable to start MySQL server:
+Jul 19 01:12:29 jinmy-Inspiron-5720 mysql-systemd-start[25707]: mysqld: Error on realpath() on '/var/lib/mysql-files' (Error 2 - No such file or directory)
+Jul 19 01:12:29 jinmy-Inspiron-5720 mysql-systemd-start[25707]: 2018-07-19T06:12:29.975463Z 0 [ERROR] Failed to access directory for --secure-file-priv. Please make sure that directory exists and is accessible by MySQL Server. Supplied value : /var/lib/mysql-files
+Jul 19 01:12:29 jinmy-Inspiron-5720 mysql-systemd-start[25707]: 2018-07-19T06:12:29.977277Z 0 [ERROR] Aborting
+Jul 19 01:12:29 jinmy-Inspiron-5720 mysql-systemd-start[25707]: Please take a look at https://wiki.debian.org/Teams/MySQL/FAQ for tips on fixing common upgrade issues.
+Jul 19 01:12:29 jinmy-Inspiron-5720 mysql-systemd-start[25707]: Once the problem is resolved, restart the service.
+Jul 19 01:12:29 jinmy-Inspiron-5720 systemd[1]: [0;1;39m[0;1;31m[0;1;39mmysql.service: Control process exited, code=exited status=1[0m
+Jul 19 01:12:29 jinmy-Inspiron-5720 systemd[1]: [0;1;39m[0;1;31m[0;1;39mmysql.service: Failed with result 'exit-code'.[0m
+Jul 19 01:12:29 jinmy-Inspiron-5720 systemd[1]: [0;1;31m[0;1;39m[0;1;31mFailed to start MySQL Community Server.[0m
+-- Subject: Unit mysql.service has failed
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- Unit mysql.service has failed.
+-- 
+-- The result is RESULT.
+Jul 19 01:12:30 jinmy-Inspiron-5720 systemd[1]: mysql.service: Service hold-off time over, scheduling restart.
+Jul 19 01:12:30 jinmy-Inspiron-5720 systemd[1]: mysql.service: Scheduled restart job, restart counter is at 3.
+-- Subject: Automatic restarting of a unit has been scheduled
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- Automatic restarting of the unit mysql.service has been scheduled, as the result for
+-- the configured Restart= setting for the unit.
+Jul 19 01:12:30 jinmy-Inspiron-5720 systemd[1]: Stopped MySQL Community Server.
+-- Subject: Unit mysql.service has finished shutting down
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- Unit mysql.service has finished shutting down.
+Jul 19 01:12:30 jinmy-Inspiron-5720 systemd[1]: Starting MySQL Community Server...
+-- Subject: Unit mysql.service has begun start-up
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- Unit mysql.service has begun starting up.
+Jul 19 01:12:30 jinmy-Inspiron-5720 mysql-systemd-start[25715]: ERROR: Unable to start MySQL server:
+Jul 19 01:12:30 jinmy-Inspiron-5720 mysql-systemd-start[25715]: mysqld: Error on realpath() on '/var/lib/mysql-files' (Error 2 - No such file or directory)
+Jul 19 01:12:30 jinmy-Inspiron-5720 mysql-systemd-start[25715]: 2018-07-19T06:12:30.224027Z 0 [ERROR] Failed to access directory for --secure-file-priv. Please make sure that directory exists and is accessible by MySQL Server. Supplied value : /var/lib/mysql-files
+Jul 19 01:12:30 jinmy-Inspiron-5720 mysql-systemd-start[25715]: 2018-07-19T06:12:30.226426Z 0 [ERROR] Aborting
+Jul 19 01:12:30 jinmy-Inspiron-5720 mysql-systemd-start[25715]: Please take a look at https://wiki.debian.org/Teams/MySQL/FAQ for tips on fixing common upgrade issues.
+Jul 19 01:12:30 jinmy-Inspiron-5720 mysql-systemd-start[25715]: Once the problem is resolved, restart the service.
+Jul 19 01:12:30 jinmy-Inspiron-5720 systemd[1]: [0;1;39m[0;1;31m[0;1;39mmysql.service: Control process exited, code=exited status=1[0m
+Jul 19 01:12:30 jinmy-Inspiron-5720 systemd[1]: [0;1;39m[0;1;31m[0;1;39mmysql.service: Failed with result 'exit-code'.[0m
+Jul 19 01:12:30 jinmy-Inspiron-5720 systemd[1]: [0;1;31m[0;1;39m[0;1;31mFailed to start MySQL Community Server.[0m
+-- Subject: Unit mysql.service has failed
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- Unit mysql.service has failed.
+-- 
+-- The result is RESULT.
+Jul 19 01:12:30 jinmy-Inspiron-5720 systemd[1]: mysql.service: Service hold-off time over, scheduling restart.
+Jul 19 01:12:30 jinmy-Inspiron-5720 systemd[1]: mysql.service: Scheduled restart job, restart counter is at 4.
+-- Subject: Automatic restarting of a unit has been scheduled
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- Automatic restarting of the unit mysql.service has been scheduled, as the result for
+-- the configured Restart= setting for the unit.
+Jul 19 01:12:30 jinmy-Inspiron-5720 systemd[1]: Stopped MySQL Community Server.
+-- Subject: Unit mysql.service has finished shutting down
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- Unit mysql.service has finished shutting down.
+Jul 19 01:12:30 jinmy-Inspiron-5720 systemd[1]: Starting MySQL Community Server...
+-- Subject: Unit mysql.service has begun start-up
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- Unit mysql.service has begun starting up.
+Jul 19 01:12:30 jinmy-Inspiron-5720 mysql-systemd-start[25723]: ERROR: Unable to start MySQL server:
+Jul 19 01:12:30 jinmy-Inspiron-5720 mysql-systemd-start[25723]: mysqld: Error on realpath() on '/var/lib/mysql-files' (Error 2 - No such file or directory)
+Jul 19 01:12:30 jinmy-Inspiron-5720 mysql-systemd-start[25723]: 2018-07-19T06:12:30.485000Z 0 [ERROR] Failed to access directory for --secure-file-priv. Please make sure that directory exists and is accessible by MySQL Server. Supplied value : /var/lib/mysql-files
+Jul 19 01:12:30 jinmy-Inspiron-5720 mysql-systemd-start[25723]: 2018-07-19T06:12:30.486779Z 0 [ERROR] Aborting
+Jul 19 01:12:30 jinmy-Inspiron-5720 mysql-systemd-start[25723]: Please take a look at https://wiki.debian.org/Teams/MySQL/FAQ for tips on fixing common upgrade issues.
+Jul 19 01:12:30 jinmy-Inspiron-5720 mysql-systemd-start[25723]: Once the problem is resolved, restart the service.
+Jul 19 01:12:30 jinmy-Inspiron-5720 systemd[1]: [0;1;39m[0;1;31m[0;1;39mmysql.service: Control process exited, code=exited status=1[0m
+Jul 19 01:12:30 jinmy-Inspiron-5720 systemd[1]: [0;1;39m[0;1;31m[0;1;39mmysql.service: Failed with result 'exit-code'.[0m
+Jul 19 01:12:30 jinmy-Inspiron-5720 systemd[1]: [0;1;31m[0;1;39m[0;1;31mFailed to start MySQL Community Server.[0m
+-- Subject: Unit mysql.service has failed
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- Unit mysql.service has failed.
+-- 
+-- The result is RESULT.
+Jul 19 01:12:30 jinmy-Inspiron-5720 systemd[1]: mysql.service: Service hold-off time over, scheduling restart.
+Jul 19 01:12:30 jinmy-Inspiron-5720 systemd[1]: mysql.service: Scheduled restart job, restart counter is at 5.
+-- Subject: Automatic restarting of a unit has been scheduled
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- Automatic restarting of the unit mysql.service has been scheduled, as the result for
+-- the configured Restart= setting for the unit.
+Jul 19 01:12:30 jinmy-Inspiron-5720 systemd[1]: Stopped MySQL Community Server.
+-- Subject: Unit mysql.service has finished shutting down
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- Unit mysql.service has finished shutting down.
+Jul 19 01:12:30 jinmy-Inspiron-5720 systemd[1]: [0;1;39m[0;1;31m[0;1;39mmysql.service: Start request repeated too quickly.[0m
+Jul 19 01:12:30 jinmy-Inspiron-5720 systemd[1]: [0;1;39m[0;1;31m[0;1;39mmysql.service: Failed with result 'exit-code'.[0m
+Jul 19 01:12:30 jinmy-Inspiron-5720 systemd[1]: [0;1;31m[0;1;39m[0;1;31mFailed to start MySQL Community Server.[0m
+-- Subject: Unit mysql.service has failed
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- Unit mysql.service has failed.
+-- 
+-- The result is RESULT.
+Jul 19 01:16:05 jinmy-Inspiron-5720 sudo[25824]: [0;1;39m[0;1;31m[0;1;39m   jinmy : TTY=pts/1 ; PWD=/var/www/mundipack ; USER=root ; COMMAND=/usr/bin/apt install net-tools[0m
+Jul 19 01:16:05 jinmy-Inspiron-5720 sudo[25824]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul 19 01:16:08 jinmy-Inspiron-5720 sudo[25824]: pam_unix(sudo:session): session closed for user root
+Jul 19 01:16:15 jinmy-Inspiron-5720 sudo[25832]: [0;1;39m[0;1;31m[0;1;39m   jinmy : TTY=pts/1 ; PWD=/var/www/mundipack ; USER=root ; COMMAND=/usr/bin/apt install net-tools[0m
+Jul 19 01:16:15 jinmy-Inspiron-5720 sudo[25832]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul 19 01:16:22 jinmy-Inspiron-5720 sudo[25832]: pam_unix(sudo:session): session closed for user root
+Jul 19 01:16:24 jinmy-Inspiron-5720 sudo[26394]: [0;1;39m[0;1;31m[0;1;39m   jinmy : TTY=pts/1 ; PWD=/var/www/mundipack ; USER=root ; COMMAND=/usr/bin/apt install net-tools[0m
+Jul 19 01:16:24 jinmy-Inspiron-5720 sudo[26394]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul 19 01:16:25 jinmy-Inspiron-5720 sudo[26394]: pam_unix(sudo:session): session closed for user root
+Jul 19 01:17:01 jinmy-Inspiron-5720 CRON[26416]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 19 01:17:01 jinmy-Inspiron-5720 CRON[26417]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Jul 19 01:17:01 jinmy-Inspiron-5720 CRON[26416]: pam_unix(cron:session): session closed for user root
+Jul 19 01:18:17 jinmy-Inspiron-5720 sudo[26486]: [0;1;39m[0;1;31m[0;1;39m   jinmy : TTY=pts/1 ; PWD=/var/www/mundipack ; USER=root ; COMMAND=/usr/sbin/service start mysql[0m
+Jul 19 01:18:17 jinmy-Inspiron-5720 sudo[26486]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul 19 01:18:17 jinmy-Inspiron-5720 sudo[26486]: pam_unix(sudo:session): session closed for user root
+Jul 19 01:18:25 jinmy-Inspiron-5720 sudo[26492]: [0;1;39m[0;1;31m[0;1;39m   jinmy : TTY=pts/1 ; PWD=/var/www/mundipack ; USER=root ; COMMAND=/usr/sbin/service mysql start[0m
+Jul 19 01:18:25 jinmy-Inspiron-5720 sudo[26492]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul 19 01:18:25 jinmy-Inspiron-5720 systemd[1]: Starting MySQL Community Server...
+-- Subject: Unit mysql.service has begun start-up
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- Unit mysql.service has begun starting up.
+Jul 19 01:18:25 jinmy-Inspiron-5720 mysql-systemd-start[26519]: ERROR: Unable to start MySQL server:
+Jul 19 01:18:25 jinmy-Inspiron-5720 mysql-systemd-start[26519]: mysqld: Error on realpath() on '/var/lib/mysql-files' (Error 2 - No such file or directory)
+Jul 19 01:18:25 jinmy-Inspiron-5720 mysql-systemd-start[26519]: 2018-07-19T06:18:25.817238Z 0 [ERROR] Failed to access directory for --secure-file-priv. Please make sure that directory exists and is accessible by MySQL Server. Supplied value : /var/lib/mysql-files
+Jul 19 01:18:25 jinmy-Inspiron-5720 mysql-systemd-start[26519]: 2018-07-19T06:18:25.818899Z 0 [ERROR] Aborting
+Jul 19 01:18:25 jinmy-Inspiron-5720 mysql-systemd-start[26519]: Please take a look at https://wiki.debian.org/Teams/MySQL/FAQ for tips on fixing common upgrade issues.
+Jul 19 01:18:25 jinmy-Inspiron-5720 mysql-systemd-start[26519]: Once the problem is resolved, restart the service.
+Jul 19 01:18:25 jinmy-Inspiron-5720 systemd[1]: [0;1;39m[0;1;31m[0;1;39mmysql.service: Control process exited, code=exited status=1[0m
+Jul 19 01:18:25 jinmy-Inspiron-5720 systemd[1]: [0;1;39m[0;1;31m[0;1;39mmysql.service: Failed with result 'exit-code'.[0m
+Jul 19 01:18:25 jinmy-Inspiron-5720 systemd[1]: [0;1;31m[0;1;39m[0;1;31mFailed to start MySQL Community Server.[0m
+-- Subject: Unit mysql.service has failed
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- Unit mysql.service has failed.
+-- 
+-- The result is RESULT.
+Jul 19 01:18:25 jinmy-Inspiron-5720 sudo[26492]: pam_unix(sudo:session): session closed for user root
+Jul 19 01:18:25 jinmy-Inspiron-5720 systemd[1]: mysql.service: Service hold-off time over, scheduling restart.
+Jul 19 01:18:25 jinmy-Inspiron-5720 systemd[1]: mysql.service: Scheduled restart job, restart counter is at 1.
+-- Subject: Automatic restarting of a unit has been scheduled
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- Automatic restarting of the unit mysql.service has been scheduled, as the result for
+-- the configured Restart= setting for the unit.
+Jul 19 01:18:25 jinmy-Inspiron-5720 systemd[1]: Stopped MySQL Community Server.
+-- Subject: Unit mysql.service has finished shutting down
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- Unit mysql.service has finished shutting down.
+Jul 19 01:18:25 jinmy-Inspiron-5720 systemd[1]: Starting MySQL Community Server...
+-- Subject: Unit mysql.service has begun start-up
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- Unit mysql.service has begun starting up.
+Jul 19 01:18:25 jinmy-Inspiron-5720 mysql-systemd-start[26528]: ERROR: Unable to start MySQL server:
+Jul 19 01:18:25 jinmy-Inspiron-5720 mysql-systemd-start[26528]: mysqld: Error on realpath() on '/var/lib/mysql-files' (Error 2 - No such file or directory)
+Jul 19 01:18:25 jinmy-Inspiron-5720 mysql-systemd-start[26528]: 2018-07-19T06:18:25.981085Z 0 [ERROR] Failed to access directory for --secure-file-priv. Please make sure that directory exists and is accessible by MySQL Server. Supplied value : /var/lib/mysql-files
+Jul 19 01:18:25 jinmy-Inspiron-5720 mysql-systemd-start[26528]: 2018-07-19T06:18:25.982872Z 0 [ERROR] Aborting
+Jul 19 01:18:25 jinmy-Inspiron-5720 mysql-systemd-start[26528]: Please take a look at https://wiki.debian.org/Teams/MySQL/FAQ for tips on fixing common upgrade issues.
+Jul 19 01:18:25 jinmy-Inspiron-5720 mysql-systemd-start[26528]: Once the problem is resolved, restart the service.
+Jul 19 01:18:25 jinmy-Inspiron-5720 systemd[1]: [0;1;39m[0;1;31m[0;1;39mmysql.service: Control process exited, code=exited status=1[0m
+Jul 19 01:18:25 jinmy-Inspiron-5720 systemd[1]: [0;1;39m[0;1;31m[0;1;39mmysql.service: Failed with result 'exit-code'.[0m
+Jul 19 01:18:25 jinmy-Inspiron-5720 systemd[1]: [0;1;31m[0;1;39m[0;1;31mFailed to start MySQL Community Server.[0m
+-- Subject: Unit mysql.service has failed
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- Unit mysql.service has failed.
+-- 
+-- The result is RESULT.
+Jul 19 01:18:26 jinmy-Inspiron-5720 systemd[1]: mysql.service: Service hold-off time over, scheduling restart.
+Jul 19 01:18:26 jinmy-Inspiron-5720 systemd[1]: mysql.service: Scheduled restart job, restart counter is at 2.
+-- Subject: Automatic restarting of a unit has been scheduled
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- Automatic restarting of the unit mysql.service has been scheduled, as the result for
+-- the configured Restart= setting for the unit.
+Jul 19 01:18:26 jinmy-Inspiron-5720 systemd[1]: Stopped MySQL Community Server.
+-- Subject: Unit mysql.service has finished shutting down
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- Unit mysql.service has finished shutting down.
+Jul 19 01:18:26 jinmy-Inspiron-5720 systemd[1]: Starting MySQL Community Server...
+-- Subject: Unit mysql.service has begun start-up
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- Unit mysql.service has begun starting up.
+Jul 19 01:18:26 jinmy-Inspiron-5720 mysql-systemd-start[26536]: ERROR: Unable to start MySQL server:
+Jul 19 01:18:26 jinmy-Inspiron-5720 mysql-systemd-start[26536]: mysqld: Error on realpath() on '/var/lib/mysql-files' (Error 2 - No such file or directory)
+Jul 19 01:18:26 jinmy-Inspiron-5720 mysql-systemd-start[26536]: 2018-07-19T06:18:26.230179Z 0 [ERROR] Failed to access directory for --secure-file-priv. Please make sure that directory exists and is accessible by MySQL Server. Supplied value : /var/lib/mysql-files
+Jul 19 01:18:26 jinmy-Inspiron-5720 mysql-systemd-start[26536]: 2018-07-19T06:18:26.232306Z 0 [ERROR] Aborting
+Jul 19 01:18:26 jinmy-Inspiron-5720 mysql-systemd-start[26536]: Please take a look at https://wiki.debian.org/Teams/MySQL/FAQ for tips on fixing common upgrade issues.
+Jul 19 01:18:26 jinmy-Inspiron-5720 mysql-systemd-start[26536]: Once the problem is resolved, restart the service.
+Jul 19 01:18:26 jinmy-Inspiron-5720 systemd[1]: [0;1;39m[0;1;31m[0;1;39mmysql.service: Control process exited, code=exited status=1[0m
+Jul 19 01:18:26 jinmy-Inspiron-5720 systemd[1]: [0;1;39m[0;1;31m[0;1;39mmysql.service: Failed with result 'exit-code'.[0m
+Jul 19 01:18:26 jinmy-Inspiron-5720 systemd[1]: [0;1;31m[0;1;39m[0;1;31mFailed to start MySQL Community Server.[0m
+-- Subject: Unit mysql.service has failed
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- Unit mysql.service has failed.
+-- 
+-- The result is RESULT.
+Jul 19 01:18:26 jinmy-Inspiron-5720 systemd[1]: mysql.service: Service hold-off time over, scheduling restart.
+Jul 19 01:18:26 jinmy-Inspiron-5720 systemd[1]: mysql.service: Scheduled restart job, restart counter is at 3.
+-- Subject: Automatic restarting of a unit has been scheduled
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- Automatic restarting of the unit mysql.service has been scheduled, as the result for
+-- the configured Restart= setting for the unit.
+Jul 19 01:18:26 jinmy-Inspiron-5720 systemd[1]: Stopped MySQL Community Server.
+-- Subject: Unit mysql.service has finished shutting down
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- Unit mysql.service has finished shutting down.
+Jul 19 01:18:26 jinmy-Inspiron-5720 systemd[1]: Starting MySQL Community Server...
+-- Subject: Unit mysql.service has begun start-up
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- Unit mysql.service has begun starting up.
+Jul 19 01:18:26 jinmy-Inspiron-5720 mysql-systemd-start[26545]: ERROR: Unable to start MySQL server:
+Jul 19 01:18:26 jinmy-Inspiron-5720 mysql-systemd-start[26545]: mysqld: Error on realpath() on '/var/lib/mysql-files' (Error 2 - No such file or directory)
+Jul 19 01:18:26 jinmy-Inspiron-5720 mysql-systemd-start[26545]: 2018-07-19T06:18:26.484709Z 0 [ERROR] Failed to access directory for --secure-file-priv. Please make sure that directory exists and is accessible by MySQL Server. Supplied value : /var/lib/mysql-files
+Jul 19 01:18:26 jinmy-Inspiron-5720 mysql-systemd-start[26545]: 2018-07-19T06:18:26.486877Z 0 [ERROR] Aborting
+Jul 19 01:18:26 jinmy-Inspiron-5720 mysql-systemd-start[26545]: Please take a look at https://wiki.debian.org/Teams/MySQL/FAQ for tips on fixing common upgrade issues.
+Jul 19 01:18:26 jinmy-Inspiron-5720 mysql-systemd-start[26545]: Once the problem is resolved, restart the service.
+Jul 19 01:18:26 jinmy-Inspiron-5720 systemd[1]: [0;1;39m[0;1;31m[0;1;39mmysql.service: Control process exited, code=exited status=1[0m
+Jul 19 01:18:26 jinmy-Inspiron-5720 systemd[1]: [0;1;39m[0;1;31m[0;1;39mmysql.service: Failed with result 'exit-code'.[0m
+Jul 19 01:18:26 jinmy-Inspiron-5720 systemd[1]: [0;1;31m[0;1;39m[0;1;31mFailed to start MySQL Community Server.[0m
+-- Subject: Unit mysql.service has failed
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- Unit mysql.service has failed.
+-- 
+-- The result is RESULT.
+Jul 19 01:18:26 jinmy-Inspiron-5720 systemd[1]: mysql.service: Service hold-off time over, scheduling restart.
+Jul 19 01:18:26 jinmy-Inspiron-5720 systemd[1]: mysql.service: Scheduled restart job, restart counter is at 4.
+-- Subject: Automatic restarting of a unit has been scheduled
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- Automatic restarting of the unit mysql.service has been scheduled, as the result for
+-- the configured Restart= setting for the unit.
+Jul 19 01:18:26 jinmy-Inspiron-5720 systemd[1]: Stopped MySQL Community Server.
+-- Subject: Unit mysql.service has finished shutting down
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- Unit mysql.service has finished shutting down.
+Jul 19 01:18:26 jinmy-Inspiron-5720 systemd[1]: Starting MySQL Community Server...
+-- Subject: Unit mysql.service has begun start-up
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- Unit mysql.service has begun starting up.
+Jul 19 01:18:26 jinmy-Inspiron-5720 mysql-systemd-start[26555]: ERROR: Unable to start MySQL server:
+Jul 19 01:18:26 jinmy-Inspiron-5720 mysql-systemd-start[26555]: mysqld: Error on realpath() on '/var/lib/mysql-files' (Error 2 - No such file or directory)
+Jul 19 01:18:26 jinmy-Inspiron-5720 mysql-systemd-start[26555]: 2018-07-19T06:18:26.728386Z 0 [ERROR] Failed to access directory for --secure-file-priv. Please make sure that directory exists and is accessible by MySQL Server. Supplied value : /var/lib/mysql-files
+Jul 19 01:18:26 jinmy-Inspiron-5720 mysql-systemd-start[26555]: 2018-07-19T06:18:26.730503Z 0 [ERROR] Aborting
+Jul 19 01:18:26 jinmy-Inspiron-5720 mysql-systemd-start[26555]: Please take a look at https://wiki.debian.org/Teams/MySQL/FAQ for tips on fixing common upgrade issues.
+Jul 19 01:18:26 jinmy-Inspiron-5720 mysql-systemd-start[26555]: Once the problem is resolved, restart the service.
+Jul 19 01:18:26 jinmy-Inspiron-5720 systemd[1]: [0;1;39m[0;1;31m[0;1;39mmysql.service: Control process exited, code=exited status=1[0m
+Jul 19 01:18:26 jinmy-Inspiron-5720 systemd[1]: [0;1;39m[0;1;31m[0;1;39mmysql.service: Failed with result 'exit-code'.[0m
+Jul 19 01:18:26 jinmy-Inspiron-5720 systemd[1]: [0;1;31m[0;1;39m[0;1;31mFailed to start MySQL Community Server.[0m
+-- Subject: Unit mysql.service has failed
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- Unit mysql.service has failed.
+-- 
+-- The result is RESULT.
+Jul 19 01:18:26 jinmy-Inspiron-5720 systemd[1]: mysql.service: Service hold-off time over, scheduling restart.
+Jul 19 01:18:26 jinmy-Inspiron-5720 systemd[1]: mysql.service: Scheduled restart job, restart counter is at 5.
+-- Subject: Automatic restarting of a unit has been scheduled
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- Automatic restarting of the unit mysql.service has been scheduled, as the result for
+-- the configured Restart= setting for the unit.
+Jul 19 01:18:26 jinmy-Inspiron-5720 systemd[1]: Stopped MySQL Community Server.
+-- Subject: Unit mysql.service has finished shutting down
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- Unit mysql.service has finished shutting down.
+Jul 19 01:18:26 jinmy-Inspiron-5720 systemd[1]: [0;1;39m[0;1;31m[0;1;39mmysql.service: Start request repeated too quickly.[0m
+Jul 19 01:18:26 jinmy-Inspiron-5720 systemd[1]: [0;1;39m[0;1;31m[0;1;39mmysql.service: Failed with result 'exit-code'.[0m
+Jul 19 01:18:26 jinmy-Inspiron-5720 systemd[1]: [0;1;31m[0;1;39m[0;1;31mFailed to start MySQL Community Server.[0m
+-- Subject: Unit mysql.service has failed
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- Unit mysql.service has failed.
+-- 
+-- The result is RESULT.
+Jul 19 01:18:40 jinmy-Inspiron-5720 polkitd(authority=local)[873]: [0;1;39m[0;1;31m[0;1;39mRegistered Authentication Agent for unix-process:26564:3686382 (system bus name :1.228 [/usr/bin/pkttyagent --notify-fd 5 --fallback], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)[0m
+Jul 19 01:18:46 jinmy-Inspiron-5720 polkit-agent-helper-1[26571]: [0;1;39m[0;1;31m[0;1;39mpam_unix(polkit-1:auth): authentication failure; logname= uid=1000 euid=0 tty= ruser=jinmy rhost=  user=jinmy[0m
+Jul 19 01:18:49 jinmy-Inspiron-5720 org.gnome.Shell.desktop[1774]: [0;1;39m[0;1;31m[0;1;39mpolkit-agent-helper-1: pam_authenticate failed: Authentication failure[0m
+Jul 19 01:18:53 jinmy-Inspiron-5720 polkit-agent-helper-1[26576]: [0;1;39m[0;1;31m[0;1;39mpam_unix(polkit-1:auth): authentication failure; logname= uid=1000 euid=0 tty= ruser=jinmy rhost=  user=jinmy[0m
+Jul 19 01:18:53 jinmy-Inspiron-5720 gnome-shell[1774]: [0;1;39m[0;1;31m[0;1;39mclutter_input_focus_request_toggle_input_panel: assertion 'clutter_input_focus_is_focused (focus)' failed[0m
+Jul 19 01:18:54 jinmy-Inspiron-5720 gnome-shell[1774]: [0;1;39m[0;1;31m[0;1;39mclutter_input_focus_request_toggle_input_panel: assertion 'clutter_input_focus_is_focused (focus)' failed[0m
+Jul 19 01:18:54 jinmy-Inspiron-5720 gnome-shell[1774]: [0;1;39m[0;1;31m[0;1;39mclutter_input_focus_request_toggle_input_panel: assertion 'clutter_input_focus_is_focused (focus)' failed[0m
+Jul 19 01:18:55 jinmy-Inspiron-5720 org.gnome.Shell.desktop[1774]: [0;1;39m[0;1;31m[0;1;39mpolkit-agent-helper-1: pam_authenticate failed: Authentication failure[0m
+Jul 19 01:18:58 jinmy-Inspiron-5720 polkitd(authority=local)[873]: [0;1;39m[0;1;31m[0;1;39mOperator of unix-session:2 successfully authenticated as unix-user:jinmy to gain TEMPORARY authorization for action org.freedesktop.systemd1.manage-units for system-bus-name::1.229 [systemctl start mariadb] (owned by unix-user:jinmy)[0m
+Jul 19 01:18:58 jinmy-Inspiron-5720 polkitd(authority=local)[873]: [0;1;39m[0;1;31m[0;1;39mUnregistered Authentication Agent for unix-process:26564:3686382 (system bus name :1.228, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)[0m
+Jul 19 01:19:18 jinmy-Inspiron-5720 polkitd(authority=local)[873]: [0;1;39m[0;1;31m[0;1;39mRegistered Authentication Agent for unix-process:26605:3690203 (system bus name :1.232 [/usr/bin/pkttyagent --notify-fd 5 --fallback], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)[0m
+Jul 19 01:19:25 jinmy-Inspiron-5720 polkitd(authority=local)[873]: [0;1;39m[0;1;31m[0;1;39mOperator of unix-session:2 successfully authenticated as unix-user:jinmy to gain TEMPORARY authorization for action org.freedesktop.systemd1.manage-units for system-bus-name::1.233 [systemctl start mysql] (owned by unix-user:jinmy)[0m
+Jul 19 01:19:25 jinmy-Inspiron-5720 systemd[1]: Starting MySQL Community Server...
+-- Subject: Unit mysql.service has begun start-up
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- Unit mysql.service has begun starting up.
+Jul 19 01:19:25 jinmy-Inspiron-5720 mysql-systemd-start[26620]: ERROR: Unable to start MySQL server:
+Jul 19 01:19:25 jinmy-Inspiron-5720 mysql-systemd-start[26620]: mysqld: Error on realpath() on '/var/lib/mysql-files' (Error 2 - No such file or directory)
+Jul 19 01:19:25 jinmy-Inspiron-5720 mysql-systemd-start[26620]: 2018-07-19T06:19:25.231056Z 0 [ERROR] Failed to access directory for --secure-file-priv. Please make sure that directory exists and is accessible by MySQL Server. Supplied value : /var/lib/mysql-files
+Jul 19 01:19:25 jinmy-Inspiron-5720 mysql-systemd-start[26620]: 2018-07-19T06:19:25.233197Z 0 [ERROR] Aborting
+Jul 19 01:19:25 jinmy-Inspiron-5720 mysql-systemd-start[26620]: Please take a look at https://wiki.debian.org/Teams/MySQL/FAQ for tips on fixing common upgrade issues.
+Jul 19 01:19:25 jinmy-Inspiron-5720 mysql-systemd-start[26620]: Once the problem is resolved, restart the service.
+Jul 19 01:19:25 jinmy-Inspiron-5720 systemd[1]: [0;1;39m[0;1;31m[0;1;39mmysql.service: Control process exited, code=exited status=1[0m
+Jul 19 01:19:25 jinmy-Inspiron-5720 systemd[1]: [0;1;39m[0;1;31m[0;1;39mmysql.service: Failed with result 'exit-code'.[0m
+Jul 19 01:19:25 jinmy-Inspiron-5720 systemd[1]: [0;1;31m[0;1;39m[0;1;31mFailed to start MySQL Community Server.[0m
+-- Subject: Unit mysql.service has failed
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- Unit mysql.service has failed.
+-- 
+-- The result is RESULT.
+Jul 19 01:19:25 jinmy-Inspiron-5720 polkitd(authority=local)[873]: [0;1;39m[0;1;31m[0;1;39mUnregistered Authentication Agent for unix-process:26605:3690203 (system bus name :1.232, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)[0m
+Jul 19 01:19:25 jinmy-Inspiron-5720 systemd[1]: mysql.service: Service hold-off time over, scheduling restart.
+Jul 19 01:19:25 jinmy-Inspiron-5720 systemd[1]: mysql.service: Scheduled restart job, restart counter is at 1.
+-- Subject: Automatic restarting of a unit has been scheduled
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- Automatic restarting of the unit mysql.service has been scheduled, as the result for
+-- the configured Restart= setting for the unit.
+Jul 19 01:19:25 jinmy-Inspiron-5720 systemd[1]: Stopped MySQL Community Server.
+-- Subject: Unit mysql.service has finished shutting down
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- Unit mysql.service has finished shutting down.
+Jul 19 01:19:25 jinmy-Inspiron-5720 systemd[1]: Starting MySQL Community Server...
+-- Subject: Unit mysql.service has begun start-up
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- Unit mysql.service has begun starting up.
+Jul 19 01:19:25 jinmy-Inspiron-5720 mysql-systemd-start[26628]: ERROR: Unable to start MySQL server:
+Jul 19 01:19:25 jinmy-Inspiron-5720 mysql-systemd-start[26628]: mysqld: Error on realpath() on '/var/lib/mysql-files' (Error 2 - No such file or directory)
+Jul 19 01:19:25 jinmy-Inspiron-5720 mysql-systemd-start[26628]: 2018-07-19T06:19:25.482375Z 0 [ERROR] Failed to access directory for --secure-file-priv. Please make sure that directory exists and is accessible by MySQL Server. Supplied value : /var/lib/mysql-files
+Jul 19 01:19:25 jinmy-Inspiron-5720 mysql-systemd-start[26628]: 2018-07-19T06:19:25.484670Z 0 [ERROR] Aborting
+Jul 19 01:19:25 jinmy-Inspiron-5720 mysql-systemd-start[26628]: Please take a look at https://wiki.debian.org/Teams/MySQL/FAQ for tips on fixing common upgrade issues.
+Jul 19 01:19:25 jinmy-Inspiron-5720 mysql-systemd-start[26628]: Once the problem is resolved, restart the service.
+Jul 19 01:19:25 jinmy-Inspiron-5720 systemd[1]: [0;1;39m[0;1;31m[0;1;39mmysql.service: Control process exited, code=exited status=1[0m
+Jul 19 01:19:25 jinmy-Inspiron-5720 systemd[1]: [0;1;39m[0;1;31m[0;1;39mmysql.service: Failed with result 'exit-code'.[0m
+Jul 19 01:19:25 jinmy-Inspiron-5720 systemd[1]: [0;1;31m[0;1;39m[0;1;31mFailed to start MySQL Community Server.[0m
+-- Subject: Unit mysql.service has failed
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- Unit mysql.service has failed.
+-- 
+-- The result is RESULT.
+Jul 19 01:19:25 jinmy-Inspiron-5720 systemd[1]: mysql.service: Service hold-off time over, scheduling restart.
+Jul 19 01:19:25 jinmy-Inspiron-5720 systemd[1]: mysql.service: Scheduled restart job, restart counter is at 2.
+-- Subject: Automatic restarting of a unit has been scheduled
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- Automatic restarting of the unit mysql.service has been scheduled, as the result for
+-- the configured Restart= setting for the unit.
+Jul 19 01:19:25 jinmy-Inspiron-5720 systemd[1]: Stopped MySQL Community Server.
+-- Subject: Unit mysql.service has finished shutting down
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- Unit mysql.service has finished shutting down.
+Jul 19 01:19:25 jinmy-Inspiron-5720 systemd[1]: Starting MySQL Community Server...
+-- Subject: Unit mysql.service has begun start-up
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- Unit mysql.service has begun starting up.
+Jul 19 01:19:25 jinmy-Inspiron-5720 mysql-systemd-start[26636]: ERROR: Unable to start MySQL server:
+Jul 19 01:19:25 jinmy-Inspiron-5720 mysql-systemd-start[26636]: mysqld: Error on realpath() on '/var/lib/mysql-files' (Error 2 - No such file or directory)
+Jul 19 01:19:25 jinmy-Inspiron-5720 mysql-systemd-start[26636]: 2018-07-19T06:19:25.729088Z 0 [ERROR] Failed to access directory for --secure-file-priv. Please make sure that directory exists and is accessible by MySQL Server. Supplied value : /var/lib/mysql-files
+Jul 19 01:19:25 jinmy-Inspiron-5720 mysql-systemd-start[26636]: 2018-07-19T06:19:25.731464Z 0 [ERROR] Aborting
+Jul 19 01:19:25 jinmy-Inspiron-5720 mysql-systemd-start[26636]: Please take a look at https://wiki.debian.org/Teams/MySQL/FAQ for tips on fixing common upgrade issues.
+Jul 19 01:19:25 jinmy-Inspiron-5720 mysql-systemd-start[26636]: Once the problem is resolved, restart the service.
+Jul 19 01:19:25 jinmy-Inspiron-5720 systemd[1]: [0;1;39m[0;1;31m[0;1;39mmysql.service: Control process exited, code=exited status=1[0m
+Jul 19 01:19:25 jinmy-Inspiron-5720 systemd[1]: [0;1;39m[0;1;31m[0;1;39mmysql.service: Failed with result 'exit-code'.[0m
+Jul 19 01:19:25 jinmy-Inspiron-5720 systemd[1]: [0;1;31m[0;1;39m[0;1;31mFailed to start MySQL Community Server.[0m
+-- Subject: Unit mysql.service has failed
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- Unit mysql.service has failed.
+-- 
+-- The result is RESULT.
+Jul 19 01:19:25 jinmy-Inspiron-5720 systemd[1]: mysql.service: Service hold-off time over, scheduling restart.
+Jul 19 01:19:25 jinmy-Inspiron-5720 systemd[1]: mysql.service: Scheduled restart job, restart counter is at 3.
+-- Subject: Automatic restarting of a unit has been scheduled
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- Automatic restarting of the unit mysql.service has been scheduled, as the result for
+-- the configured Restart= setting for the unit.
+Jul 19 01:19:25 jinmy-Inspiron-5720 systemd[1]: Stopped MySQL Community Server.
+-- Subject: Unit mysql.service has finished shutting down
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- Unit mysql.service has finished shutting down.
+Jul 19 01:19:25 jinmy-Inspiron-5720 systemd[1]: Starting MySQL Community Server...
+-- Subject: Unit mysql.service has begun start-up
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- Unit mysql.service has begun starting up.
+Jul 19 01:19:25 jinmy-Inspiron-5720 mysql-systemd-start[26645]: ERROR: Unable to start MySQL server:
+Jul 19 01:19:25 jinmy-Inspiron-5720 mysql-systemd-start[26645]: mysqld: Error on realpath() on '/var/lib/mysql-files' (Error 2 - No such file or directory)
+Jul 19 01:19:25 jinmy-Inspiron-5720 mysql-systemd-start[26645]: 2018-07-19T06:19:25.975542Z 0 [ERROR] Failed to access directory for --secure-file-priv. Please make sure that directory exists and is accessible by MySQL Server. Supplied value : /var/lib/mysql-files
+Jul 19 01:19:25 jinmy-Inspiron-5720 mysql-systemd-start[26645]: 2018-07-19T06:19:25.977289Z 0 [ERROR] Aborting
+Jul 19 01:19:25 jinmy-Inspiron-5720 mysql-systemd-start[26645]: Please take a look at https://wiki.debian.org/Teams/MySQL/FAQ for tips on fixing common upgrade issues.
+Jul 19 01:19:25 jinmy-Inspiron-5720 mysql-systemd-start[26645]: Once the problem is resolved, restart the service.
+Jul 19 01:19:25 jinmy-Inspiron-5720 systemd[1]: [0;1;39m[0;1;31m[0;1;39mmysql.service: Control process exited, code=exited status=1[0m
+Jul 19 01:19:25 jinmy-Inspiron-5720 systemd[1]: [0;1;39m[0;1;31m[0;1;39mmysql.service: Failed with result 'exit-code'.[0m
+Jul 19 01:19:25 jinmy-Inspiron-5720 systemd[1]: [0;1;31m[0;1;39m[0;1;31mFailed to start MySQL Community Server.[0m
+-- Subject: Unit mysql.service has failed
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- Unit mysql.service has failed.
+-- 
+-- The result is RESULT.
+Jul 19 01:19:26 jinmy-Inspiron-5720 systemd[1]: mysql.service: Service hold-off time over, scheduling restart.
+Jul 19 01:19:26 jinmy-Inspiron-5720 systemd[1]: mysql.service: Scheduled restart job, restart counter is at 4.
+-- Subject: Automatic restarting of a unit has been scheduled
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- Automatic restarting of the unit mysql.service has been scheduled, as the result for
+-- the configured Restart= setting for the unit.
+Jul 19 01:19:26 jinmy-Inspiron-5720 systemd[1]: Stopped MySQL Community Server.
+-- Subject: Unit mysql.service has finished shutting down
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- Unit mysql.service has finished shutting down.
+Jul 19 01:19:26 jinmy-Inspiron-5720 systemd[1]: Starting MySQL Community Server...
+-- Subject: Unit mysql.service has begun start-up
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- Unit mysql.service has begun starting up.
+Jul 19 01:19:26 jinmy-Inspiron-5720 mysql-systemd-start[26653]: ERROR: Unable to start MySQL server:
+Jul 19 01:19:26 jinmy-Inspiron-5720 mysql-systemd-start[26653]: mysqld: Error on realpath() on '/var/lib/mysql-files' (Error 2 - No such file or directory)
+Jul 19 01:19:26 jinmy-Inspiron-5720 mysql-systemd-start[26653]: 2018-07-19T06:19:26.225149Z 0 [ERROR] Failed to access directory for --secure-file-priv. Please make sure that directory exists and is accessible by MySQL Server. Supplied value : /var/lib/mysql-files
+Jul 19 01:19:26 jinmy-Inspiron-5720 mysql-systemd-start[26653]: 2018-07-19T06:19:26.227934Z 0 [ERROR] Aborting
+Jul 19 01:19:26 jinmy-Inspiron-5720 mysql-systemd-start[26653]: Please take a look at https://wiki.debian.org/Teams/MySQL/FAQ for tips on fixing common upgrade issues.
+Jul 19 01:19:26 jinmy-Inspiron-5720 mysql-systemd-start[26653]: Once the problem is resolved, restart the service.
+Jul 19 01:19:26 jinmy-Inspiron-5720 systemd[1]: [0;1;39m[0;1;31m[0;1;39mmysql.service: Control process exited, code=exited status=1[0m
+Jul 19 01:19:26 jinmy-Inspiron-5720 systemd[1]: [0;1;39m[0;1;31m[0;1;39mmysql.service: Failed with result 'exit-code'.[0m
+Jul 19 01:19:26 jinmy-Inspiron-5720 systemd[1]: [0;1;31m[0;1;39m[0;1;31mFailed to start MySQL Community Server.[0m
+-- Subject: Unit mysql.service has failed
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- Unit mysql.service has failed.
+-- 
+-- The result is RESULT.
+Jul 19 01:19:26 jinmy-Inspiron-5720 systemd[1]: mysql.service: Service hold-off time over, scheduling restart.
+Jul 19 01:19:26 jinmy-Inspiron-5720 systemd[1]: mysql.service: Scheduled restart job, restart counter is at 5.
+-- Subject: Automatic restarting of a unit has been scheduled
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- Automatic restarting of the unit mysql.service has been scheduled, as the result for
+-- the configured Restart= setting for the unit.
+Jul 19 01:19:26 jinmy-Inspiron-5720 systemd[1]: Stopped MySQL Community Server.
+-- Subject: Unit mysql.service has finished shutting down
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- Unit mysql.service has finished shutting down.
+Jul 19 01:19:26 jinmy-Inspiron-5720 systemd[1]: [0;1;39m[0;1;31m[0;1;39mmysql.service: Start request repeated too quickly.[0m
+Jul 19 01:19:26 jinmy-Inspiron-5720 systemd[1]: [0;1;39m[0;1;31m[0;1;39mmysql.service: Failed with result 'exit-code'.[0m
+Jul 19 01:19:26 jinmy-Inspiron-5720 systemd[1]: [0;1;31m[0;1;39m[0;1;31mFailed to start MySQL Community Server.[0m
+-- Subject: Unit mysql.service has failed
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- Unit mysql.service has failed.
+-- 
+-- The result is RESULT.
+Jul 19 01:20:00 jinmy-Inspiron-5720 sudo[26666]: [0;1;39m[0;1;31m[0;1;39m   jinmy : TTY=pts/1 ; PWD=/var/www/mundipack ; USER=root ; COMMAND=/usr/sbin/service mysql status[0m
+Jul 19 01:20:00 jinmy-Inspiron-5720 sudo[26666]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jul 19 01:20:00 jinmy-Inspiron-5720 sudo[26666]: pam_unix(sudo:session): session closed for user root
