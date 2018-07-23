@@ -18,7 +18,8 @@ export default {
     classList () {
       return [
         'app-header',
-        'navbar'
+        'navbar',
+        'navbar-dark'
       ]
     }
   },
