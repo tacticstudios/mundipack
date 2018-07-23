@@ -120,3 +120,140 @@ iframe {
     outline-offset: -1px;
   }
 }
+.page-home{
+  background: #f8f8f8;
+}
+.navbar-mp{
+  background: #310447;
+}
+.jumbotron{
+  background-image: url(/images/travel.jpg);
+  background-size: cover;
+  background-position: center;
+  min-height: 25em;
+}
+.content-package{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-column-gap: 1em;
+  grid-row-gap: 1em;
+  .card-package{
+    box-shadow: 2px 2px 10px #dadada;
+    border-radius: 4px;
+    transition: .2s linear;
+    .card-header{      
+      background: #5d004a; 
+      background: -moz-linear-gradient(left, #5d004a 0%, #310447 100%); /* FF3.6-15 */
+      background: -webkit-linear-gradient(left, #5d004a 0%,#310447 100%); /* Chrome10-25,Safari5.1-6 */
+      background: linear-gradient(to right, #5d004a 0%,#310447 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+      filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#5d004a', endColorstr='#310447',GradientType=1 ); /* IE6-9 */
+      color: #fff;
+      border-radius: 4px 4px 0 0;
+      font-weight: bold;      
+    }
+    .card-body{
+      color: gray;
+      padding: .5em 1em;
+      span{
+        font-size: 14px;
+      }
+      p{
+        font-size: 2.5em;
+        font-weight: bold; 
+        margin: 0;
+        transition: .2s linear;
+      }
+    }
+    .card-footer{
+      border-top:none;
+    }
+    &:hover{
+      box-shadow: 2px 4px 15px -4px #310447;
+      cursor: pointer;
+      .card-body{
+        background: #fff;
+        p{
+          color: #59b171;
+        }
+      }
+    }
+  }
+}
+.search-script{
+  display: grid;
+  grid-template-columns: 1fr 1fr repeat(3,180px) ;
+  grid-column-gap: 0em;
+  grid-row-gap: 1em;
+  box-shadow: 0 3px 20px 2px #a1edfe;
+  transition: .2s linear;
+  margin-top: 12em;
+  div{
+    input{
+      width: 100%;
+      border: none;
+      border-right: 1px solid #dadada;
+      height: 2.5em;
+      padding: 1em;
+      color: gray;      
+    }
+    &:nth-last-child(2){
+      input{
+        border-right: none;
+      }      
+    }
+    &:first-child{
+      position: relative;
+      &::after{
+        content: url("/images/plane-departure-solid.svg");
+        position: absolute;
+        width: 1.5em;
+        opacity: .3;
+        right: 1em;
+        top: .7em;
+      }
+    }
+    &:nth-child(2){
+      position: relative;
+      &::after{
+        content: url("/images/plane-arrival-solid.svg");
+        position: absolute;
+        width: 1.5em;
+        opacity: .3;
+        right: 1em;
+        top: .7em;
+      }
+    }
+    &:nth-child(3),&:nth-child(4){
+      position: relative;
+      &::after{
+        content: url("/images/calendar-alt-regular.svg");
+        position: absolute;
+        width: 1.3em;
+        opacity: .2;
+        right: 1em;
+        top: .5em;
+      }
+    }
+    button{
+      width: 100%;
+      background: #310447;
+      color: #fff;
+      border: none;
+      height: 2.5em;
+      cursor: pointer;
+      transition: .2s linear;
+      &:hover{
+        background: #5d004a;
+      }
+    }
+  }    
+}
+@media (max-width: 768px){
+  .content-package{
+    grid-template-columns: 1fr 1fr;
+  }
+  .jumbotron{
+    background-position: right;
+    min-height: 10em;
+  }
+}
