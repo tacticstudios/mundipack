@@ -42,11 +42,11 @@
                                 </div>
                             </div>
 
-                            <div class="form-group row">
+                            {{-- <div class="form-group row">
                                 <div class="col-md-9 ml-auto">
                                     {!! Form::captcha() !!}
                                 </div>
-                            </div>
+                            </div> --}}
 
                             <div class="form-group row">
                                 <div class="col-md-9 ml-auto">
