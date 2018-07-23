@@ -161,6 +161,7 @@ iframe {
         font-size: 2.5em;
         font-weight: bold; 
         margin: 0;
+        transition: .2s linear;
       }
     }
     .card-footer{
@@ -171,6 +172,9 @@ iframe {
       cursor: pointer;
       .card-body{
         background: #fff;
+        p{
+          color: #59b171;
+        }
       }
     }
   }
