@@ -54,7 +54,7 @@ class EloquentAccountRepository extends EloquentBaseRepository implements Accoun
     {
         $user = $this->users->store(Arr::only($input, ['name', 'email', 'password']));
 
-        $this->sendConfirmationToUser($user);
+        // $this->sendConfirmationToUser($user);
 
         return $user;
     }
