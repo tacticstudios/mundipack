@@ -22,7 +22,6 @@
           <router-view :key="$route.name"></router-view>
         </div>
       </main>
-      <Aside fixed></Aside>
     </div>
     <AppFooter :name="$app.appName" :editor-name="$app.editorName"
                :editor-site-url="$app.editorSiteUrl"></AppFooter>

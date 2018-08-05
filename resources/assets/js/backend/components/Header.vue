@@ -2,8 +2,8 @@
   <Header fixed>
     <SidebarToggler class="d-lg-none" display="md" mobile></SidebarToggler>
     <b-link class="navbar-brand" to="#">
-      <img class="navbar-brand-full" src="../../../vendor/tabler/brand/logo.png" height="30" alt="Laravel Admin">
-      <img class="navbar-brand-minimized" src="../../../vendor/tabler/brand/logo-symbol.png" width="30" height="30" alt="Laravel Admin">
+      <img class="navbar-brand-full" src="../../../vendor/tabler/brand/logo.png" height="30" alt="Mundipack Admin">
+      <img class="navbar-brand-minimized" src="../../../vendor/tabler/brand/logo-symbol.png" width="30" height="30" alt="Mundipack Admin">
     </b-link>
     <SidebarToggler class="d-md-down-none" display="lg"></SidebarToggler>
     <b-navbar-nav class="ml-auto">
@@ -63,7 +63,6 @@
         </template>
       </HeaderDropdown>
     </b-navbar-nav>
-    <AsideToggler class="d-none d-lg-block"></AsideToggler>
   </Header>
 </template>
 

@@ -6,7 +6,10 @@
     "watch": "npm run clean && npm run build -- --watch",
     "dev": "npm run clean && webpack-dev-server --mode development --hot --progress",
     "prod": "rimraf public/dist && cross-env NODE_ENV=production webpack --mode production --progress",
-    "lint": "eslint --ext .js,.vue resources/assets/js"
+    "lint": "eslint --ext .js,.vue resources/assets/js",
+    "docker-up": "cd laradock && docker-compose up -d nginx mysql phpmyadmin php-fpm workspace",
+    "docker-workspace": "cd laradock && docker-compose exec -u laradock workspace bash",
+    "docker-start": "yarn docker-up && yarn docker-workspace"
   },
   "devDependencies": {
     "@coreui/coreui": "^2.0.3",

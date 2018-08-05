@@ -22,13 +22,21 @@ export default (app, i18n, newPostsCount, pendingPostsCount) => {
       access: app.blogEnabled && app.user.can('view own posts')
     },
     {
+      name: i18n.t('labels.backend.packages.titles.main'),
+      url: '/packages',
+      icon: 'fe fe-book',
+      access: app.blogEnabled && app.user.can('view own posts')
+    },
+    {
       divider: true,
       access: true
     },
     {
       title: true,
       name: i18n.t('labels.backend.sidebar.forms'),
-      access: app.user.can('view form_submissions') || app.user.can('view form_settings')
+      access:
+        app.user.can('view form_submissions') ||
+        app.user.can('view form_settings')
     },
     {
       name: i18n.t('labels.backend.form_submissions.titles.main'),
