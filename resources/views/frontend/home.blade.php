@@ -4,7 +4,7 @@
 
 @section('highlight')
     <div class="jumbotron">
-        <div class="container">
+        <div class="content-script">
            <!--  @include('frontend.partials.slider') -->
            <div class="search-script">
                <div><input type="text" placeholder="Ciudad de origen"></div>

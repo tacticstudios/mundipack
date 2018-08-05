@@ -1,0 +1,30 @@
+.login-page{
+    background: map-get($colors, back-grey);
+    .card{
+        border:none;
+        background-color:map-get($colors, back-grey);
+        .card-header{
+            background-color: transparent;
+            border-bottom: none;
+            font-size: 1.5em;
+            font-weight: bold;
+            color: gray;
+            text-align: center;            
+        }
+        .btn{
+            width: 100%;
+        }
+        .card-body{
+            form{
+                div{
+                    display: grid;
+                    grid-template-columns: 1fr;
+                    max-width: 100%;
+                }
+            }
+        }
+    }
+    .col-form-label{
+        display: none;
+    }
+}
