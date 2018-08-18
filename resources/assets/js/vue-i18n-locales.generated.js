@@ -436,6 +436,17 @@ export default {
             pin: 'Pin selected posts',
             promote: 'Promote selected posts'
           }
+        },
+        packages: {
+          titles: {
+            main: 'Package Management',
+            index: 'Package List',
+            create: 'Create Package',
+            edit: 'Edit Package'
+          },
+          actions: {
+            destroy: 'Delete selected packages'
+          }
         }
       },
       frontend: {
@@ -778,7 +789,13 @@ export default {
       attributes: {
         name: 'Name',
         display_name: 'Display name',
-        username: 'Pseudo',
+        days: 'Days',
+        departure_city: 'Departure city',
+        arrival_city: 'Arrival city',
+        departure_date: 'Departure date',
+        arrival_date: 'Arrival date',
+        price: 'Price',
+        username: 'Username',
         email: 'Email',
         first_name: 'Firstname',
         last_name: 'Lastname',
@@ -1609,7 +1626,7 @@ export default {
       attributes: {
         name: 'Nombre',
         display_name: 'Nombre para mostrar',
-        username: 'Seudo',
+        username: 'Nombre de Usuario',
         email: 'Email',
         first_name: 'Nombre',
         last_name: 'Apellidos',

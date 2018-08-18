@@ -9,6 +9,7 @@ import Search from '../views/Search'
 import Dashboard from '../views/Dashboard'
 import PostForm from '../views/PostForm'
 import PostList from '../views/PostList'
+import PackageList from '../views/PackageList'
 import FormSettingForm from '../views/FormSettingForm'
 import FormSettingList from '../views/FormSettingList'
 import FormSubmissionShow from '../views/FormSubmissionShow'
@@ -29,7 +30,7 @@ export function createRouter (base, i18n) {
     mode: 'history',
     base: base,
     linkActiveClass: 'open active',
-    scrollBehavior: () => ({y: 0}),
+    scrollBehavior: () => ({ y: 0 }),
     routes: [
       {
         path: '/',
@@ -92,6 +93,44 @@ export function createRouter (base, i18n) {
                   label: i18n.t('labels.backend.posts.titles.edit')
                 }
               }
+            ]
+          },
+          {
+            path: 'packages',
+            component: {
+              render (c) {
+                return c('router-view')
+              }
+            },
+            meta: {
+              label: i18n.t('labels.backend.packages.titles.main')
+            },
+            children: [
+              {
+                path: '/',
+                name: 'packages',
+                component: PackageList,
+                meta: {
+                  label: i18n.t('labels.backend.packages.titles.index')
+                }
+              }
+              // {
+              //   path: 'create',
+              //   name: 'posts_create',
+              //   component: PostForm,
+              //   meta: {
+              //     label: i18n.t('labels.backend.posts.titles.create')
+              //   }
+              // },
+              // {
+              //   path: ':id/edit',
+              //   name: 'posts_edit',
+              //   component: PostForm,
+              //   props: true,
+              //   meta: {
+              //     label: i18n.t('labels.backend.posts.titles.edit')
+              //   }
+              // }
             ]
           },
           {
